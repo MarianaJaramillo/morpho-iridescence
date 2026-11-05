@@ -1,0 +1,1457 @@
+﻿species,column_id,session,replicate,sweep_kind,I_deg,C_deg,span_I_plus_C,bisector_deg,raw_column,sweep_R2
+absoloni,absoloni|S1|brightness|key40|I12C28,S1,,brightness,12,28,40,-8,M. absoloni Brillo I12 C28.RAW8,0.97098
+absoloni,absoloni|S1|brightness|key40|I17C23,S1,,brightness,17,23,40,-3,M. absoloni Brillo I17 C23.RAW8,0.97098
+absoloni,absoloni|S1|brightness|key40|I2C38,S1,,brightness,2,38,40,-18,M. absoloni Brillo I2 C38.RAW8,0.97098
+absoloni,absoloni|S1|brightness|key40|I22C18,S1,,brightness,22,18,40,2,M. absoloni Brillo I22 C18.RAW8,0.97098
+absoloni,absoloni|S1|brightness|key40|I27C13,S1,,brightness,27,13,40,7,M. absoloni Brillo I27 C13.RAW8,0.97098
+absoloni,absoloni|S1|brightness|key40|I32C8,S1,,brightness,32,8,40,12,M. absoloni Brillo I32 C8.RAW8,0.97098
+absoloni,absoloni|S1|brightness|key40|I7C33,S1,,brightness,7,33,40,-13,M. absoloni Brillo I7 C33.RAW8,0.97098
+absoloni,absoloni|2026-10-07 #4|brightness|key40|I13C27,2026-10-07,4,brightness,13,27,40,-7,absoloni4_brillo_I13C27.RAW8,0.96751
+absoloni,absoloni|2026-10-07 #4|brightness|key40|I18C22,2026-10-07,4,brightness,18,22,40,-2,absoloni4_brillo_I18C22.RAW8,0.96751
+absoloni,absoloni|2026-10-07 #4|brightness|key40|I23C17,2026-10-07,4,brightness,23,17,40,3,absoloni4_brillo_I23C17.RAW8,0.96751
+absoloni,absoloni|2026-10-07 #4|brightness|key40|I28C12,2026-10-07,4,brightness,28,12,40,8,absoloni4_brillo_I28C12.RAW8,0.96751
+absoloni,absoloni|2026-10-07 #4|brightness|key40|I33C7,2026-10-07,4,brightness,33,7,40,13,absoloni4_brillo_I33C7.RAW8,0.96751
+absoloni,absoloni|2026-10-07 #4|brightness|key40|I3C37,2026-10-07,4,brightness,3,37,40,-17,absoloni4_brillo_I3C37.RAW8,0.96751
+absoloni,absoloni|2026-10-07 #4|brightness|key40|I8C32,2026-10-07,4,brightness,8,32,40,-12,absoloni4_brillo_I8C32.RAW8,0.96751
+absoloni,absoloni|2026-10-19 #7|brightness|key40|I11C29,2026-10-19,7,brightness,11,29,40,-9,absoloni7_brillo_I11C29.RAW8,0.98184
+absoloni,absoloni|2026-10-19 #7|brightness|key40|I16C24,2026-10-19,7,brightness,16,24,40,-4,absoloni7_brillo_I16C24.RAW8,0.98184
+absoloni,absoloni|2026-10-19 #7|brightness|key40|I1C39,2026-10-19,7,brightness,1,39,40,-19,absoloni7_brillo_I1C39.RAW8,0.98184
+absoloni,absoloni|2026-10-19 #7|brightness|key40|I21C19,2026-10-19,7,brightness,21,19,40,1,absoloni7_brillo_I21C19.RAW8,0.98184
+absoloni,absoloni|2026-10-19 #7|brightness|key40|I26C14,2026-10-19,7,brightness,26,14,40,6,absoloni7_brillo_I26C14.RAW8,0.98184
+absoloni,absoloni|2026-10-19 #7|brightness|key40|I31C9,2026-10-19,7,brightness,31,9,40,11,absoloni7_brillo_I31C9.RAW8,0.98184
+absoloni,absoloni|2026-10-19 #7|brightness|key40|I6C34,2026-10-19,7,brightness,6,34,40,-14,absoloni7_brillo_I6C34.RAW8,0.98184
+absoloni,absoloni|2026-10-19 #8|brightness|key40|I11C29,2026-10-19,8,brightness,11,29,40,-9,absoloni8_brillo_I11C29.RAW8,0.96949
+absoloni,absoloni|2026-10-19 #8|brightness|key40|I16C24,2026-10-19,8,brightness,16,24,40,-4,absoloni8_brillo_I16C24.RAW8,0.96949
+absoloni,absoloni|2026-10-19 #8|brightness|key40|I1C39,2026-10-19,8,brightness,1,39,40,-19,absoloni8_brillo_I1C39.RAW8,0.96949
+absoloni,absoloni|2026-10-19 #8|brightness|key40|I21C19,2026-10-19,8,brightness,21,19,40,1,absoloni8_brillo_I21C19.RAW8,0.96949
+absoloni,absoloni|2026-10-19 #8|brightness|key40|I26C14,2026-10-19,8,brightness,26,14,40,6,absoloni8_brillo_I26C14.RAW8,0.96949
+absoloni,absoloni|2026-10-19 #8|brightness|key40|I31C9,2026-10-19,8,brightness,31,9,40,11,absoloni8_brillo_I31C9.RAW8,0.96949
+absoloni,absoloni|2026-10-19 #8|brightness|key40|I6C34,2026-10-19,8,brightness,6,34,40,-14,absoloni8_brillo_I6C34.RAW8,0.96949
+absoloni,absoloni|S1|hue|key-6|I12C18,S1,,hue,12,18,30,-3,M. absoloni Matiz I12 C18.RAW8,0.94343
+absoloni,absoloni|S1|hue|key-6|I17C23,S1,,hue,17,23,40,-3,M. absoloni Matiz I17 C23.RAW8,0.94343
+absoloni,absoloni|S1|hue|key-6|I2C8,S1,,hue,2,8,10,-3,M. absoloni Matiz I2 C8.RAW8,0.94343
+absoloni,absoloni|S1|hue|key-6|I22C28,S1,,hue,22,28,50,-3,M. absoloni Matiz I22 C28.RAW8,0.94343
+absoloni,absoloni|S1|hue|key-6|I27C33,S1,,hue,27,33,60,-3,M. absoloni Matiz I27 C33.RAW8,0.94343
+absoloni,absoloni|S1|hue|key-6|I32C38,S1,,hue,32,38,70,-3,M. absoloni Matiz I32 C38.RAW8,0.94343
+absoloni,absoloni|S1|hue|key-6|I7C13,S1,,hue,7,13,20,-3,M. absoloni Matiz I7 C13.RAW8,0.94343
+absoloni,absoloni|2026-09-25 #2|hue|key-14|I-2C12,2026-09-25,2,hue,-2,12,10,-7,absoloni2_matiz_I-2C12.RAW8,0.98925
+absoloni,absoloni|2026-09-25 #2|hue|key-14|I13C27,2026-09-25,2,hue,13,27,40,-7,absoloni2_matiz_I13C27.RAW8,0.98925
+absoloni,absoloni|2026-09-25 #2|hue|key-14|I18C32,2026-09-25,2,hue,18,32,50,-7,absoloni2_matiz_I18C32.RAW8,0.98925
+absoloni,absoloni|2026-09-25 #2|hue|key-14|I23C37,2026-09-25,2,hue,23,37,60,-7,absoloni2_matiz_I23C37.RAW8,0.98925
+absoloni,absoloni|2026-09-25 #2|hue|key-14|I28C42,2026-09-25,2,hue,28,42,70,-7,absoloni2_matiz_I28C42.RAW8,0.98925
+absoloni,absoloni|2026-09-25 #2|hue|key-14|I3C17,2026-09-25,2,hue,3,17,20,-7,absoloni2_matiz_I3C17.RAW8,0.98925
+absoloni,absoloni|2026-09-25 #2|hue|key-14|I8C22,2026-09-25,2,hue,8,22,30,-7,absoloni2_matiz_I8C22.RAW8,0.98925
+absoloni,absoloni|2026-09-30 #3|hue|key-6|I12C18,2026-09-30,3,hue,12,18,30,-3,absoloni3_matiz_I12C18.RAW8,0.97038
+absoloni,absoloni|2026-09-30 #3|hue|key-6|I17C23,2026-09-30,3,hue,17,23,40,-3,absoloni3_matiz_I17C23.RAW8,0.97038
+absoloni,absoloni|2026-09-30 #3|hue|key-6|I22C28,2026-09-30,3,hue,22,28,50,-3,absoloni3_matiz_I22C28.RAW8,0.97038
+absoloni,absoloni|2026-09-30 #3|hue|key-6|I27C33,2026-09-30,3,hue,27,33,60,-3,absoloni3_matiz_I27C33.RAW8,0.97038
+absoloni,absoloni|2026-09-30 #3|hue|key-6|I2C8,2026-09-30,3,hue,2,8,10,-3,absoloni3_matiz_I2C8.RAW8,0.97038
+absoloni,absoloni|2026-09-30 #3|hue|key-6|I32C38,2026-09-30,3,hue,32,38,70,-3,absoloni3_matiz_I32C38.RAW8,0.97038
+absoloni,absoloni|2026-09-30 #3|hue|key-6|I7C13,2026-09-30,3,hue,7,13,20,-3,absoloni3_matiz_I7C13.RAW8,0.97038
+absoloni,absoloni|2026-10-07 #4|hue|key-4|I13C17,2026-10-07,4,hue,13,17,30,-2,absoloni4_matiz_I13C17.RAW8,0.98124
+absoloni,absoloni|2026-10-07 #4|hue|key-4|I18C22,2026-10-07,4,hue,18,22,40,-2,absoloni4_matiz_I18C22.RAW8,0.98124
+absoloni,absoloni|2026-10-07 #4|hue|key-4|I23C27,2026-10-07,4,hue,23,27,50,-2,absoloni4_matiz_I23C27.RAW8,0.98124
+absoloni,absoloni|2026-10-07 #4|hue|key-4|I28C32,2026-10-07,4,hue,28,32,60,-2,absoloni4_matiz_I28C32.RAW8,0.98124
+absoloni,absoloni|2026-10-07 #4|hue|key-4|I33C37,2026-10-07,4,hue,33,37,70,-2,absoloni4_matiz_I33C37.RAW8,0.98124
+absoloni,absoloni|2026-10-07 #4|hue|key-4|I3C7,2026-10-07,4,hue,3,7,10,-2,absoloni4_matiz_I3C7.RAW8,0.98124
+absoloni,absoloni|2026-10-07 #4|hue|key-4|I8C12,2026-10-07,4,hue,8,12,20,-2,absoloni4_matiz_I8C12.RAW8,0.98124
+achilles,achilles|S1|brightness|key40|I11C29,S1,,brightness,11,29,40,-9,achilles_brillo_I11C29.RAW8,0.88281
+achilles,achilles|S1|brightness|key40|I16C24,S1,,brightness,16,24,40,-4,achilles_brillo_I16C24.RAW8,0.88281
+achilles,achilles|S1|brightness|key40|I1C39,S1,,brightness,1,39,40,-19,achilles_brillo_I1C39.RAW8,0.88281
+achilles,achilles|S1|brightness|key40|I21C19,S1,,brightness,21,19,40,1,achilles_brillo_I21C19.RAW8,0.88281
+achilles,achilles|S1|brightness|key40|I26C14,S1,,brightness,26,14,40,6,achilles_brillo_I26C14.RAW8,0.88281
+achilles,achilles|S1|brightness|key40|I31C9,S1,,brightness,31,9,40,11,achilles_brillo_I31C9.RAW8,0.88281
+achilles,achilles|S1|brightness|key40|I6C34,S1,,brightness,6,34,40,-14,achilles_brillo_I6C34.RAW8,0.88281
+achilles,achilles|2026-09-25 #2|brightness|key40|I0C40,2026-09-25,2,brightness,0,40,40,-20,achilles2_brillo_I0C40.RAW8,0.94816
+achilles,achilles|2026-09-25 #2|brightness|key40|I10C30,2026-09-25,2,brightness,10,30,40,-10,achilles2_brillo_I10C30.RAW8,0.94816
+achilles,achilles|2026-09-25 #2|brightness|key40|I15C25,2026-09-25,2,brightness,15,25,40,-5,achilles2_brillo_I15C25.RAW8,0.94816
+achilles,achilles|2026-09-25 #2|brightness|key40|I20C20,2026-09-25,2,brightness,20,20,40,0,achilles2_brillo_I20C20.RAW8,0.94816
+achilles,achilles|2026-09-25 #2|brightness|key40|I25C15,2026-09-25,2,brightness,25,15,40,5,achilles2_brillo_I25C15.RAW8,0.94816
+achilles,achilles|2026-09-25 #2|brightness|key40|I30C10,2026-09-25,2,brightness,30,10,40,10,achilles2_brillo_I30C10.RAW8,0.94816
+achilles,achilles|2026-09-25 #2|brightness|key40|I5C35,2026-09-25,2,brightness,5,35,40,-15,achilles2_brillo_I5C35.RAW8,0.94816
+achilles,achilles|2026-10-07 #4|brightness|key40|I11C29,2026-10-07,4,brightness,11,29,40,-9,achilles4_brillo_I11C29.RAW8,0.89283
+achilles,achilles|2026-10-07 #4|brightness|key40|I16C24,2026-10-07,4,brightness,16,24,40,-4,achilles4_brillo_I16C24.RAW8,0.89283
+achilles,achilles|2026-10-07 #4|brightness|key40|I1C39,2026-10-07,4,brightness,1,39,40,-19,achilles4_brillo_I1C39.RAW8,0.89283
+achilles,achilles|2026-10-07 #4|brightness|key40|I20C20,2026-10-07,4,brightness,20,20,40,0,achilles4_brillo_I20C20.RAW8,0.89283
+achilles,achilles|2026-10-07 #4|brightness|key40|I21C19,2026-10-07,4,brightness,21,19,40,1,achilles4_brillo_I21C19.RAW8,0.89283
+achilles,achilles|2026-10-07 #4|brightness|key40|I26C14,2026-10-07,4,brightness,26,14,40,6,achilles4_brillo_I26C14.RAW8,0.89283
+achilles,achilles|2026-10-07 #4|brightness|key40|I31C9,2026-10-07,4,brightness,31,9,40,11,achilles4_brillo_I31C9.RAW8,0.89283
+achilles,achilles|2026-10-07 #4|brightness|key40|I6C34,2026-10-07,4,brightness,6,34,40,-14,achilles4_brillo_I6C34.RAW8,0.89283
+achilles,achilles|2026-10-09 #5|brightness|key40|I11C29,2026-10-09,5,brightness,11,29,40,-9,achilles5_brillo_I11C29.RAW8,0.91105
+achilles,achilles|2026-10-09 #5|brightness|key40|I16C24,2026-10-09,5,brightness,16,24,40,-4,achilles5_brillo_I16C24.RAW8,0.91105
+achilles,achilles|2026-10-09 #5|brightness|key40|I1C39,2026-10-09,5,brightness,1,39,40,-19,achilles5_brillo_I1C39.RAW8,0.91105
+achilles,achilles|2026-10-09 #5|brightness|key40|I21C19,2026-10-09,5,brightness,21,19,40,1,achilles5_brillo_I21C19.RAW8,0.91105
+achilles,achilles|2026-10-09 #5|brightness|key40|I26C14,2026-10-09,5,brightness,26,14,40,6,achilles5_brillo_I26C14.RAW8,0.91105
+achilles,achilles|2026-10-09 #5|brightness|key40|I31C9,2026-10-09,5,brightness,31,9,40,11,achilles5_brillo_I31C9.RAW8,0.91105
+achilles,achilles|2026-10-09 #5|brightness|key40|I36C4,2026-10-09,5,brightness,36,4,40,16,achilles5_brillo_I36C4.RAW8,0.91105
+achilles,achilles|2026-10-09 #5|brightness|key40|I6C34,2026-10-09,5,brightness,6,34,40,-14,achilles5_brillo_I6C34.RAW8,0.91105
+achilles,achilles|2026-10-09 #6|brightness|key40|I11C29,2026-10-09,6,brightness,11,29,40,-9,achilles6_brillo_I11C29.RAW8,0.96726
+achilles,achilles|2026-10-09 #6|brightness|key40|I16C24,2026-10-09,6,brightness,16,24,40,-4,achilles6_brillo_I16C24.RAW8,0.96726
+achilles,achilles|2026-10-09 #6|brightness|key40|I1C39,2026-10-09,6,brightness,1,39,40,-19,achilles6_brillo_I1C39.RAW8,0.96726
+achilles,achilles|2026-10-09 #6|brightness|key40|I21C19,2026-10-09,6,brightness,21,19,40,1,achilles6_brillo_I21C19.RAW8,0.96726
+achilles,achilles|2026-10-09 #6|brightness|key40|I26C14,2026-10-09,6,brightness,26,14,40,6,achilles6_brillo_I26C14.RAW8,0.96726
+achilles,achilles|2026-10-09 #6|brightness|key40|I31C9,2026-10-09,6,brightness,31,9,40,11,achilles6_brillo_I31C9.RAW8,0.96726
+achilles,achilles|2026-10-09 #6|brightness|key40|I6C34,2026-10-09,6,brightness,6,34,40,-14,achilles6_brillo_I6C34.RAW8,0.96726
+achilles,achilles|S1|hue|key-8|I11C19,S1,,hue,11,19,30,-4,achilles_matiz_I11C19.RAW8,0.94685
+achilles,achilles|S1|hue|key-8|I16C24,S1,,hue,16,24,40,-4,achilles_matiz_I16C24.RAW8,0.94685
+achilles,achilles|S1|hue|key-8|I1C9,S1,,hue,1,9,10,-4,achilles_matiz_I1C9.RAW8,0.94685
+achilles,achilles|S1|hue|key-8|I21C29,S1,,hue,21,29,50,-4,achilles_matiz_I21C29.RAW8,0.94685
+achilles,achilles|S1|hue|key-8|I26C34,S1,,hue,26,34,60,-4,achilles_matiz_I26C34.RAW8,0.94685
+achilles,achilles|S1|hue|key-8|I31C39,S1,,hue,31,39,70,-4,achilles_matiz_I31C39.RAW8,0.94685
+achilles,achilles|S1|hue|key-8|I6C14,S1,,hue,6,14,20,-4,achilles_matiz_I6C14.RAW8,0.94685
+achilles,achilles|2026-09-30 #3|hue|key-6|I12C18,2026-09-30,3,hue,12,18,30,-3,achilles3_matiz_I12C18.RAW8,0.82081
+achilles,achilles|2026-09-30 #3|hue|key-6|I17C23,2026-09-30,3,hue,17,23,40,-3,achilles3_matiz_I17C23.RAW8,0.82081
+achilles,achilles|2026-09-30 #3|hue|key-6|I22C28,2026-09-30,3,hue,22,28,50,-3,achilles3_matiz_I22C28.RAW8,0.82081
+achilles,achilles|2026-09-30 #3|hue|key-6|I27C33,2026-09-30,3,hue,27,33,60,-3,achilles3_matiz_I27C33.RAW8,0.82081
+achilles,achilles|2026-09-30 #3|hue|key-6|I2C8,2026-09-30,3,hue,2,8,10,-3,achilles3_matiz_I2C8.RAW8,0.82081
+achilles,achilles|2026-09-30 #3|hue|key-6|I32C38,2026-09-30,3,hue,32,38,70,-3,achilles3_matiz_I32C38.RAW8,0.82081
+achilles,achilles|2026-09-30 #3|hue|key-6|I37C43,2026-09-30,3,hue,37,43,80,-3,achilles3_matiz_I37C43.RAW8,0.82081
+achilles,achilles|2026-09-30 #3|hue|key-6|I7C13,2026-09-30,3,hue,7,13,20,-3,achilles3_matiz_I7C13.RAW8,0.82081
+achilles,achilles|2026-10-09 #6|hue|key-8|I11C19,2026-10-09,6,hue,11,19,30,-4,achilles6_matiz_I11C19.RAW8,0.89874
+achilles,achilles|2026-10-09 #6|hue|key-8|I16C24,2026-10-09,6,hue,16,24,40,-4,achilles6_matiz_I16C24.RAW8,0.89874
+achilles,achilles|2026-10-09 #6|hue|key-8|I1C9,2026-10-09,6,hue,1,9,10,-4,achilles6_matiz_I1C9.RAW8,0.89874
+achilles,achilles|2026-10-09 #6|hue|key-8|I21C29,2026-10-09,6,hue,21,29,50,-4,achilles6_matiz_I21C29.RAW8,0.89874
+achilles,achilles|2026-10-09 #6|hue|key-8|I26C34,2026-10-09,6,hue,26,34,60,-4,achilles6_matiz_I26C34.RAW8,0.89874
+achilles,achilles|2026-10-09 #6|hue|key-8|I31C39,2026-10-09,6,hue,31,39,70,-4,achilles6_matiz_I31C39.RAW8,0.89874
+achilles,achilles|2026-10-09 #6|hue|key-8|I6C14,2026-10-09,6,hue,6,14,20,-4,achilles6_matiz_I6C14.RAW8,0.89874
+achilles,achilles|2026-10-19 #7|hue|key-6|I12C18,2026-10-19,7,hue,12,18,30,-3,achilles7_matiz_I12C18.RAW8,0.81811
+achilles,achilles|2026-10-19 #7|hue|key-6|I17C23,2026-10-19,7,hue,17,23,40,-3,achilles7_matiz_I17C23.RAW8,0.81811
+achilles,achilles|2026-10-19 #7|hue|key-6|I22C28,2026-10-19,7,hue,22,28,50,-3,achilles7_matiz_I22C28.RAW8,0.81811
+achilles,achilles|2026-10-19 #7|hue|key-6|I27C33,2026-10-19,7,hue,27,33,60,-3,achilles7_matiz_I27C33.RAW8,0.81811
+achilles,achilles|2026-10-19 #7|hue|key-6|I2C8,2026-10-19,7,hue,2,8,10,-3,achilles7_matiz_I2C8.RAW8,0.81811
+achilles,achilles|2026-10-19 #7|hue|key-6|I32C38,2026-10-19,7,hue,32,38,70,-3,achilles7_matiz_I32C38.RAW8,0.81811
+achilles,achilles|2026-10-19 #7|hue|key-6|I7C13,2026-10-19,7,hue,7,13,20,-3,achilles7_matiz_I7C13.RAW8,0.81811
+aega,aega|2026-10-07 #4|brightness|key40|I12C28,2026-10-07,4,brightness,12,28,40,-8,aega4_brillo_I12C28.RAW8,0.98903
+aega,aega|2026-10-07 #4|brightness|key40|I17C23,2026-10-07,4,brightness,17,23,40,-3,aega4_brillo_I17C23.RAW8,0.98903
+aega,aega|2026-10-07 #4|brightness|key40|I22C18,2026-10-07,4,brightness,22,18,40,2,aega4_brillo_I22C18.RAW8,0.98903
+aega,aega|2026-10-07 #4|brightness|key40|I27C13,2026-10-07,4,brightness,27,13,40,7,aega4_brillo_I27C13.RAW8,0.98903
+aega,aega|2026-10-07 #4|brightness|key40|I2C38,2026-10-07,4,brightness,2,38,40,-18,aega4_brillo_I2C38.RAW8,0.98903
+aega,aega|2026-10-07 #4|brightness|key40|I32C8,2026-10-07,4,brightness,32,8,40,12,aega4_brillo_I32C8.RAW8,0.98903
+aega,aega|2026-10-07 #4|brightness|key40|I7C33,2026-10-07,4,brightness,7,33,40,-13,aega4_brillo_I7C33.RAW8,0.98903
+aega,aega|2026-10-15 #5|brightness|key40|I13C27,2026-10-15,5,brightness,13,27,40,-7,aega5_brillo_I13C27.RAW8,0.986
+aega,aega|2026-10-15 #5|brightness|key40|I18C22,2026-10-15,5,brightness,18,22,40,-2,aega5_brillo_I18C22.RAW8,0.986
+aega,aega|2026-10-15 #5|brightness|key40|I23C17,2026-10-15,5,brightness,23,17,40,3,aega5_brillo_I23C17.RAW8,0.986
+aega,aega|2026-10-15 #5|brightness|key40|I28C12,2026-10-15,5,brightness,28,12,40,8,aega5_brillo_I28C12.RAW8,0.986
+aega,aega|2026-10-15 #5|brightness|key40|I33C7,2026-10-15,5,brightness,33,7,40,13,aega5_brillo_I33C7.RAW8,0.986
+aega,aega|2026-10-15 #5|brightness|key40|I3C37,2026-10-15,5,brightness,3,37,40,-17,aega5_brillo_I3C37.RAW8,0.986
+aega,aega|2026-10-15 #5|brightness|key40|I8C32,2026-10-15,5,brightness,8,32,40,-12,aega5_brillo_I8C32.RAW8,0.986
+aega,aega|2026-10-15 #6|brightness|key39|I12C28,2026-10-15,6,brightness,12,28,40,-8,aega6_brillo_I12C28.RAW8,0.98998
+aega,aega|2026-10-15 #6|brightness|key39|I17C23,2026-10-15,6,brightness,17,23,40,-3,aega6_brillo_I17C23.RAW8,0.98998
+aega,aega|2026-10-15 #6|brightness|key39|I1C38,2026-10-15,6,brightness,1,38,39,-18.5,aega6_brillo_I1C38.RAW8,0.98998
+aega,aega|2026-10-15 #6|brightness|key39|I22C18,2026-10-15,6,brightness,22,18,40,2,aega6_brillo_I22C18.RAW8,0.98998
+aega,aega|2026-10-15 #6|brightness|key39|I27C13,2026-10-15,6,brightness,27,13,40,7,aega6_brillo_I27C13.RAW8,0.98998
+aega,aega|2026-10-15 #6|brightness|key39|I32C8,2026-10-15,6,brightness,32,8,40,12,aega6_brillo_I32C8.RAW8,0.98998
+aega,aega|2026-10-15 #6|brightness|key39|I7C33,2026-10-15,6,brightness,7,33,40,-13,aega6_brillo_I7C33.RAW8,0.98998
+aega,aega|2026-10-19 #8|brightness|key40|I12C28,2026-10-19,8,brightness,12,28,40,-8,aega8_brillo_I12C28.RAW8,0.99311
+aega,aega|2026-10-19 #8|brightness|key40|I17C23,2026-10-19,8,brightness,17,23,40,-3,aega8_brillo_I17C23.RAW8,0.99311
+aega,aega|2026-10-19 #8|brightness|key40|I22C18,2026-10-19,8,brightness,22,18,40,2,aega8_brillo_I22C18.RAW8,0.99311
+aega,aega|2026-10-19 #8|brightness|key40|I27C13,2026-10-19,8,brightness,27,13,40,7,aega8_brillo_I27C13.RAW8,0.99311
+aega,aega|2026-10-19 #8|brightness|key40|I2C38,2026-10-19,8,brightness,2,38,40,-18,aega8_brillo_I2C38.RAW8,0.99311
+aega,aega|2026-10-19 #8|brightness|key40|I32C8,2026-10-19,8,brightness,32,8,40,12,aega8_brillo_I32C8.RAW8,0.99311
+aega,aega|2026-10-19 #8|brightness|key40|I7C33,2026-10-19,8,brightness,7,33,40,-13,aega8_brillo_I7C33.RAW8,0.99311
+aega,aega|2026-10-21 #8|brightness|key40|I12C28,2026-10-21,8,brightness,12,28,40,-8,aega8_brillo_I12C28.RAW8,0.99549
+aega,aega|2026-10-21 #8|brightness|key40|I17C23,2026-10-21,8,brightness,17,23,40,-3,aega8_brillo_I17C23.RAW8,0.99549
+aega,aega|2026-10-21 #8|brightness|key40|I22C18,2026-10-21,8,brightness,22,18,40,2,aega8_brillo_I22C18.RAW8,0.99549
+aega,aega|2026-10-21 #8|brightness|key40|I27C13,2026-10-21,8,brightness,27,13,40,7,aega8_brillo_I27C13.RAW8,0.99549
+aega,aega|2026-10-21 #8|brightness|key40|I2C38,2026-10-21,8,brightness,2,38,40,-18,aega8_brillo_I2C38.RAW8,0.99549
+aega,aega|2026-10-21 #8|brightness|key40|I32C8,2026-10-21,8,brightness,32,8,40,12,aega8_brillo_I32C8.RAW8,0.99549
+aega,aega|2026-10-21 #8|brightness|key40|I7C33,2026-10-21,8,brightness,7,33,40,-13,aega8_brillo_I7C33.RAW8,0.99549
+aega,aega|2026-10-21 #9|brightness|key40|I13C27,2026-10-21,9,brightness,13,27,40,-7,aega9_brillo_I13C27.RAW8,0.99183
+aega,aega|2026-10-21 #9|brightness|key40|I18C22,2026-10-21,9,brightness,18,22,40,-2,aega9_brillo_I18C22.RAW8,0.99183
+aega,aega|2026-10-21 #9|brightness|key40|I23C17,2026-10-21,9,brightness,23,17,40,3,aega9_brillo_I23C17.RAW8,0.99183
+aega,aega|2026-10-21 #9|brightness|key40|I28C12,2026-10-21,9,brightness,28,12,40,8,aega9_brillo_I28C12.RAW8,0.99183
+aega,aega|2026-10-21 #9|brightness|key40|I33C7,2026-10-21,9,brightness,33,7,40,13,aega9_brillo_I33C7.RAW8,0.99183
+aega,aega|2026-10-21 #9|brightness|key40|I3C37,2026-10-21,9,brightness,3,37,40,-17,aega9_brillo_I3C37.RAW8,0.99183
+aega,aega|2026-10-21 #9|brightness|key40|I8C32,2026-10-21,9,brightness,8,32,40,-12,aega9_brillo_I8C32.RAW8,0.99183
+aega,aega|2026-10-07 #4|hue|key-6|I10C16,2026-10-07,4,hue,10,16,26,-3,aega4_matiz_I10C16.RAW8,0.99774
+aega,aega|2026-10-07 #4|hue|key-6|I13C19,2026-10-07,4,hue,13,19,32,-3,aega4_matiz_I13C19.RAW8,0.99774
+aega,aega|2026-10-07 #4|hue|key-6|I16C22,2026-10-07,4,hue,16,22,38,-3,aega4_matiz_I16C22.RAW8,0.99774
+aega,aega|2026-10-07 #4|hue|key-6|I19C25,2026-10-07,4,hue,19,25,44,-3,aega4_matiz_I19C25.RAW8,0.99774
+aega,aega|2026-10-07 #4|hue|key-6|I1C7,2026-10-07,4,hue,1,7,8,-3,aega4_matiz_I1C7.RAW8,0.99774
+aega,aega|2026-10-07 #4|hue|key-6|I22C28,2026-10-07,4,hue,22,28,50,-3,aega4_matiz_I22C28.RAW8,0.99774
+aega,aega|2026-10-07 #4|hue|key-6|I25C31,2026-10-07,4,hue,25,31,56,-3,aega4_matiz_I25C31.RAW8,0.99774
+aega,aega|2026-10-07 #4|hue|key-6|I28C34,2026-10-07,4,hue,28,34,62,-3,aega4_matiz_I28C34.RAW8,0.99774
+aega,aega|2026-10-07 #4|hue|key-6|I4C10,2026-10-07,4,hue,4,10,14,-3,aega4_matiz_I4C10.RAW8,0.99774
+aega,aega|2026-10-07 #4|hue|key-6|I7C13,2026-10-07,4,hue,7,13,20,-3,aega4_matiz_I7C13.RAW8,0.99774
+aega,aega|2026-10-15 #5|hue|key-4|I11C15,2026-10-15,5,hue,11,15,26,-2,aega5_matiz_I11C15.RAW8,0.98414
+aega,aega|2026-10-15 #5|hue|key-4|I14C18,2026-10-15,5,hue,14,18,32,-2,aega5_matiz_I14C18.RAW8,0.98414
+aega,aega|2026-10-15 #5|hue|key-4|I17C21,2026-10-15,5,hue,17,21,38,-2,aega5_matiz_I17C21.RAW8,0.98414
+aega,aega|2026-10-15 #5|hue|key-4|I20C24,2026-10-15,5,hue,20,24,44,-2,aega5_matiz_I20C24.RAW8,0.98414
+aega,aega|2026-10-15 #5|hue|key-4|I23C27,2026-10-15,5,hue,23,27,50,-2,aega5_matiz_I23C27.RAW8,0.98414
+aega,aega|2026-10-15 #5|hue|key-4|I26C30,2026-10-15,5,hue,26,30,56,-2,aega5_matiz_I26C30.RAW8,0.98414
+aega,aega|2026-10-15 #5|hue|key-4|I29C33,2026-10-15,5,hue,29,33,62,-2,aega5_matiz_I29C33.RAW8,0.98414
+aega,aega|2026-10-15 #5|hue|key-4|I2C6,2026-10-15,5,hue,2,6,8,-2,aega5_matiz_I2C6.RAW8,0.98414
+aega,aega|2026-10-15 #5|hue|key-4|I5C9,2026-10-15,5,hue,5,9,14,-2,aega5_matiz_I5C9.RAW8,0.98414
+aega,aega|2026-10-15 #5|hue|key-4|I8C12,2026-10-15,5,hue,8,12,20,-2,aega5_matiz_I8C12.RAW8,0.98414
+aega,aega|2026-10-15 #6|hue|key-6|I10C16,2026-10-15,6,hue,10,16,26,-3,aega6_matiz_I10C16.RAW8,0.9839
+aega,aega|2026-10-15 #6|hue|key-6|I13C19,2026-10-15,6,hue,13,19,32,-3,aega6_matiz_I13C19.RAW8,0.9839
+aega,aega|2026-10-15 #6|hue|key-6|I16C22,2026-10-15,6,hue,16,22,38,-3,aega6_matiz_I16C22.RAW8,0.9839
+aega,aega|2026-10-15 #6|hue|key-6|I19C25,2026-10-15,6,hue,19,25,44,-3,aega6_matiz_I19C25.RAW8,0.9839
+aega,aega|2026-10-15 #6|hue|key-6|I1C7,2026-10-15,6,hue,1,7,8,-3,aega6_matiz_I1C7.RAW8,0.9839
+aega,aega|2026-10-15 #6|hue|key-6|I22C28,2026-10-15,6,hue,22,28,50,-3,aega6_matiz_I22C28.RAW8,0.9839
+aega,aega|2026-10-15 #6|hue|key-6|I25C31,2026-10-15,6,hue,25,31,56,-3,aega6_matiz_I25C31.RAW8,0.9839
+aega,aega|2026-10-15 #6|hue|key-6|I28C34,2026-10-15,6,hue,28,34,62,-3,aega6_matiz_I28C34.RAW8,0.9839
+aega,aega|2026-10-15 #6|hue|key-6|I4C10,2026-10-15,6,hue,4,10,14,-3,aega6_matiz_I4C10.RAW8,0.9839
+aega,aega|2026-10-15 #6|hue|key-6|I7C13,2026-10-15,6,hue,7,13,20,-3,aega6_matiz_I7C13.RAW8,0.9839
+aega,aega|2026-10-19 #7|hue|key-2|I12C14,2026-10-19,7,hue,12,14,26,-1,aega7_matiz_I12C14.RAW8,0.9749
+aega,aega|2026-10-19 #7|hue|key-2|I15C17,2026-10-19,7,hue,15,17,32,-1,aega7_matiz_I15C17.RAW8,0.9749
+aega,aega|2026-10-19 #7|hue|key-2|I18C20,2026-10-19,7,hue,18,20,38,-1,aega7_matiz_I18C20.RAW8,0.9749
+aega,aega|2026-10-19 #7|hue|key-2|I21C23,2026-10-19,7,hue,21,23,44,-1,aega7_matiz_I21C23.RAW8,0.9749
+aega,aega|2026-10-19 #7|hue|key-2|I24C26,2026-10-19,7,hue,24,26,50,-1,aega7_matiz_I24C26.RAW8,0.9749
+aega,aega|2026-10-19 #7|hue|key-2|I27C29,2026-10-19,7,hue,27,29,56,-1,aega7_matiz_I27C29.RAW8,0.9749
+aega,aega|2026-10-19 #7|hue|key-2|I30C32,2026-10-19,7,hue,30,32,62,-1,aega7_matiz_I30C32.RAW8,0.9749
+aega,aega|2026-10-19 #7|hue|key-2|I3C5,2026-10-19,7,hue,3,5,8,-1,aega7_matiz_I3C5.RAW8,0.9749
+aega,aega|2026-10-19 #7|hue|key-2|I6C8,2026-10-19,7,hue,6,8,14,-1,aega7_matiz_I6C8.RAW8,0.9749
+aega,aega|2026-10-19 #7|hue|key-2|I9C11,2026-10-19,7,hue,9,11,20,-1,aega7_matiz_I9C11.RAW8,0.9749
+aega,aega|2026-10-19 #8|hue|key-6|I10C16,2026-10-19,8,hue,10,16,26,-3,aega8_matiz_I10C16.RAW8,0.98464
+aega,aega|2026-10-19 #8|hue|key-6|I13C19,2026-10-19,8,hue,13,19,32,-3,aega8_matiz_I13C19.RAW8,0.98464
+aega,aega|2026-10-19 #8|hue|key-6|I16C22,2026-10-19,8,hue,16,22,38,-3,aega8_matiz_I16C22.RAW8,0.98464
+aega,aega|2026-10-19 #8|hue|key-6|I19C25,2026-10-19,8,hue,19,25,44,-3,aega8_matiz_I19C25.RAW8,0.98464
+aega,aega|2026-10-19 #8|hue|key-6|I1C7,2026-10-19,8,hue,1,7,8,-3,aega8_matiz_I1C7.RAW8,0.98464
+aega,aega|2026-10-19 #8|hue|key-6|I22C28,2026-10-19,8,hue,22,28,50,-3,aega8_matiz_I22C28.RAW8,0.98464
+aega,aega|2026-10-19 #8|hue|key-6|I25C31,2026-10-19,8,hue,25,31,56,-3,aega8_matiz_I25C31.RAW8,0.98464
+aega,aega|2026-10-19 #8|hue|key-6|I28C34,2026-10-19,8,hue,28,34,62,-3,aega8_matiz_I28C34.RAW8,0.98464
+aega,aega|2026-10-19 #8|hue|key-6|I4C10,2026-10-19,8,hue,4,10,14,-3,aega8_matiz_I4C10.RAW8,0.98464
+aega,aega|2026-10-19 #8|hue|key-6|I7C13,2026-10-19,8,hue,7,13,20,-3,aega8_matiz_I7C13.RAW8,0.98464
+amathonte,amathonte|S1|brightness|key40|I10C30,S1,,brightness,10,30,40,-10,M. amathonte Brillo I10 C30.RAW8,0.96754
+amathonte,amathonte|S1|brightness|key40|I15C25,S1,,brightness,15,25,40,-5,M. amathonte Brillo I15 C25.RAW8,0.96754
+amathonte,amathonte|S1|brightness|key40|I20C20,S1,,brightness,20,20,40,0,M. amathonte Brillo I20 C20.RAW8,0.96754
+amathonte,amathonte|S1|brightness|key40|I25C15,S1,,brightness,25,15,40,5,M. amathonte Brillo I25 C15.RAW8,0.96754
+amathonte,amathonte|S1|brightness|key40|I30C10,S1,,brightness,30,10,40,10,M. amathonte Brillo I30 C10.RAW8,0.96754
+amathonte,amathonte|S1|brightness|key40|I35C5,S1,,brightness,35,5,40,15,M. amathonte Brillo I35 C5.RAW8,0.96754
+amathonte,amathonte|S1|brightness|key40|I5C35,S1,,brightness,5,35,40,-15,M. amathonte Brillo I5 C35.RAW8,0.96754
+amathonte,amathonte|2026-10-07 #4|brightness|key40|I12C28,2026-10-07,4,brightness,12,28,40,-8,amathonte4_brillo_I12C28.RAW8,0.94873
+amathonte,amathonte|2026-10-07 #4|brightness|key40|I17C23,2026-10-07,4,brightness,17,23,40,-3,amathonte4_brillo_I17C23.RAW8,0.94873
+amathonte,amathonte|2026-10-07 #4|brightness|key40|I22C18,2026-10-07,4,brightness,22,18,40,2,amathonte4_brillo_I22C18.RAW8,0.94873
+amathonte,amathonte|2026-10-07 #4|brightness|key40|I27C13,2026-10-07,4,brightness,27,13,40,7,amathonte4_brillo_I27C13.RAW8,0.94873
+amathonte,amathonte|2026-10-07 #4|brightness|key40|I2C38,2026-10-07,4,brightness,2,38,40,-18,amathonte4_brillo_I2C38.RAW8,0.94873
+amathonte,amathonte|2026-10-07 #4|brightness|key40|I32C8,2026-10-07,4,brightness,32,8,40,12,amathonte4_brillo_I32C8.RAW8,0.94873
+amathonte,amathonte|2026-10-07 #4|brightness|key40|I7C33,2026-10-07,4,brightness,7,33,40,-13,amathonte4_brillo_I7C33.RAW8,0.94873
+amathonte,amathonte|2026-10-19 #7|brightness|key40|I12C28,2026-10-19,7,brightness,12,28,40,-8,amathonte7_brillo_I12C28.RAW8,0.93823
+amathonte,amathonte|2026-10-19 #7|brightness|key40|I17C23,2026-10-19,7,brightness,17,23,40,-3,amathonte7_brillo_I17C23.RAW8,0.93823
+amathonte,amathonte|2026-10-19 #7|brightness|key40|I22C18,2026-10-19,7,brightness,22,18,40,2,amathonte7_brillo_I22C18.RAW8,0.93823
+amathonte,amathonte|2026-10-19 #7|brightness|key40|I27C13,2026-10-19,7,brightness,27,13,40,7,amathonte7_brillo_I27C13.RAW8,0.93823
+amathonte,amathonte|2026-10-19 #7|brightness|key40|I2C38,2026-10-19,7,brightness,2,38,40,-18,amathonte7_brillo_I2C38.RAW8,0.93823
+amathonte,amathonte|2026-10-19 #7|brightness|key40|I32C8,2026-10-19,7,brightness,32,8,40,12,amathonte7_brillo_I32C8.RAW8,0.93823
+amathonte,amathonte|2026-10-19 #7|brightness|key40|I7C33,2026-10-19,7,brightness,7,33,40,-13,amathonte7_brillo_I7C33.RAW8,0.93823
+amathonte,amathonte|2026-10-19 #8|brightness|key40|I10C30,2026-10-19,8,brightness,10,30,40,-10,amathonte8_brillo_I10C30.RAW8,0.97478
+amathonte,amathonte|2026-10-19 #8|brightness|key40|I15C25,2026-10-19,8,brightness,15,25,40,-5,amathonte8_brillo_I15C25.RAW8,0.97478
+amathonte,amathonte|2026-10-19 #8|brightness|key40|I20C20,2026-10-19,8,brightness,20,20,40,0,amathonte8_brillo_I20C20.RAW8,0.97478
+amathonte,amathonte|2026-10-19 #8|brightness|key40|I25C15,2026-10-19,8,brightness,25,15,40,5,amathonte8_brillo_I25C15.RAW8,0.97478
+amathonte,amathonte|2026-10-19 #8|brightness|key40|I30C10,2026-10-19,8,brightness,30,10,40,10,amathonte8_brillo_I30C10.RAW8,0.97478
+amathonte,amathonte|2026-10-19 #8|brightness|key40|I35C5,2026-10-19,8,brightness,35,5,40,15,amathonte8_brillo_I35C5.RAW8,0.97478
+amathonte,amathonte|2026-10-19 #8|brightness|key40|I5C35,2026-10-19,8,brightness,5,35,40,-15,amathonte8_brillo_I5C35.RAW8,0.97478
+amathonte,amathonte|S1|hue|key0|I10C10,S1,,hue,10,10,20,0,M. amathonte Matiz I10 C10.RAW8,0.95174
+amathonte,amathonte|S1|hue|key0|I15C15,S1,,hue,15,15,30,0,M. amathonte Matiz I15 C15.RAW8,0.95174
+amathonte,amathonte|S1|hue|key0|I20C20,S1,,hue,20,20,40,0,M. amathonte Matiz I20 C20.RAW8,0.95174
+amathonte,amathonte|S1|hue|key0|I25C25,S1,,hue,25,25,50,0,M. amathonte Matiz I25 C25.RAW8,0.95174
+amathonte,amathonte|S1|hue|key0|I30C30,S1,,hue,30,30,60,0,M. amathonte Matiz I30 C30.RAW8,0.95174
+amathonte,amathonte|S1|hue|key0|I5C5,S1,,hue,5,5,10,0,M. amathonte Matiz I5 C5.RAW8,0.95174
+amathonte,amathonte|2026-09-30 #3|hue|key-4|I13C17,2026-09-30,3,hue,13,17,30,-2,amathonte3_I13C17.RAW8,0.98321
+amathonte,amathonte|2026-09-30 #3|hue|key-4|I18C22,2026-09-30,3,hue,18,22,40,-2,amathonte3_I18C22.RAW8,0.98321
+amathonte,amathonte|2026-09-30 #3|hue|key-4|I23C27,2026-09-30,3,hue,23,27,50,-2,amathonte3_I23C27.RAW8,0.98321
+amathonte,amathonte|2026-09-30 #3|hue|key-4|I28C32,2026-09-30,3,hue,28,32,60,-2,amathonte3_I28C32.RAW8,0.98321
+amathonte,amathonte|2026-09-30 #3|hue|key-4|I33C37,2026-09-30,3,hue,33,37,70,-2,amathonte3_I33C37.RAW8,0.98321
+amathonte,amathonte|2026-09-30 #3|hue|key-4|I3C7,2026-09-30,3,hue,3,7,10,-2,amathonte3_I3C7.RAW8,0.98321
+amathonte,amathonte|2026-09-30 #3|hue|key-4|I8C12,2026-09-30,3,hue,8,12,20,-2,amathonte3_I8C12.RAW8,0.98321
+amathonte,amathonte|2026-10-07 #4|hue|key-6|I12C18,2026-10-07,4,hue,12,18,30,-3,amathonte4_matiz_I12C18.RAW8,0.98941
+amathonte,amathonte|2026-10-07 #4|hue|key-6|I17C23,2026-10-07,4,hue,17,23,40,-3,amathonte4_matiz_I17C23.RAW8,0.98941
+amathonte,amathonte|2026-10-07 #4|hue|key-6|I22C28,2026-10-07,4,hue,22,28,50,-3,amathonte4_matiz_I22C28.RAW8,0.98941
+amathonte,amathonte|2026-10-07 #4|hue|key-6|I27C33,2026-10-07,4,hue,27,33,60,-3,amathonte4_matiz_I27C33.RAW8,0.98941
+amathonte,amathonte|2026-10-07 #4|hue|key-6|I2C8,2026-10-07,4,hue,2,8,10,-3,amathonte4_matiz_I2C8.RAW8,0.98941
+amathonte,amathonte|2026-10-07 #4|hue|key-6|I32C38,2026-10-07,4,hue,32,38,70,-3,amathonte4_matiz_I32C38.RAW8,0.98941
+amathonte,amathonte|2026-10-07 #4|hue|key-6|I7C13,2026-10-07,4,hue,7,13,20,-3,amathonte4_matiz_I7C13.RAW8,0.98941
+amathonte,amathonte|2026-10-19 #7|hue|key-6|I12C18,2026-10-19,7,hue,12,18,30,-3,amathonte7_matiz_I12C18.RAW8,0.96795
+amathonte,amathonte|2026-10-19 #7|hue|key-6|I17C23,2026-10-19,7,hue,17,23,40,-3,amathonte7_matiz_I17C23.RAW8,0.96795
+amathonte,amathonte|2026-10-19 #7|hue|key-6|I22C28,2026-10-19,7,hue,22,28,50,-3,amathonte7_matiz_I22C28.RAW8,0.96795
+amathonte,amathonte|2026-10-19 #7|hue|key-6|I27C33,2026-10-19,7,hue,27,33,60,-3,amathonte7_matiz_I27C33.RAW8,0.96795
+amathonte,amathonte|2026-10-19 #7|hue|key-6|I2C8,2026-10-19,7,hue,2,8,10,-3,amathonte7_matiz_I2C8.RAW8,0.96795
+amathonte,amathonte|2026-10-19 #7|hue|key-6|I32C38,2026-10-19,7,hue,32,38,70,-3,amathonte7_matiz_I32C38.RAW8,0.96795
+amathonte,amathonte|2026-10-19 #7|hue|key-6|I7C13,2026-10-19,7,hue,7,13,20,-3,amathonte7_matiz_I7C13.RAW8,0.96795
+anaxibia,anaxibia|2026-09-25|brightness|key40|I-10C50,2026-09-25,,brightness,-10,50,40,-30,anaxibia_brillo_I-10C50.RAW8,0.78602
+anaxibia,anaxibia|2026-09-25|brightness|key40|I-5C45,2026-09-25,,brightness,-5,45,40,-25,anaxibia_brillo_I-5C45.RAW8,0.78602
+anaxibia,anaxibia|2026-09-25|brightness|key40|I0C40,2026-09-25,,brightness,0,40,40,-20,anaxibia_brillo_I0C40.RAW8,0.78602
+anaxibia,anaxibia|2026-09-25|brightness|key40|I10C30,2026-09-25,,brightness,10,30,40,-10,anaxibia_brillo_I10C30.RAW8,0.78602
+anaxibia,anaxibia|2026-09-25|brightness|key40|I15C25,2026-09-25,,brightness,15,25,40,-5,anaxibia_brillo_I15C25.RAW8,0.78602
+anaxibia,anaxibia|2026-09-25|brightness|key40|I5C35,2026-09-25,,brightness,5,35,40,-15,anaxibia_brillo_I5C35.RAW8,0.78602
+anaxibia,anaxibia|2026-09-02|hue|key6|I13C7,2026-09-02,,hue,13,7,20,3,M. anaxibia Matiz I13 C7.RAW8,0.8543
+anaxibia,anaxibia|2026-09-02|hue|key6|I18C12,2026-09-02,,hue,18,12,30,3,M. anaxibia Matiz I18 C12.RAW8,0.8543
+anaxibia,anaxibia|2026-09-02|hue|key6|I23C17,2026-09-02,,hue,23,17,40,3,M. anaxibia Matiz I23 C17.RAW8,0.8543
+anaxibia,anaxibia|2026-09-02|hue|key6|I28C22,2026-09-02,,hue,28,22,50,3,M. anaxibia Matiz I28 C22.RAW8,0.8543
+anaxibia,anaxibia|2026-09-02|hue|key6|I33C27,2026-09-02,,hue,33,27,60,3,M. anaxibia Matiz I33 C27.RAW8,0.8543
+anaxibia,anaxibia|2026-09-02|hue|key6|I38C32,2026-09-02,,hue,38,32,70,3,M. anaxibia Matiz I38 C32.RAW8,0.8543
+anaxibia,anaxibia|2026-09-02|hue|key6|I8C2,2026-09-02,,hue,8,2,10,3,M. anaxibia Matiz I8 C2.RAW8,0.8543
+anaxibia,anaxibia|2026-09-25|hue|key-30|I-10C20,2026-09-25,,hue,-10,20,10,-15,anaxibia_matiz_I-10C20.RAW8,0.99653
+anaxibia,anaxibia|2026-09-25|hue|key-30|I-5C25,2026-09-25,,hue,-5,25,20,-15,anaxibia_matiz_I-5C25.RAW8,0.99653
+anaxibia,anaxibia|2026-09-25|hue|key-30|I0C30,2026-09-25,,hue,0,30,30,-15,anaxibia_matiz_I0C30.RAW8,0.99653
+anaxibia,anaxibia|2026-09-25|hue|key-30|I10C40,2026-09-25,,hue,10,40,50,-15,anaxibia_matiz_I10C40.RAW8,0.99653
+anaxibia,anaxibia|2026-09-25|hue|key-30|I15C45,2026-09-25,,hue,15,45,60,-15,anaxibia_matiz_I15C45.RAW8,0.99653
+anaxibia,anaxibia|2026-09-25|hue|key-30|I20C50,2026-09-25,,hue,20,50,70,-15,anaxibia_matiz_I20C50.RAW8,0.99653
+anaxibia,anaxibia|2026-09-25|hue|key-30|I5C35,2026-09-25,,hue,5,35,40,-15,anaxibia_matiz_I5C35.RAW8,0.99653
+anaxibia,anaxibia|2026-10-09 #4|hue|key6|I13C7,2026-10-09,4,hue,13,7,20,3,anaxibia4_matiz_I13C7.RAW8,0.99804
+anaxibia,anaxibia|2026-10-09 #4|hue|key6|I18C12,2026-10-09,4,hue,18,12,30,3,anaxibia4_matiz_I18C12.RAW8,0.99804
+anaxibia,anaxibia|2026-10-09 #4|hue|key6|I23C17,2026-10-09,4,hue,23,17,40,3,anaxibia4_matiz_I23C17.RAW8,0.99804
+anaxibia,anaxibia|2026-10-09 #4|hue|key6|I28C22,2026-10-09,4,hue,28,22,50,3,anaxibia4_matiz_I28C22.RAW8,0.99804
+anaxibia,anaxibia|2026-10-09 #4|hue|key6|I33C27,2026-10-09,4,hue,33,27,60,3,anaxibia4_matiz_I33C27.RAW8,0.99804
+anaxibia,anaxibia|2026-10-09 #4|hue|key6|I38C32,2026-10-09,4,hue,38,32,70,3,anaxibia4_matiz_I38C32.RAW8,0.99804
+anaxibia,anaxibia|2026-10-09 #4|hue|key6|I43C37,2026-10-09,4,hue,43,37,80,3,anaxibia4_matiz_I43C37.RAW8,0.99804
+anaxibia,anaxibia|2026-10-09 #4|hue|key6|I8C2,2026-10-09,4,hue,8,2,10,3,anaxibia4_matiz_I8C2.RAW8,0.99804
+anaxibia,anaxibia|2026-10-09 #5|hue|key6|I13C7,2026-10-09,5,hue,13,7,20,3,anaxibia5_matiz_I13C7.RAW8,0.96865
+anaxibia,anaxibia|2026-10-09 #5|hue|key6|I18C12,2026-10-09,5,hue,18,12,30,3,anaxibia5_matiz_I18C12.RAW8,0.96865
+anaxibia,anaxibia|2026-10-09 #5|hue|key6|I23C17,2026-10-09,5,hue,23,17,40,3,anaxibia5_matiz_I23C17.RAW8,0.96865
+anaxibia,anaxibia|2026-10-09 #5|hue|key6|I28C22,2026-10-09,5,hue,28,22,50,3,anaxibia5_matiz_I28C22.RAW8,0.96865
+anaxibia,anaxibia|2026-10-09 #5|hue|key6|I33C27,2026-10-09,5,hue,33,27,60,3,anaxibia5_matiz_I33C27.RAW8,0.96865
+anaxibia,anaxibia|2026-10-09 #5|hue|key6|I38C32,2026-10-09,5,hue,38,32,70,3,anaxibia5_matiz_I38C32.RAW8,0.96865
+anaxibia,anaxibia|2026-10-09 #5|hue|key6|I43C37,2026-10-09,5,hue,43,37,80,3,anaxibia5_matiz_I43C37.RAW8,0.96865
+anaxibia,anaxibia|2026-10-09 #5|hue|key6|I8C2,2026-10-09,5,hue,8,2,10,3,anaxibia5_matiz_I8C2.RAW8,0.96865
+anaxibia,anaxibia|2026-10-09 #6|hue|key10|I10C0,2026-10-09,6,hue,10,0,10,5,anaxibia6_matiz_I10C0.RAW8,0.98793
+anaxibia,anaxibia|2026-10-09 #6|hue|key10|I15C5,2026-10-09,6,hue,15,5,20,5,anaxibia6_matiz_I15C5.RAW8,0.98793
+anaxibia,anaxibia|2026-10-09 #6|hue|key10|I20C10,2026-10-09,6,hue,20,10,30,5,anaxibia6_matiz_I20C10.RAW8,0.98793
+anaxibia,anaxibia|2026-10-09 #6|hue|key10|I25C15,2026-10-09,6,hue,25,15,40,5,anaxibia6_matiz_I25C15.RAW8,0.98793
+anaxibia,anaxibia|2026-10-09 #6|hue|key10|I30C20,2026-10-09,6,hue,30,20,50,5,anaxibia6_matiz_I30C20.RAW8,0.98793
+anaxibia,anaxibia|2026-10-09 #6|hue|key10|I35C25,2026-10-09,6,hue,35,25,60,5,anaxibia6_matiz_I35C25.RAW8,0.98793
+anaxibia,anaxibia|2026-10-09 #6|hue|key10|I40C30,2026-10-09,6,hue,40,30,70,5,anaxibia6_matiz_I40C30.RAW8,0.98793
+anaxibia,anaxibia|2026-10-09 #6|hue|key10|I45C35,2026-10-09,6,hue,45,35,80,5,anaxibia6_matiz_I45C35.RAW8,0.98793
+aurora,aurora|S1|brightness|key40|I12C28,S1,,brightness,12,28,40,-8,aurora_brillo_I12C28.RAW8,0.99095
+aurora,aurora|S1|brightness|key40|I17C23,S1,,brightness,17,23,40,-3,aurora_brillo_I17C23.RAW8,0.99095
+aurora,aurora|S1|brightness|key40|I2C38,S1,,brightness,2,38,40,-18,aurora_brillo_I2C38.RAW8,0.99095
+aurora,aurora|S1|brightness|key40|I22C18,S1,,brightness,22,18,40,2,aurora_brillo_I22C18.RAW8,0.99095
+aurora,aurora|S1|brightness|key40|I27C13,S1,,brightness,27,13,40,7,aurora_brillo_I27 C13.RAW8,0.99095
+aurora,aurora|S1|brightness|key40|I32C8,S1,,brightness,32,8,40,12,aurora_brillo_I32C8.RAW8,0.99095
+aurora,aurora|S1|brightness|key40|I7C33,S1,,brightness,7,33,40,-13,aurora_brill_ I7C33.RAW8,0.99095
+aurora,aurora|2026-10-07 #4|brightness|key40|I13C27,2026-10-07,4,brightness,13,27,40,-7,aurora4_brillo_I13C27.RAW8,0.99316
+aurora,aurora|2026-10-07 #4|brightness|key40|I18C22,2026-10-07,4,brightness,18,22,40,-2,aurora4_brillo_I18C22.RAW8,0.99316
+aurora,aurora|2026-10-07 #4|brightness|key40|I23C17,2026-10-07,4,brightness,23,17,40,3,aurora4_brillo_I23C17.RAW8,0.99316
+aurora,aurora|2026-10-07 #4|brightness|key40|I28C12,2026-10-07,4,brightness,28,12,40,8,aurora4_brillo_I28C12.RAW8,0.99316
+aurora,aurora|2026-10-07 #4|brightness|key40|I33C7,2026-10-07,4,brightness,33,7,40,13,aurora4_brillo_I33C7.RAW8,0.99316
+aurora,aurora|2026-10-07 #4|brightness|key40|I3C37,2026-10-07,4,brightness,3,37,40,-17,aurora4_brillo_I3C37.RAW8,0.99316
+aurora,aurora|2026-10-07 #4|brightness|key40|I8C32,2026-10-07,4,brightness,8,32,40,-12,aurora4_brillo_I8C32.RAW8,0.99316
+aurora,aurora|2026-10-19 #7|brightness|key40|I10C30,2026-10-19,7,brightness,10,30,40,-10,aurora7_brillo_I10C30.RAW8,0.99025
+aurora,aurora|2026-10-19 #7|brightness|key40|I15C25,2026-10-19,7,brightness,15,25,40,-5,aurora7_brillo_I15C25.RAW8,0.99025
+aurora,aurora|2026-10-19 #7|brightness|key40|I20C20,2026-10-19,7,brightness,20,20,40,0,aurora7_brillo_I20C20.RAW8,0.99025
+aurora,aurora|2026-10-19 #7|brightness|key40|I25C15,2026-10-19,7,brightness,25,15,40,5,aurora7_brillo_I25C15.RAW8,0.99025
+aurora,aurora|2026-10-19 #7|brightness|key40|I30C10,2026-10-19,7,brightness,30,10,40,10,aurora7_brillo_I30C10.RAW8,0.99025
+aurora,aurora|2026-10-19 #7|brightness|key40|I35C5,2026-10-19,7,brightness,35,5,40,15,aurora7_brillo_I35C5.RAW8,0.99025
+aurora,aurora|2026-10-19 #7|brightness|key40|I5C35,2026-10-19,7,brightness,5,35,40,-15,aurora7_brillo_I5C35.RAW8,0.99025
+aurora,aurora|2026-10-19 #8|brightness|key40|I10C30,2026-10-19,8,brightness,10,30,40,-10,aurora8_brillo_I10C30.RAW8,0.98536
+aurora,aurora|2026-10-19 #8|brightness|key40|I15C25,2026-10-19,8,brightness,15,25,40,-5,aurora8_brillo_I15C25.RAW8,0.98536
+aurora,aurora|2026-10-19 #8|brightness|key40|I20C20,2026-10-19,8,brightness,20,20,40,0,aurora8_brillo_I20C20.RAW8,0.98536
+aurora,aurora|2026-10-19 #8|brightness|key40|I25C15,2026-10-19,8,brightness,25,15,40,5,aurora8_brillo_I25C15.RAW8,0.98536
+aurora,aurora|2026-10-19 #8|brightness|key40|I30C10,2026-10-19,8,brightness,30,10,40,10,aurora8_brillo_I30C10.RAW8,0.98536
+aurora,aurora|2026-10-19 #8|brightness|key40|I35C5,2026-10-19,8,brightness,35,5,40,15,aurora8_brillo_I35C5.RAW8,0.98536
+aurora,aurora|2026-10-19 #8|brightness|key40|I5C35,2026-10-19,8,brightness,5,35,40,-15,aurora8_brillo_I5C35.RAW8,0.98536
+aurora,aurora|S1|hue|key-6|I1C7,S1,,hue,1,7,8,-3,M. aurora matiz I1 C7.RAW8,0.92784
+aurora,aurora|S1|hue|key-6|I11C17,S1,,hue,11,17,28,-3,M. aurora matiz I11 C17.RAW8,0.92784
+aurora,aurora|S1|hue|key-6|I16C22,S1,,hue,16,22,38,-3,M. aurora matiz I16 C22.RAW8,0.92784
+aurora,aurora|S1|hue|key-6|I21C27,S1,,hue,21,27,48,-3,M. aurora matiz I21 C27.RAW8,0.92784
+aurora,aurora|S1|hue|key-6|I26C32,S1,,hue,26,32,58,-3,M. aurora matiz I26 C32.RAW8,0.92784
+aurora,aurora|S1|hue|key-6|I31C37,S1,,hue,31,37,68,-3,M. aurora matiz I31 C37.RAW8,0.92784
+aurora,aurora|S1|hue|key-6|I6C12,S1,,hue,6,12,18,-3,M. aurora matiz I6 C12.RAW8,0.92784
+aurora,aurora|2026-09-30 #3|hue|key0|I10C10,2026-09-30,3,hue,10,10,20,0,aurora3_matiz_I10C10.RAW8,0.9604
+aurora,aurora|2026-09-30 #3|hue|key0|I15C15,2026-09-30,3,hue,15,15,30,0,aurora3_matiz_I15C15.RAW8,0.9604
+aurora,aurora|2026-09-30 #3|hue|key0|I20C20,2026-09-30,3,hue,20,20,40,0,aurora3_matiz_I20C20.RAW8,0.9604
+aurora,aurora|2026-09-30 #3|hue|key0|I25C25,2026-09-30,3,hue,25,25,50,0,aurora3_matiz_I25C25.RAW8,0.9604
+aurora,aurora|2026-09-30 #3|hue|key0|I30C30,2026-09-30,3,hue,30,30,60,0,aurora3_matiz_I30C30.RAW8,0.9604
+aurora,aurora|2026-09-30 #3|hue|key0|I35C35,2026-09-30,3,hue,35,35,70,0,aurora3_matiz_I35C35.RAW8,0.9604
+aurora,aurora|2026-09-30 #3|hue|key0|I40C40,2026-09-30,3,hue,40,40,80,0,aurora3_matiz_I40C40.RAW8,0.9604
+aurora,aurora|2026-09-30 #3|hue|key0|I5C5,2026-09-30,3,hue,5,5,10,0,aurora3_matiz_I5C5.RAW8,0.9604
+aurora,aurora|2026-10-07 #4|hue|key-4|I13C17,2026-10-07,4,hue,13,17,30,-2,aurora4_matiz_I13C17.RAW8,0.94753
+aurora,aurora|2026-10-07 #4|hue|key-4|I18C22,2026-10-07,4,hue,18,22,40,-2,aurora4_matiz_I18C22.RAW8,0.94753
+aurora,aurora|2026-10-07 #4|hue|key-4|I23C27,2026-10-07,4,hue,23,27,50,-2,aurora4_matiz_I23C27.RAW8,0.94753
+aurora,aurora|2026-10-07 #4|hue|key-4|I28C32,2026-10-07,4,hue,28,32,60,-2,aurora4_matiz_I28C32.RAW8,0.94753
+aurora,aurora|2026-10-07 #4|hue|key-4|I33C37,2026-10-07,4,hue,33,37,70,-2,aurora4_matiz_I33C37.RAW8,0.94753
+aurora,aurora|2026-10-07 #4|hue|key-4|I3C7,2026-10-07,4,hue,3,7,10,-2,aurora4_matiz_I3C7.RAW8,0.94753
+aurora,aurora|2026-10-07 #4|hue|key-4|I8C12,2026-10-07,4,hue,8,12,20,-2,aurora4_matiz_I8C12.RAW8,0.94753
+aurora,aurora|2026-10-19 #7|hue|key0|I10C10,2026-10-19,7,hue,10,10,20,0,aurora7_matiz_I10C10.RAW8,0.99129
+aurora,aurora|2026-10-19 #7|hue|key0|I15C15,2026-10-19,7,hue,15,15,30,0,aurora7_matiz_I15C15.RAW8,0.99129
+aurora,aurora|2026-10-19 #7|hue|key0|I20C20,2026-10-19,7,hue,20,20,40,0,aurora7_matiz_I20C20.RAW8,0.99129
+aurora,aurora|2026-10-19 #7|hue|key0|I25C25,2026-10-19,7,hue,25,25,50,0,aurora7_matiz_I25C25.RAW8,0.99129
+aurora,aurora|2026-10-19 #7|hue|key0|I30C30,2026-10-19,7,hue,30,30,60,0,aurora7_matiz_I30C30.RAW8,0.99129
+aurora,aurora|2026-10-19 #7|hue|key0|I35C35,2026-10-19,7,hue,35,35,70,0,aurora7_matiz_I35C35.RAW8,0.99129
+aurora,aurora|2026-10-19 #7|hue|key0|I5C5,2026-10-19,7,hue,5,5,10,0,aurora7_matiz_I5C5.RAW8,0.99129
+aurora,aurora|2026-10-19 #8|hue|key0|I10C10,2026-10-19,8,hue,10,10,20,0,aurora8_matiz_I10C10.RAW8,0.76298
+aurora,aurora|2026-10-19 #8|hue|key0|I15C15,2026-10-19,8,hue,15,15,30,0,aurora8_matiz_I15C15.RAW8,0.76298
+aurora,aurora|2026-10-19 #8|hue|key0|I20C20,2026-10-19,8,hue,20,20,40,0,aurora8_matiz_I20C20.RAW8,0.76298
+aurora,aurora|2026-10-19 #8|hue|key0|I25C25,2026-10-19,8,hue,25,25,50,0,aurora8_matiz_I25C25.RAW8,0.76298
+aurora,aurora|2026-10-19 #8|hue|key0|I30C30,2026-10-19,8,hue,30,30,60,0,aurora8_matiz_I30C30.RAW8,0.76298
+aurora,aurora|2026-10-19 #8|hue|key0|I35C35,2026-10-19,8,hue,35,35,70,0,aurora8_matiz_I35C35.RAW8,0.76298
+aurora,aurora|2026-10-19 #8|hue|key0|I5C5,2026-10-19,8,hue,5,5,10,0,aurora8_matiz_I5C5.RAW8,0.76298
+cypris,cypris|S1|brightness|key40|I13C27,S1,,brightness,13,27,40,-7,cypris_brillo_I13C27.RAW8,0.98241
+cypris,cypris|S1|brightness|key40|I18C22,S1,,brightness,18,22,40,-2,cypris_brillo_I18C22.RAW8,0.98241
+cypris,cypris|S1|brightness|key40|I23C17,S1,,brightness,23,17,40,3,cypris_brillo_I23C17.RAW8,0.98241
+cypris,cypris|S1|brightness|key40|I28C12,S1,,brightness,28,12,40,8,cypris_brillo_I28C12.RAW8,0.98241
+cypris,cypris|S1|brightness|key40|I33C7,S1,,brightness,33,7,40,13,cypris_brillo_I33C7.RAW8,0.98241
+cypris,cypris|S1|brightness|key40|I3C37,S1,,brightness,3,37,40,-17,cypris_brillo_I3C37.RAW8,0.98241
+cypris,cypris|S1|brightness|key40|I8C32,S1,,brightness,8,32,40,-12,cypris_brillo_I8C32.RAW8,0.98241
+cypris,cypris|2026-10-07 #4|brightness|key40|I13C27,2026-10-07,4,brightness,13,27,40,-7,cypris4_brillo_I13C27.RAW8,0.9764
+cypris,cypris|2026-10-07 #4|brightness|key40|I18C22,2026-10-07,4,brightness,18,22,40,-2,cypris4_brillo_I18C22.RAW8,0.9764
+cypris,cypris|2026-10-07 #4|brightness|key40|I23C17,2026-10-07,4,brightness,23,17,40,3,cypris4_brillo_I23C17.RAW8,0.9764
+cypris,cypris|2026-10-07 #4|brightness|key40|I28C12,2026-10-07,4,brightness,28,12,40,8,cypris4_brillo_I28C12.RAW8,0.9764
+cypris,cypris|2026-10-07 #4|brightness|key40|I33C7,2026-10-07,4,brightness,33,7,40,13,cypris4_brillo_I33C7.RAW8,0.9764
+cypris,cypris|2026-10-07 #4|brightness|key40|I3C37,2026-10-07,4,brightness,3,37,40,-17,cypris4_brillo_I3C37.RAW8,0.9764
+cypris,cypris|2026-10-07 #4|brightness|key40|I8C32,2026-10-07,4,brightness,8,32,40,-12,cypris4_brillo_I8C32.RAW8,0.9764
+cypris,cypris|2026-10-19 #7|brightness|key40|I13C27,2026-10-19,7,brightness,13,27,40,-7,cypris7_brillo_I13C27.RAW8,0.98961
+cypris,cypris|2026-10-19 #7|brightness|key40|I18C22,2026-10-19,7,brightness,18,22,40,-2,cypris7_brillo_I18C22.RAW8,0.98961
+cypris,cypris|2026-10-19 #7|brightness|key40|I23C17,2026-10-19,7,brightness,23,17,40,3,cypris7_brillo_I23C17.RAW8,0.98961
+cypris,cypris|2026-10-19 #7|brightness|key40|I28C12,2026-10-19,7,brightness,28,12,40,8,cypris7_brillo_I28C12.RAW8,0.98961
+cypris,cypris|2026-10-19 #7|brightness|key40|I33C7,2026-10-19,7,brightness,33,7,40,13,cypris7_brillo_I33C7.RAW8,0.98961
+cypris,cypris|2026-10-19 #7|brightness|key40|I3C37,2026-10-19,7,brightness,3,37,40,-17,cypris7_brillo_I3C37.RAW8,0.98961
+cypris,cypris|2026-10-19 #7|brightness|key40|I8C32,2026-10-19,7,brightness,8,32,40,-12,cypris7_brillo_I8C32.RAW8,0.98961
+cypris,cypris|2026-10-19 #8|brightness|key40|I13C27,2026-10-19,8,brightness,13,27,40,-7,cypris8_brillo_I13C27.RAW8,0.91913
+cypris,cypris|2026-10-19 #8|brightness|key40|I18C22,2026-10-19,8,brightness,18,22,40,-2,cypris8_brillo_I18C22.RAW8,0.91913
+cypris,cypris|2026-10-19 #8|brightness|key40|I23C17,2026-10-19,8,brightness,23,17,40,3,cypris8_brillo_I23C17.RAW8,0.91913
+cypris,cypris|2026-10-19 #8|brightness|key40|I28C12,2026-10-19,8,brightness,28,12,40,8,cypris8_brillo_I28C12.RAW8,0.91913
+cypris,cypris|2026-10-19 #8|brightness|key40|I33C7,2026-10-19,8,brightness,33,7,40,13,cypris8_brillo_I33C7.RAW8,0.91913
+cypris,cypris|2026-10-19 #8|brightness|key40|I8C32,2026-10-19,8,brightness,8,32,40,-12,cypris8_brillo_I8C32.RAW8,0.91913
+cypris,cypris|2026-10-19 #8|brightness|key40|I3C37,2026-10-19,8,brightness,3,37,40,-17,cypris8_brillo_i3C37.RAW8,0.91913
+cypris,cypris|S1|hue|key-8|I31C39,S1,,hue,31,39,70,-4,cypris_matiz_31C39.RAW8,0.93736
+cypris,cypris|S1|hue|key-8|I11C19,S1,,hue,11,19,30,-4,cypris_matiz_I11C19.RAW8,0.93736
+cypris,cypris|S1|hue|key-8|I16C24,S1,,hue,16,24,40,-4,cypris_matiz_I16C24.RAW8,0.93736
+cypris,cypris|S1|hue|key-8|I1C9,S1,,hue,1,9,10,-4,cypris_matiz_I1C9.RAW8,0.93736
+cypris,cypris|S1|hue|key-8|I21C29,S1,,hue,21,29,50,-4,cypris_matiz_I21C29.RAW8,0.93736
+cypris,cypris|S1|hue|key-8|I26C34,S1,,hue,26,34,60,-4,cypris_matiz_I26C34.RAW8,0.93736
+cypris,cypris|S1|hue|key-8|I6C14,S1,,hue,6,14,20,-4,cypris_matiz_I6C14.RAW8,0.93736
+cypris,cypris|2026-09-02|hue|key-12|I-1C11,2026-09-02,,hue,-1,11,10,-6,M. cypris Matiz I-1 C11.RAW8,0.98736
+cypris,cypris|2026-09-02|hue|key-12|I14C26,2026-09-02,,hue,14,26,40,-6,M. cypris Matiz I14 C26.RAW8,0.98736
+cypris,cypris|2026-09-02|hue|key-12|I19C31,2026-09-02,,hue,19,31,50,-6,M. cypris Matiz I19 C31.RAW8,0.98736
+cypris,cypris|2026-09-02|hue|key-12|I24C36,2026-09-02,,hue,24,36,60,-6,M. cypris Matiz I24 C36.RAW8,0.98736
+cypris,cypris|2026-09-02|hue|key-12|I29C41,2026-09-02,,hue,29,41,70,-6,M. cypris Matiz I29 C41.RAW8,0.98736
+cypris,cypris|2026-09-02|hue|key-12|I4C16,2026-09-02,,hue,4,16,20,-6,M. cypris Matiz I4 C16.RAW8,0.98736
+cypris,cypris|2026-09-02|hue|key-12|I9C21,2026-09-02,,hue,9,21,30,-6,M. cypris Matiz I9 C21.RAW8,0.98736
+cypris,cypris|2026-09-25 #2|hue|key-10|I-1C9,2026-09-25,2,hue,-1,9,8,-5,cypris2_matiz_I-1C9.RAW8,0.87555
+cypris,cypris|2026-09-25 #2|hue|key-10|I11C21,2026-09-25,2,hue,11,21,32,-5,cypris2_matiz_I11C21.RAW8,0.87555
+cypris,cypris|2026-09-25 #2|hue|key-10|I14C24,2026-09-25,2,hue,14,24,38,-5,cypris2_matiz_I14C24.RAW8,0.87555
+cypris,cypris|2026-09-25 #2|hue|key-10|I17C27,2026-09-25,2,hue,17,27,44,-5,cypris2_matiz_I17C27.RAW8,0.87555
+cypris,cypris|2026-09-25 #2|hue|key-10|I20C30,2026-09-25,2,hue,20,30,50,-5,cypris2_matiz_I20C30.RAW8,0.87555
+cypris,cypris|2026-09-25 #2|hue|key-10|I23C33,2026-09-25,2,hue,23,33,56,-5,cypris2_matiz_I23C33.RAW8,0.87555
+cypris,cypris|2026-09-25 #2|hue|key-10|I26C36,2026-09-25,2,hue,26,36,62,-5,cypris2_matiz_I26C36.RAW8,0.87555
+cypris,cypris|2026-09-25 #2|hue|key-10|I2C12,2026-09-25,2,hue,2,12,14,-5,cypris2_matiz_I2C12.RAW8,0.87555
+cypris,cypris|2026-09-25 #2|hue|key-10|I5C15,2026-09-25,2,hue,5,15,20,-5,cypris2_matiz_I5C15.RAW8,0.87555
+cypris,cypris|2026-09-25 #2|hue|key-10|I8C18,2026-09-25,2,hue,8,18,26,-5,cypris2_matiz_I8C18.RAW8,0.87555
+cypris,cypris|2026-10-07 #4|hue|key-4|I11C15,2026-10-07,4,hue,11,15,26,-2,cypris4_matiz_I11C15.RAW8,0.97946
+cypris,cypris|2026-10-07 #4|hue|key-4|I14C18,2026-10-07,4,hue,14,18,32,-2,cypris4_matiz_I14C18.RAW8,0.97946
+cypris,cypris|2026-10-07 #4|hue|key-4|I17C21,2026-10-07,4,hue,17,21,38,-2,cypris4_matiz_I17C21.RAW8,0.97946
+cypris,cypris|2026-10-07 #4|hue|key-4|I20C24,2026-10-07,4,hue,20,24,44,-2,cypris4_matiz_I20C24.RAW8,0.97946
+cypris,cypris|2026-10-07 #4|hue|key-4|I23C27,2026-10-07,4,hue,23,27,50,-2,cypris4_matiz_I23C27.RAW8,0.97946
+cypris,cypris|2026-10-07 #4|hue|key-4|I26C30,2026-10-07,4,hue,26,30,56,-2,cypris4_matiz_I26C30.RAW8,0.97946
+cypris,cypris|2026-10-07 #4|hue|key-4|I29C33,2026-10-07,4,hue,29,33,62,-2,cypris4_matiz_I29C33.RAW8,0.97946
+cypris,cypris|2026-10-07 #4|hue|key-4|I2C6,2026-10-07,4,hue,2,6,8,-2,cypris4_matiz_I2C6.RAW8,0.97946
+cypris,cypris|2026-10-07 #4|hue|key-4|I32C36,2026-10-07,4,hue,32,36,68,-2,cypris4_matiz_I32C36.RAW8,0.97946
+cypris,cypris|2026-10-07 #4|hue|key-4|I8C12,2026-10-07,4,hue,8,12,20,-2,cypris4_matiz_I8C12.RAW8,0.97946
+deidamia,deidamia|S1|brightness|key40|I12C28,S1,,brightness,12,28,40,-8,M. deidamia Brilo I12 C28.RAW8,0.8944
+deidamia,deidamia|S1|brightness|key40|I17C23,S1,,brightness,17,23,40,-3,M. deidamia Brilo I17 C23.RAW8,0.8944
+deidamia,deidamia|S1|brightness|key40|I2C38,S1,,brightness,2,38,40,-18,M. deidamia Brilo I2 C38.RAW8,0.8944
+deidamia,deidamia|S1|brightness|key40|I22C18,S1,,brightness,22,18,40,2,M. deidamia Brilo I22 C18.RAW8,0.8944
+deidamia,deidamia|S1|brightness|key40|I27C13,S1,,brightness,27,13,40,7,M. deidamia Brilo I27 C13.RAW8,0.8944
+deidamia,deidamia|S1|brightness|key40|I32C8,S1,,brightness,32,8,40,12,M. deidamia Brilo I32 C8.RAW8,0.8944
+deidamia,deidamia|S1|brightness|key40|I7C33,S1,,brightness,7,33,40,-13,M. deidamia Brilo I7 C33.RAW8,0.8944
+deidamia,deidamia|2026-10-07 #4|brightness|key40|I0C40,2026-10-07,4,brightness,0,40,40,-20,deidamia4_brillo_I0C40.RAW8,0.91685
+deidamia,deidamia|2026-10-07 #4|brightness|key40|I10C30,2026-10-07,4,brightness,10,30,40,-10,deidamia4_brillo_I10C30.RAW8,0.91685
+deidamia,deidamia|2026-10-07 #4|brightness|key40|I15C25,2026-10-07,4,brightness,15,25,40,-5,deidamia4_brillo_I15C25.RAW8,0.91685
+deidamia,deidamia|2026-10-07 #4|brightness|key40|I20C20,2026-10-07,4,brightness,20,20,40,0,deidamia4_brillo_I20C20.RAW8,0.91685
+deidamia,deidamia|2026-10-07 #4|brightness|key40|I25C15,2026-10-07,4,brightness,25,15,40,5,deidamia4_brillo_I25C15.RAW8,0.91685
+deidamia,deidamia|2026-10-07 #4|brightness|key40|I30C10,2026-10-07,4,brightness,30,10,40,10,deidamia4_brillo_I30C10.RAW8,0.91685
+deidamia,deidamia|2026-10-07 #4|brightness|key40|I35C5,2026-10-07,4,brightness,35,5,40,15,deidamia4_brillo_I35C5.RAW8,0.91685
+deidamia,deidamia|2026-10-07 #4|brightness|key40|I40C0,2026-10-07,4,brightness,40,0,40,20,deidamia4_brillo_I40C0.RAW8,0.91685
+deidamia,deidamia|2026-10-07 #4|brightness|key40|I5C35,2026-10-07,4,brightness,5,35,40,-15,deidamia4_brillo_I5C35.RAW8,0.91685
+deidamia,deidamia|2026-10-15 #5|brightness|key40|I0C40,2026-10-15,5,brightness,0,40,40,-20,deidamia5_brillo_I0C40.RAW8,0.91195
+deidamia,deidamia|2026-10-15 #5|brightness|key40|I10C30,2026-10-15,5,brightness,10,30,40,-10,deidamia5_brillo_I10C30.RAW8,0.91195
+deidamia,deidamia|2026-10-15 #5|brightness|key40|I15C25,2026-10-15,5,brightness,15,25,40,-5,deidamia5_brillo_I15C25.RAW8,0.91195
+deidamia,deidamia|2026-10-15 #5|brightness|key40|I20C20,2026-10-15,5,brightness,20,20,40,0,deidamia5_brillo_I20C20.RAW8,0.91195
+deidamia,deidamia|2026-10-15 #5|brightness|key40|I25C15,2026-10-15,5,brightness,25,15,40,5,deidamia5_brillo_I25C15.RAW8,0.91195
+deidamia,deidamia|2026-10-15 #5|brightness|key40|I30C10,2026-10-15,5,brightness,30,10,40,10,deidamia5_brillo_I30C10.RAW8,0.91195
+deidamia,deidamia|2026-10-15 #5|brightness|key40|I35C5,2026-10-15,5,brightness,35,5,40,15,deidamia5_brillo_I35C5.RAW8,0.91195
+deidamia,deidamia|2026-10-15 #5|brightness|key40|I5C35,2026-10-15,5,brightness,5,35,40,-15,deidamia5_brillo_I5C35.RAW8,0.91195
+deidamia,deidamia|2026-10-15 #6|brightness|key40|I0C40,2026-10-15,6,brightness,0,40,40,-20,deidamia6_brillo_I0C40.RAW8,0.88724
+deidamia,deidamia|2026-10-15 #6|brightness|key40|I10C30,2026-10-15,6,brightness,10,30,40,-10,deidamia6_brillo_I10C30.RAW8,0.88724
+deidamia,deidamia|2026-10-15 #6|brightness|key40|I15C25,2026-10-15,6,brightness,15,25,40,-5,deidamia6_brillo_I15C25.RAW8,0.88724
+deidamia,deidamia|2026-10-15 #6|brightness|key40|I20C20,2026-10-15,6,brightness,20,20,40,0,deidamia6_brillo_I20C20.RAW8,0.88724
+deidamia,deidamia|2026-10-15 #6|brightness|key40|I25C15,2026-10-15,6,brightness,25,15,40,5,deidamia6_brillo_I25C15.RAW8,0.88724
+deidamia,deidamia|2026-10-15 #6|brightness|key40|I30C10,2026-10-15,6,brightness,30,10,40,10,deidamia6_brillo_I30C10.RAW8,0.88724
+deidamia,deidamia|2026-10-15 #6|brightness|key40|I35C5,2026-10-15,6,brightness,35,5,40,15,deidamia6_brillo_I35C5.RAW8,0.88724
+deidamia,deidamia|2026-10-15 #6|brightness|key40|I5C35,2026-10-15,6,brightness,5,35,40,-15,deidamia6_brillo_I5C35.RAW8,0.88724
+deidamia,deidamia|2026-10-15 #7|brightness|key40|I11C29,2026-10-15,7,brightness,11,29,40,-9,deidamia7_brillo_I11C29.RAW8,0.92432
+deidamia,deidamia|2026-10-15 #7|brightness|key40|I16C24,2026-10-15,7,brightness,16,24,40,-4,deidamia7_brillo_I16C24.RAW8,0.92432
+deidamia,deidamia|2026-10-15 #7|brightness|key40|I1C39,2026-10-15,7,brightness,1,39,40,-19,deidamia7_brillo_I1C39.RAW8,0.92432
+deidamia,deidamia|2026-10-15 #7|brightness|key40|I21C19,2026-10-15,7,brightness,21,19,40,1,deidamia7_brillo_I21C19.RAW8,0.92432
+deidamia,deidamia|2026-10-15 #7|brightness|key40|I26C14,2026-10-15,7,brightness,26,14,40,6,deidamia7_brillo_I26C14.RAW8,0.92432
+deidamia,deidamia|2026-10-15 #7|brightness|key40|I31C9,2026-10-15,7,brightness,31,9,40,11,deidamia7_brillo_I31C9.RAW8,0.92432
+deidamia,deidamia|2026-10-15 #7|brightness|key40|I6C34,2026-10-15,7,brightness,6,34,40,-14,deidamia7_brillo_I6C34.RAW8,0.92432
+deidamia,deidamia|2026-09-30 #3|hue|key-10|I0C10,2026-09-30,3,hue,0,10,10,-5,deidamia3_matiz_I0C10.RAW8,0.85345
+deidamia,deidamia|2026-09-30 #3|hue|key-10|I10C20,2026-09-30,3,hue,10,20,30,-5,deidamia3_matiz_I10C20.RAW8,0.85345
+deidamia,deidamia|2026-09-30 #3|hue|key-10|I15C25,2026-09-30,3,hue,15,25,40,-5,deidamia3_matiz_I15C25.RAW8,0.85345
+deidamia,deidamia|2026-09-30 #3|hue|key-10|I20C30,2026-09-30,3,hue,20,30,50,-5,deidamia3_matiz_I20C30.RAW8,0.85345
+deidamia,deidamia|2026-09-30 #3|hue|key-10|I25C35,2026-09-30,3,hue,25,35,60,-5,deidamia3_matiz_I25C35.RAW8,0.85345
+deidamia,deidamia|2026-09-30 #3|hue|key-10|I30C40,2026-09-30,3,hue,30,40,70,-5,deidamia3_matiz_I30C40.RAW8,0.85345
+deidamia,deidamia|2026-09-30 #3|hue|key-10|I35C45,2026-09-30,3,hue,35,45,80,-5,deidamia3_matiz_I35C45.RAW8,0.85345
+deidamia,deidamia|2026-09-30 #3|hue|key-10|I5C15,2026-09-30,3,hue,5,15,20,-5,deidamia3_matiz_I5C15.RAW8,0.85345
+deidamia,deidamia|2026-10-07 #4|hue|key-10|I0C10,2026-10-07,4,hue,0,10,10,-5,deidamia4_matiz_I0C10.RAW8,0.86058
+deidamia,deidamia|2026-10-07 #4|hue|key-10|I10C20,2026-10-07,4,hue,10,20,30,-5,deidamia4_matiz_I10C20.RAW8,0.86058
+deidamia,deidamia|2026-10-07 #4|hue|key-10|I15C25,2026-10-07,4,hue,15,25,40,-5,deidamia4_matiz_I15C25.RAW8,0.86058
+deidamia,deidamia|2026-10-07 #4|hue|key-10|I20C30,2026-10-07,4,hue,20,30,50,-5,deidamia4_matiz_I20C30.RAW8,0.86058
+deidamia,deidamia|2026-10-07 #4|hue|key-10|I25C35,2026-10-07,4,hue,25,35,60,-5,deidamia4_matiz_I25C35.RAW8,0.86058
+deidamia,deidamia|2026-10-07 #4|hue|key-10|I30C40,2026-10-07,4,hue,30,40,70,-5,deidamia4_matiz_I30C40.RAW8,0.86058
+deidamia,deidamia|2026-10-07 #4|hue|key-10|I5C15,2026-10-07,4,hue,5,15,20,-5,deidamia4_matiz_I5C15.RAW8,0.86058
+deidamia,deidamia|2026-10-15 #5|hue|key-10|I0C10,2026-10-15,5,hue,0,10,10,-5,deidamia5_matiz_I0C10.RAW8,0.89735
+deidamia,deidamia|2026-10-15 #5|hue|key-10|I10C20,2026-10-15,5,hue,10,20,30,-5,deidamia5_matiz_I10C20.RAW8,0.89735
+deidamia,deidamia|2026-10-15 #5|hue|key-10|I15C25,2026-10-15,5,hue,15,25,40,-5,deidamia5_matiz_I15C25.RAW8,0.89735
+deidamia,deidamia|2026-10-15 #5|hue|key-10|I20C30,2026-10-15,5,hue,20,30,50,-5,deidamia5_matiz_I20C30.RAW8,0.89735
+deidamia,deidamia|2026-10-15 #5|hue|key-10|I25C35,2026-10-15,5,hue,25,35,60,-5,deidamia5_matiz_I25C35.RAW8,0.89735
+deidamia,deidamia|2026-10-15 #5|hue|key-10|I30C40,2026-10-15,5,hue,30,40,70,-5,deidamia5_matiz_I30C40.RAW8,0.89735
+deidamia,deidamia|2026-10-15 #5|hue|key-10|I5C15,2026-10-15,5,hue,5,15,20,-5,deidamia5_matiz_I5C15.RAW8,0.89735
+deidamia,deidamia|2026-10-15 #6|hue|key-10|I0C10,2026-10-15,6,hue,0,10,10,-5,deidamia6_matiz_I0C10.RAW8,0.76609
+deidamia,deidamia|2026-10-15 #6|hue|key-10|I10C20,2026-10-15,6,hue,10,20,30,-5,deidamia6_matiz_I10C20.RAW8,0.76609
+deidamia,deidamia|2026-10-15 #6|hue|key-10|I15C25,2026-10-15,6,hue,15,25,40,-5,deidamia6_matiz_I15C25.RAW8,0.76609
+deidamia,deidamia|2026-10-15 #6|hue|key-10|I20C30,2026-10-15,6,hue,20,30,50,-5,deidamia6_matiz_I20C30.RAW8,0.76609
+deidamia,deidamia|2026-10-15 #6|hue|key-10|I25C35,2026-10-15,6,hue,25,35,60,-5,deidamia6_matiz_I25C35.RAW8,0.76609
+deidamia,deidamia|2026-10-15 #6|hue|key-10|I30C40,2026-10-15,6,hue,30,40,70,-5,deidamia6_matiz_I30C40.RAW8,0.76609
+deidamia,deidamia|2026-10-15 #6|hue|key-10|I5C15,2026-10-15,6,hue,5,15,20,-5,deidamia6_matiz_I5C15.RAW8,0.76609
+deidamia,deidamia|2026-10-15 #7|hue|key-8|I1C9,2026-10-15,7,hue,1,9,10,-4,deidamia7_matizI1C9.RAW8,0.89721
+deidamia,deidamia|2026-10-15 #7|hue|key-8|I11C19,2026-10-15,7,hue,11,19,30,-4,deidamia7_matiz_I11C19.RAW8,0.89721
+deidamia,deidamia|2026-10-15 #7|hue|key-8|I16C24,2026-10-15,7,hue,16,24,40,-4,deidamia7_matiz_I16C24.RAW8,0.89721
+deidamia,deidamia|2026-10-15 #7|hue|key-8|I21C29,2026-10-15,7,hue,21,29,50,-4,deidamia7_matiz_I21C29.RAW8,0.89721
+deidamia,deidamia|2026-10-15 #7|hue|key-8|I26C34,2026-10-15,7,hue,26,34,60,-4,deidamia7_matiz_I26C34.RAW8,0.89721
+deidamia,deidamia|2026-10-15 #7|hue|key-8|I31C39,2026-10-15,7,hue,31,39,70,-4,deidamia7_matiz_I31C39.RAW8,0.89721
+deidamia,deidamia|2026-10-15 #7|hue|key-8|I6C14,2026-10-15,7,hue,6,14,20,-4,deidamia7_matiz_I6C14.RAW8,0.89721
+eugenia,eugenia|S1|brightness|key40|I10C30,S1,,brightness,10,30,40,-10,eugenia_brillo_I10C30.RAW8,0.87693
+eugenia,eugenia|S1|brightness|key40|I15C25,S1,,brightness,15,25,40,-5,eugenia_brillo_I15C25.RAW8,0.87693
+eugenia,eugenia|S1|brightness|key40|I20C20,S1,,brightness,20,20,40,0,eugenia_brillo_I20C20.RAW8,0.87693
+eugenia,eugenia|S1|brightness|key40|I25C15,S1,,brightness,25,15,40,5,eugenia_brillo_I25C15.RAW8,0.87693
+eugenia,eugenia|S1|brightness|key40|I30C10,S1,,brightness,30,10,40,10,eugenia_brillo_I30C10.RAW8,0.87693
+eugenia,eugenia|S1|brightness|key40|I35C5,S1,,brightness,35,5,40,15,eugenia_brillo_I35C5.RAW8,0.87693
+eugenia,eugenia|S1|brightness|key40|I5C35,S1,,brightness,5,35,40,-15,eugenia_brillo_I5C35.RAW8,0.87693
+eugenia,eugenia|S1|brightness|key40|I11C29,S1,,brightness,11,29,40,-9,eugenia_brillo_I11C29.RAW8,0.87693
+eugenia,eugenia|S1|brightness|key40|I16C24,S1,,brightness,16,24,40,-4,eugenia_brillo_I16C24.RAW8,0.87693
+eugenia,eugenia|S1|brightness|key40|I21C19,S1,,brightness,21,19,40,1,eugenia_brillo_I21C19.RAW8,0.87693
+eugenia,eugenia|S1|brightness|key40|I26C14,S1,,brightness,26,14,40,6,eugenia_brillo_I26C14.RAW8,0.87693
+eugenia,eugenia|S1|brightness|key40|I31C9,S1,,brightness,31,9,40,11,eugenia_brillo_I31C9.RAW8,0.87693
+eugenia,eugenia|S1|brightness|key40|I36C4,S1,,brightness,36,4,40,16,eugenia_brillo_I36C4.RAW8,0.87693
+eugenia,eugenia|S1|brightness|key40|I6C34,S1,,brightness,6,34,40,-14,eugenia_brillo_I6C34.RAW8,0.87693
+eugenia,eugenia|2026-10-15 #5|brightness|key40|I10C30,2026-10-15,5,brightness,10,30,40,-10,eugenia5_brillo_I10C30.RAW8,0.9947
+eugenia,eugenia|2026-10-15 #5|brightness|key40|I15C25,2026-10-15,5,brightness,15,25,40,-5,eugenia5_brillo_I15C25.RAW8,0.9947
+eugenia,eugenia|2026-10-15 #5|brightness|key40|I20C20,2026-10-15,5,brightness,20,20,40,0,eugenia5_brillo_I20C20.RAW8,0.9947
+eugenia,eugenia|2026-10-15 #5|brightness|key40|I25C15,2026-10-15,5,brightness,25,15,40,5,eugenia5_brillo_I25C15.RAW8,0.9947
+eugenia,eugenia|2026-10-15 #5|brightness|key40|I30C10,2026-10-15,5,brightness,30,10,40,10,eugenia5_brillo_I30C10.RAW8,0.9947
+eugenia,eugenia|2026-10-15 #5|brightness|key40|I35C5,2026-10-15,5,brightness,35,5,40,15,eugenia5_brillo_I35C5.RAW8,0.9947
+eugenia,eugenia|2026-10-15 #5|brightness|key40|I5C35,2026-10-15,5,brightness,5,35,40,-15,eugenia5_brillo_I5C35.RAW8,0.9947
+eugenia,eugenia|2026-10-15 #6|brightness|key40|I10C30,2026-10-15,6,brightness,10,30,40,-10,eugenia6_brillo_I10C30.RAW8,0.98029
+eugenia,eugenia|2026-10-15 #6|brightness|key40|I15C25,2026-10-15,6,brightness,15,25,40,-5,eugenia6_brillo_I15C25.RAW8,0.98029
+eugenia,eugenia|2026-10-15 #6|brightness|key40|I20C20,2026-10-15,6,brightness,20,20,40,0,eugenia6_brillo_I20C20.RAW8,0.98029
+eugenia,eugenia|2026-10-15 #6|brightness|key40|I25C15,2026-10-15,6,brightness,25,15,40,5,eugenia6_brillo_I25C15.RAW8,0.98029
+eugenia,eugenia|2026-10-15 #6|brightness|key40|I30C10,2026-10-15,6,brightness,30,10,40,10,eugenia6_brillo_I30C10.RAW8,0.98029
+eugenia,eugenia|2026-10-15 #6|brightness|key40|I35C5,2026-10-15,6,brightness,35,5,40,15,eugenia6_brillo_I35C5.RAW8,0.98029
+eugenia,eugenia|2026-10-15 #6|brightness|key40|I5C35,2026-10-15,6,brightness,5,35,40,-15,eugenia6_brillo_I5C35.RAW8,0.98029
+eugenia,eugenia|2026-10-19 #7|brightness|key40|I10C30,2026-10-19,7,brightness,10,30,40,-10,eugenia7_brillo_I10C30.RAW8,0.99313
+eugenia,eugenia|2026-10-19 #7|brightness|key40|I15C25,2026-10-19,7,brightness,15,25,40,-5,eugenia7_brillo_I15C25.RAW8,0.99313
+eugenia,eugenia|2026-10-19 #7|brightness|key40|I20C20,2026-10-19,7,brightness,20,20,40,0,eugenia7_brillo_I20C20.RAW8,0.99313
+eugenia,eugenia|2026-10-19 #7|brightness|key40|I25C15,2026-10-19,7,brightness,25,15,40,5,eugenia7_brillo_I25C15.RAW8,0.99313
+eugenia,eugenia|2026-10-19 #7|brightness|key40|I30C10,2026-10-19,7,brightness,30,10,40,10,eugenia7_brillo_I30C10.RAW8,0.99313
+eugenia,eugenia|2026-10-19 #7|brightness|key40|I35C5,2026-10-19,7,brightness,35,5,40,15,eugenia7_brillo_I35C5.RAW8,0.99313
+eugenia,eugenia|2026-10-19 #7|brightness|key40|I5C35,2026-10-19,7,brightness,5,35,40,-15,eugenia7_brillo_I5C35.RAW8,0.99313
+eugenia,eugenia|2026-10-19 #8|brightness|key40|I12C28,2026-10-19,8,brightness,12,28,40,-8,eugenia8_brillo_I12C28.RAW8,0.98965
+eugenia,eugenia|2026-10-19 #8|brightness|key40|I17C23,2026-10-19,8,brightness,17,23,40,-3,eugenia8_brillo_I17C23.RAW8,0.98965
+eugenia,eugenia|2026-10-19 #8|brightness|key40|I22C18,2026-10-19,8,brightness,22,18,40,2,eugenia8_brillo_I22C18.RAW8,0.98965
+eugenia,eugenia|2026-10-19 #8|brightness|key40|I27C13,2026-10-19,8,brightness,27,13,40,7,eugenia8_brillo_I27C13.RAW8,0.98965
+eugenia,eugenia|2026-10-19 #8|brightness|key40|I2C38,2026-10-19,8,brightness,2,38,40,-18,eugenia8_brillo_I2C38.RAW8,0.98965
+eugenia,eugenia|2026-10-19 #8|brightness|key40|I32C8,2026-10-19,8,brightness,32,8,40,12,eugenia8_brillo_I32C8.RAW8,0.98965
+eugenia,eugenia|2026-10-19 #8|brightness|key40|I7C33,2026-10-19,8,brightness,7,33,40,-13,eugenia8_brillo_I7C33.RAW8,0.98965
+eugenia,eugenia|S1|hue|key0|I10C10,S1,,hue,10,10,20,0,eugenia_matiz_I10C10.RAW8,0.96323
+eugenia,eugenia|S1|hue|key0|I13C13,S1,,hue,13,13,26,0,eugenia_matiz_I13C13.RAW8,0.96323
+eugenia,eugenia|S1|hue|key0|I16C16,S1,,hue,16,16,32,0,eugenia_matiz_I16C16.RAW8,0.96323
+eugenia,eugenia|S1|hue|key0|I19C19,S1,,hue,19,19,38,0,eugenia_matiz_I19C19.RAW8,0.96323
+eugenia,eugenia|S1|hue|key0|I22C22,S1,,hue,22,22,44,0,eugenia_matiz_I22C22.RAW8,0.96323
+eugenia,eugenia|S1|hue|key0|I25C25,S1,,hue,25,25,50,0,eugenia_matiz_I25C25.RAW8,0.96323
+eugenia,eugenia|S1|hue|key0|I28C28,S1,,hue,28,28,56,0,eugenia_matiz_I28C28.RAW8,0.96323
+eugenia,eugenia|S1|hue|key0|I31C31,S1,,hue,31,31,62,0,eugenia_matiz_I31C31.RAW8,0.96323
+eugenia,eugenia|S1|hue|key0|I4C4,S1,,hue,4,4,8,0,eugenia_matiz_I4C4.RAW8,0.96323
+eugenia,eugenia|S1|hue|key0|I7C7,S1,,hue,7,7,14,0,eugenia_matiz_I7C7.RAW8,0.96323
+eugenia,eugenia|S1|hue|key2|I11C9,S1,,hue,11,9,20,1,eugenia_matiz_I11C9.RAW8,0.97695
+eugenia,eugenia|S1|hue|key2|I16C14,S1,,hue,16,14,30,1,eugenia_matiz_I16C14.RAW8,0.97695
+eugenia,eugenia|S1|hue|key2|I21C19,S1,,hue,21,19,40,1,eugenia_matiz_I21C19.RAW8,0.97695
+eugenia,eugenia|S1|hue|key2|I26C24,S1,,hue,26,24,50,1,eugenia_matiz_I26C24.RAW8,0.97695
+eugenia,eugenia|S1|hue|key2|I31C29,S1,,hue,31,29,60,1,eugenia_matiz_I31C29.RAW8,0.97695
+eugenia,eugenia|S1|hue|key2|I36C34,S1,,hue,36,34,70,1,eugenia_matiz_I36C34.RAW8,0.97695
+eugenia,eugenia|S1|hue|key2|I6C4,S1,,hue,6,4,10,1,eugenia_matiz_I6C4.RAW8,0.97695
+eugenia,eugenia|2026-09-30 #3|hue|key0|I10C10,2026-09-30,3,hue,10,10,20,0,eugenia3_matiz_I10C10.RAW8,0.96414
+eugenia,eugenia|2026-09-30 #3|hue|key0|I13C13,2026-09-30,3,hue,13,13,26,0,eugenia3_matiz_I13C13.RAW8,0.96414
+eugenia,eugenia|2026-09-30 #3|hue|key0|I16C16,2026-09-30,3,hue,16,16,32,0,eugenia3_matiz_I16C16.RAW8,0.96414
+eugenia,eugenia|2026-09-30 #3|hue|key0|I19C19,2026-09-30,3,hue,19,19,38,0,eugenia3_matiz_I19C19.RAW8,0.96414
+eugenia,eugenia|2026-09-30 #3|hue|key0|I22C22,2026-09-30,3,hue,22,22,44,0,eugenia3_matiz_I22C22.RAW8,0.96414
+eugenia,eugenia|2026-09-30 #3|hue|key0|I25C25,2026-09-30,3,hue,25,25,50,0,eugenia3_matiz_I25C25.RAW8,0.96414
+eugenia,eugenia|2026-09-30 #3|hue|key0|I28C28,2026-09-30,3,hue,28,28,56,0,eugenia3_matiz_I28C28.RAW8,0.96414
+eugenia,eugenia|2026-09-30 #3|hue|key0|I31C31,2026-09-30,3,hue,31,31,62,0,eugenia3_matiz_I31C31.RAW8,0.96414
+eugenia,eugenia|2026-09-30 #3|hue|key0|I34C34,2026-09-30,3,hue,34,34,68,0,eugenia3_matiz_I34C34.RAW8,0.96414
+eugenia,eugenia|2026-09-30 #3|hue|key0|I37C37,2026-09-30,3,hue,37,37,74,0,eugenia3_matiz_I37C37.RAW8,0.96414
+eugenia,eugenia|2026-09-30 #3|hue|key0|I4C4,2026-09-30,3,hue,4,4,8,0,eugenia3_matiz_I4C4.RAW8,0.96414
+eugenia,eugenia|2026-09-30 #3|hue|key0|I7C7,2026-09-30,3,hue,7,7,14,0,eugenia3_matiz_I7C7.RAW8,0.96414
+eugenia,eugenia|2026-10-15 #5|hue|key0|I10C10,2026-10-15,5,hue,10,10,20,0,eugenia5_matiz_I10C10.RAW8,0.94897
+eugenia,eugenia|2026-10-15 #5|hue|key0|I15C15,2026-10-15,5,hue,15,15,30,0,eugenia5_matiz_I15C15.RAW8,0.94897
+eugenia,eugenia|2026-10-15 #5|hue|key0|I20C20,2026-10-15,5,hue,20,20,40,0,eugenia5_matiz_I20C20.RAW8,0.94897
+eugenia,eugenia|2026-10-15 #5|hue|key0|I25C25,2026-10-15,5,hue,25,25,50,0,eugenia5_matiz_I25C25.RAW8,0.94897
+eugenia,eugenia|2026-10-15 #5|hue|key0|I30C30,2026-10-15,5,hue,30,30,60,0,eugenia5_matiz_I30C30.RAW8,0.94897
+eugenia,eugenia|2026-10-15 #5|hue|key0|I35C35,2026-10-15,5,hue,35,35,70,0,eugenia5_matiz_I35C35.RAW8,0.94897
+eugenia,eugenia|2026-10-15 #5|hue|key0|I5C5,2026-10-15,5,hue,5,5,10,0,eugenia5_matiz_I5C5.RAW8,0.94897
+eugenia,eugenia|2026-10-15 #6|hue|key0|I10C10,2026-10-15,6,hue,10,10,20,0,eugenia6_matiz_I10C10.RAW8,0.98513
+eugenia,eugenia|2026-10-15 #6|hue|key0|I15C15,2026-10-15,6,hue,15,15,30,0,eugenia6_matiz_I15C15.RAW8,0.98513
+eugenia,eugenia|2026-10-15 #6|hue|key0|I20C20,2026-10-15,6,hue,20,20,40,0,eugenia6_matiz_I20C20.RAW8,0.98513
+eugenia,eugenia|2026-10-15 #6|hue|key0|I25C25,2026-10-15,6,hue,25,25,50,0,eugenia6_matiz_I25C25.RAW8,0.98513
+eugenia,eugenia|2026-10-15 #6|hue|key0|I30C30,2026-10-15,6,hue,30,30,60,0,eugenia6_matiz_I30C30.RAW8,0.98513
+eugenia,eugenia|2026-10-15 #6|hue|key0|I35C35,2026-10-15,6,hue,35,35,70,0,eugenia6_matiz_I35C35.RAW8,0.98513
+eugenia,eugenia|2026-10-15 #6|hue|key0|I5C5,2026-10-15,6,hue,5,5,10,0,eugenia6_matiz_I5C5.RAW8,0.98513
+godartii,godartii|S1|brightness|key40|I12C28,S1,,brightness,12,28,40,-8,M. godarti Brillo I12 C28.RAW8,0.98468
+godartii,godartii|S1|brightness|key40|I17C23,S1,,brightness,17,23,40,-3,M. godarti Brillo I17 C23.RAW8,0.98468
+godartii,godartii|S1|brightness|key40|I2C38,S1,,brightness,2,38,40,-18,M. godarti Brillo I2 C38.RAW8,0.98468
+godartii,godartii|S1|brightness|key40|I22C18,S1,,brightness,22,18,40,2,M. godarti Brillo I22 C18.RAW8,0.98468
+godartii,godartii|S1|brightness|key40|I27C13,S1,,brightness,27,13,40,7,M. godarti Brillo I27 C13.RAW8,0.98468
+godartii,godartii|S1|brightness|key40|I32C8,S1,,brightness,32,8,40,12,M. godarti Brillo I32 C8.RAW8,0.98468
+godartii,godartii|S1|brightness|key40|I7C33,S1,,brightness,7,33,40,-13,M. godarti Brillo I7 C33.RAW8,0.98468
+godartii,godartii|2026-10-07 #4|brightness|key40|I0C40,2026-10-07,4,brightness,0,40,40,-20,godartii4_brillo_I0C40.RAW8,0.98336
+godartii,godartii|2026-10-07 #4|brightness|key40|I10C30,2026-10-07,4,brightness,10,30,40,-10,godartii4_brillo_I10C30.RAW8,0.98336
+godartii,godartii|2026-10-07 #4|brightness|key40|I15C25,2026-10-07,4,brightness,15,25,40,-5,godartii4_brillo_I15C25.RAW8,0.98336
+godartii,godartii|2026-10-07 #4|brightness|key40|I20C20,2026-10-07,4,brightness,20,20,40,0,godartii4_brillo_I20C20.RAW8,0.98336
+godartii,godartii|2026-10-07 #4|brightness|key40|I25C15,2026-10-07,4,brightness,25,15,40,5,godartii4_brillo_I25C15.RAW8,0.98336
+godartii,godartii|2026-10-07 #4|brightness|key40|I30C10,2026-10-07,4,brightness,30,10,40,10,godartii4_brillo_I30C10.RAW8,0.98336
+godartii,godartii|2026-10-07 #4|brightness|key40|I5C35,2026-10-07,4,brightness,5,35,40,-15,godartii4_brillo_I5C35.RAW8,0.98336
+godartii,godartii|2026-10-09 #5|brightness|key40|I12C28,2026-10-09,5,brightness,12,28,40,-8,godartii5_brillo_I12C28.RAW8,0.98637
+godartii,godartii|2026-10-09 #5|brightness|key40|I17C23,2026-10-09,5,brightness,17,23,40,-3,godartii5_brillo_I17C23.RAW8,0.98637
+godartii,godartii|2026-10-09 #5|brightness|key40|I22C18,2026-10-09,5,brightness,22,18,40,2,godartii5_brillo_I22C18.RAW8,0.98637
+godartii,godartii|2026-10-09 #5|brightness|key40|I27C13,2026-10-09,5,brightness,27,13,40,7,godartii5_brillo_I27C13.RAW8,0.98637
+godartii,godartii|2026-10-09 #5|brightness|key40|I2C38,2026-10-09,5,brightness,2,38,40,-18,godartii5_brillo_I2C38.RAW8,0.98637
+godartii,godartii|2026-10-09 #5|brightness|key40|I32C8,2026-10-09,5,brightness,32,8,40,12,godartii5_brillo_I32C8.RAW8,0.98637
+godartii,godartii|2026-10-09 #5|brightness|key40|I7C33,2026-10-09,5,brightness,7,33,40,-13,godartii5_brillo_I7C33.RAW8,0.98637
+godartii,godartii|2026-10-09 #6|brightness|key40|I0C40,2026-10-09,6,brightness,0,40,40,-20,godartii6_brillo_I0C40.RAW8,0.97256
+godartii,godartii|2026-10-09 #6|brightness|key40|I10C30,2026-10-09,6,brightness,10,30,40,-10,godartii6_brillo_I10C30.RAW8,0.97256
+godartii,godartii|2026-10-09 #6|brightness|key40|I15C25,2026-10-09,6,brightness,15,25,40,-5,godartii6_brillo_I15C25.RAW8,0.97256
+godartii,godartii|2026-10-09 #6|brightness|key40|I20C20,2026-10-09,6,brightness,20,20,40,0,godartii6_brillo_I20C20.RAW8,0.97256
+godartii,godartii|2026-10-09 #6|brightness|key40|I25C15,2026-10-09,6,brightness,25,15,40,5,godartii6_brillo_I25C15.RAW8,0.97256
+godartii,godartii|2026-10-09 #6|brightness|key40|I30C10,2026-10-09,6,brightness,30,10,40,10,godartii6_brillo_I30C10.RAW8,0.97256
+godartii,godartii|2026-10-09 #6|brightness|key40|I5C35,2026-10-09,6,brightness,5,35,40,-15,godartii6_brillo_I5C35.RAW8,0.97256
+godartii,godartii|S1|hue|key-6|I12C18,S1,,hue,12,18,30,-3,godartii_matiz_I12C18.RAW8,0.9675
+godartii,godartii|S1|hue|key-6|I17C23,S1,,hue,17,23,40,-3,godartii_matiz_I17C23.RAW8,0.9675
+godartii,godartii|S1|hue|key-6|I22C28,S1,,hue,22,28,50,-3,godartii_matiz_I22C28.RAW8,0.9675
+godartii,godartii|S1|hue|key-6|I27C33,S1,,hue,27,33,60,-3,godartii_matiz_I27C33.RAW8,0.9675
+godartii,godartii|S1|hue|key-6|I2C8,S1,,hue,2,8,10,-3,godartii_matiz_I2C8.RAW8,0.9675
+godartii,godartii|S1|hue|key-6|I32C38,S1,,hue,32,38,70,-3,godartii_matiz_I32C38.RAW8,0.9675
+godartii,godartii|S1|hue|key-6|I7C13,S1,,hue,7,13,20,-3,godartii_matiz_I7C13.RAW8,0.9675
+godartii,godartii|S1|hue|key-6|I12C18|rep2,S1,,hue,12,18,30,-3,M. godarti Matiz I12 C18.RAW8,0.9675
+godartii,godartii|S1|hue|key-6|I17C23|rep2,S1,,hue,17,23,40,-3,M. godarti Matiz I17 C23.RAW8,0.9675
+godartii,godartii|S1|hue|key-6|I2C8|rep2,S1,,hue,2,8,10,-3,M. godarti Matiz I2 C8.RAW8,0.9675
+godartii,godartii|S1|hue|key-6|I22C28|rep2,S1,,hue,22,28,50,-3,M. godarti Matiz I22 C28.RAW8,0.9675
+godartii,godartii|S1|hue|key-6|I27C33|rep2,S1,,hue,27,33,60,-3,M. godarti Matiz I27 C33.RAW8,0.9675
+godartii,godartii|S1|hue|key-6|I32C38|rep2,S1,,hue,32,38,70,-3,M. godarti Matiz I32 C38.RAW8,0.9675
+godartii,godartii|S1|hue|key-6|I7C13|rep2,S1,,hue,7,13,20,-3,M. godarti Matiz I7 C13.RAW8,0.9675
+godartii,godartii|2026-09-25 #2|hue|key-14|I-2C12,2026-09-25,2,hue,-2,12,10,-7,godartii2_matiz_I-2C12.RAW8,0.99361
+godartii,godartii|2026-09-25 #2|hue|key-14|I13C27,2026-09-25,2,hue,13,27,40,-7,godartii2_matiz_I13C27.RAW8,0.99361
+godartii,godartii|2026-09-25 #2|hue|key-14|I18C32,2026-09-25,2,hue,18,32,50,-7,godartii2_matiz_I18C32.RAW8,0.99361
+godartii,godartii|2026-09-25 #2|hue|key-14|I23C37,2026-09-25,2,hue,23,37,60,-7,godartii2_matiz_I23C37.RAW8,0.99361
+godartii,godartii|2026-09-25 #2|hue|key-14|I28C42,2026-09-25,2,hue,28,42,70,-7,godartii2_matiz_I28C42.RAW8,0.99361
+godartii,godartii|2026-09-25 #2|hue|key-14|I3C17,2026-09-25,2,hue,3,17,20,-7,godartii2_matiz_I3C17.RAW8,0.99361
+godartii,godartii|2026-09-25 #2|hue|key-14|I8C22,2026-09-25,2,hue,8,22,30,-7,godartii2_matiz_I8C22.RAW8,0.99361
+godartii,godartii|2026-09-30 #3|hue|key-6|I12C18,2026-09-30,3,hue,12,18,30,-3,godartii3_matiz_I12C18.RAW8,0.99449
+godartii,godartii|2026-09-30 #3|hue|key-6|I17C23,2026-09-30,3,hue,17,23,40,-3,godartii3_matiz_I17C23.RAW8,0.99449
+godartii,godartii|2026-09-30 #3|hue|key-6|I22C28,2026-09-30,3,hue,22,28,50,-3,godartii3_matiz_I22C28.RAW8,0.99449
+godartii,godartii|2026-09-30 #3|hue|key-6|I27C33,2026-09-30,3,hue,27,33,60,-3,godartii3_matiz_I27C33.RAW8,0.99449
+godartii,godartii|2026-09-30 #3|hue|key-6|I2C8,2026-09-30,3,hue,2,8,10,-3,godartii3_matiz_I2C8.RAW8,0.99449
+godartii,godartii|2026-09-30 #3|hue|key-6|I32C38,2026-09-30,3,hue,32,38,70,-3,godartii3_matiz_I32C38.RAW8,0.99449
+godartii,godartii|2026-09-30 #3|hue|key-6|I7C13,2026-09-30,3,hue,7,13,20,-3,godartii3_matiz_I7C13.RAW8,0.99449
+godartii,godartii|2026-10-07 #4|hue|key-10|I0C10,2026-10-07,4,hue,0,10,10,-5,godartii4_matiz_I0C10.RAW8,0.99743
+godartii,godartii|2026-10-07 #4|hue|key-10|I10C20,2026-10-07,4,hue,10,20,30,-5,godartii4_matiz_I10C20.RAW8,0.99743
+godartii,godartii|2026-10-07 #4|hue|key-10|I15C25,2026-10-07,4,hue,15,25,40,-5,godartii4_matiz_I15C25.RAW8,0.99743
+godartii,godartii|2026-10-07 #4|hue|key-10|I20C30,2026-10-07,4,hue,20,30,50,-5,godartii4_matiz_I20C30.RAW8,0.99743
+godartii,godartii|2026-10-07 #4|hue|key-10|I25C35,2026-10-07,4,hue,25,35,60,-5,godartii4_matiz_I25C35.RAW8,0.99743
+godartii,godartii|2026-10-07 #4|hue|key-10|I30C40,2026-10-07,4,hue,30,40,70,-5,godartii4_matiz_I30C40.RAW8,0.99743
+godartii,godartii|2026-10-07 #4|hue|key-10|I35C45,2026-10-07,4,hue,35,45,80,-5,godartii4_matiz_I35C45.RAW8,0.99743
+godartii,godartii|2026-10-07 #4|hue|key-10|I5C15,2026-10-07,4,hue,5,15,20,-5,godartii4_matiz_I5C15.RAW8,0.99743
+godartii,godartii|2026-10-09 #5|hue|key-6|I12C18,2026-10-09,5,hue,12,18,30,-3,godartii5_matiz_I12C18.RAW8,0.99502
+godartii,godartii|2026-10-09 #5|hue|key-6|I17C23,2026-10-09,5,hue,17,23,40,-3,godartii5_matiz_I17C23.RAW8,0.99502
+godartii,godartii|2026-10-09 #5|hue|key-6|I22C28,2026-10-09,5,hue,22,28,50,-3,godartii5_matiz_I22C28.RAW8,0.99502
+godartii,godartii|2026-10-09 #5|hue|key-6|I27C33,2026-10-09,5,hue,27,33,60,-3,godartii5_matiz_I27C33.RAW8,0.99502
+godartii,godartii|2026-10-09 #5|hue|key-6|I2C8,2026-10-09,5,hue,2,8,10,-3,godartii5_matiz_I2C8.RAW8,0.99502
+godartii,godartii|2026-10-09 #5|hue|key-6|I32C38,2026-10-09,5,hue,32,38,70,-3,godartii5_matiz_I32C38.RAW8,0.99502
+godartii,godartii|2026-10-09 #5|hue|key-6|I7C13,2026-10-09,5,hue,7,13,20,-3,godartii5_matiz_I7C13.RAW8,0.99502
+godartii,godartii|2026-10-09 #6|hue|key-10|I0C10,2026-10-09,6,hue,0,10,10,-5,godartii6_matiz_I0C10.RAW8,0.99248
+godartii,godartii|2026-10-09 #6|hue|key-10|I10C20,2026-10-09,6,hue,10,20,30,-5,godartii6_matiz_I10C20.RAW8,0.99248
+godartii,godartii|2026-10-09 #6|hue|key-10|I15C25,2026-10-09,6,hue,15,25,40,-5,godartii6_matiz_I15C25.RAW8,0.99248
+godartii,godartii|2026-10-09 #6|hue|key-10|I20C30,2026-10-09,6,hue,20,30,50,-5,godartii6_matiz_I20C30.RAW8,0.99248
+godartii,godartii|2026-10-09 #6|hue|key-10|I25C35,2026-10-09,6,hue,25,35,60,-5,godartii6_matiz_I25C35.RAW8,0.99248
+godartii,godartii|2026-10-09 #6|hue|key-10|I30C40,2026-10-09,6,hue,30,40,70,-5,godartii6_matiz_I30C40.RAW8,0.99248
+godartii,godartii|2026-10-09 #6|hue|key-10|I5C15,2026-10-09,6,hue,5,15,20,-5,godartii6_matiz_I5C15.RAW8,0.99248
+granadensis,granadensis|2026-09-25 #2|brightness|key40|I-2C42,2026-09-25,2,brightness,-2,42,40,-22,granadensis2_brillo_I-2C42.RAW8,0.82382
+granadensis,granadensis|2026-09-25 #2|brightness|key40|I13C27,2026-09-25,2,brightness,13,27,40,-7,granadensis2_brillo_I13C27.RAW8,0.82382
+granadensis,granadensis|2026-09-25 #2|brightness|key40|I18C22,2026-09-25,2,brightness,18,22,40,-2,granadensis2_brillo_I18C22.RAW8,0.82382
+granadensis,granadensis|2026-09-25 #2|brightness|key40|I23C17,2026-09-25,2,brightness,23,17,40,3,granadensis2_brillo_I23C17.RAW8,0.82382
+granadensis,granadensis|2026-09-25 #2|brightness|key40|I3C37,2026-09-25,2,brightness,3,37,40,-17,granadensis2_brillo_I3C37.RAW8,0.82382
+granadensis,granadensis|2026-09-25 #2|brightness|key40|I8C32,2026-09-25,2,brightness,8,32,40,-12,granadensis2_brillo_I8C32.RAW8,0.82382
+granadensis,granadensis|2026-10-07 #4|brightness|key40|I-3C43,2026-10-07,4,brightness,-3,43,40,-23,granadensis4_brillo_I-3C43.RAW8,0.82893
+granadensis,granadensis|2026-10-07 #4|brightness|key40|I12C28,2026-10-07,4,brightness,12,28,40,-8,granadensis4_brillo_I12C28.RAW8,0.82893
+granadensis,granadensis|2026-10-07 #4|brightness|key40|I17C23,2026-10-07,4,brightness,17,23,40,-3,granadensis4_brillo_I17C23.RAW8,0.82893
+granadensis,granadensis|2026-10-07 #4|brightness|key40|I22C18,2026-10-07,4,brightness,22,18,40,2,granadensis4_brillo_I22C18.RAW8,0.82893
+granadensis,granadensis|2026-10-07 #4|brightness|key40|I27C13,2026-10-07,4,brightness,27,13,40,7,granadensis4_brillo_I27C13.RAW8,0.82893
+granadensis,granadensis|2026-10-07 #4|brightness|key40|I2C38,2026-10-07,4,brightness,2,38,40,-18,granadensis4_brillo_I2C38.RAW8,0.82893
+granadensis,granadensis|2026-10-07 #4|brightness|key40|I32C8,2026-10-07,4,brightness,32,8,40,12,granadensis4_brillo_I32C8.RAW8,0.82893
+granadensis,granadensis|2026-10-07 #4|brightness|key40|I37C3,2026-10-07,4,brightness,37,3,40,17,granadensis4_brillo_I37C3.RAW8,0.82893
+granadensis,granadensis|2026-10-07 #4|brightness|key40|I42C-2,2026-10-07,4,brightness,42,-2,40,22,granadensis4_brillo_I42C-2.RAW8,0.82893
+granadensis,granadensis|2026-10-07 #4|brightness|key40|I7C33,2026-10-07,4,brightness,7,33,40,-13,granadensis4_brillo_I7C33.RAW8,0.82893
+granadensis,granadensis|2026-10-15 #5|brightness|key40|I-5C45,2026-10-15,5,brightness,-5,45,40,-25,granadensis5_brilloI-5C45.RAW8,0.82273
+granadensis,granadensis|2026-10-15 #5|brightness|key40|I0C40,2026-10-15,5,brightness,0,40,40,-20,granadensis5_brillo_I0C40.RAW8,0.82273
+granadensis,granadensis|2026-10-15 #5|brightness|key40|I10C30,2026-10-15,5,brightness,10,30,40,-10,granadensis5_brillo_I10C30.RAW8,0.82273
+granadensis,granadensis|2026-10-15 #5|brightness|key40|I15C25,2026-10-15,5,brightness,15,25,40,-5,granadensis5_brillo_I15C25.RAW8,0.82273
+granadensis,granadensis|2026-10-15 #5|brightness|key40|I20C20,2026-10-15,5,brightness,20,20,40,0,granadensis5_brillo_I20C20.RAW8,0.82273
+granadensis,granadensis|2026-10-15 #5|brightness|key40|I25C15,2026-10-15,5,brightness,25,15,40,5,granadensis5_brillo_I25C15.RAW8,0.82273
+granadensis,granadensis|2026-10-15 #5|brightness|key40|I30C10,2026-10-15,5,brightness,30,10,40,10,granadensis5_brillo_I30C10.RAW8,0.82273
+granadensis,granadensis|2026-10-15 #5|brightness|key40|I5C35,2026-10-15,5,brightness,5,35,40,-15,granadensis5_brillo_I5C35.RAW8,0.82273
+granadensis,granadensis|2026-10-15 #6|brightness|key40|I-5C45,2026-10-15,6,brightness,-5,45,40,-25,granadensis6_brillo_I-5C45.RAW8,0.84206
+granadensis,granadensis|2026-10-15 #6|brightness|key40|I0C40,2026-10-15,6,brightness,0,40,40,-20,granadensis6_brillo_I0C40.RAW8,0.84206
+granadensis,granadensis|2026-10-15 #6|brightness|key40|I10C30,2026-10-15,6,brightness,10,30,40,-10,granadensis6_brillo_I10C30.RAW8,0.84206
+granadensis,granadensis|2026-10-15 #6|brightness|key40|I15C25,2026-10-15,6,brightness,15,25,40,-5,granadensis6_brillo_I15C25.RAW8,0.84206
+granadensis,granadensis|2026-10-15 #6|brightness|key40|I20C20,2026-10-15,6,brightness,20,20,40,0,granadensis6_brillo_I20C20.RAW8,0.84206
+granadensis,granadensis|2026-10-15 #6|brightness|key40|I25C15,2026-10-15,6,brightness,25,15,40,5,granadensis6_brillo_I25C15.RAW8,0.84206
+granadensis,granadensis|2026-10-15 #6|brightness|key40|I30C10,2026-10-15,6,brightness,30,10,40,10,granadensis6_brillo_I30C10.RAW8,0.84206
+granadensis,granadensis|2026-10-15 #6|brightness|key40|I5C35,2026-10-15,6,brightness,5,35,40,-15,granadensis6_brillo_I5C35.RAW8,0.84206
+granadensis,granadensis|S1|hue|key-16|I-3C13,S1,,hue,-3,13,10,-8,granadensis_matiz_I-3C13.RAW8,0.98863
+granadensis,granadensis|S1|hue|key-16|I12C28,S1,,hue,12,28,40,-8,granadensis_matiz_I12C28.RAW8,0.98863
+granadensis,granadensis|S1|hue|key-16|I17C33,S1,,hue,17,33,50,-8,granadensis_matiz_I17C33.RAW8,0.98863
+granadensis,granadensis|S1|hue|key-16|I22C38,S1,,hue,22,38,60,-8,granadensis_matiz_I22C38.RAW8,0.98863
+granadensis,granadensis|S1|hue|key-16|I27C43,S1,,hue,27,43,70,-8,granadensis_matiz_I27C43.RAW8,0.98863
+granadensis,granadensis|S1|hue|key-16|I2C18,S1,,hue,2,18,20,-8,granadensis_matiz_I2C18.RAW8,0.98863
+granadensis,granadensis|S1|hue|key-16|I7C23,S1,,hue,7,23,30,-8,granadensis_matiz_I7C23.RAW8,0.98863
+granadensis,granadensis|2026-09-02|hue|key-12|I-1C11,2026-09-02,,hue,-1,11,10,-6,M. granadensis Matiz I-1C11.RAW8,0.99741
+granadensis,granadensis|2026-09-02|hue|key-12|I14C26,2026-09-02,,hue,14,26,40,-6,M. granadensis Matiz I14 C26.RAW8,0.99741
+granadensis,granadensis|2026-09-02|hue|key-12|I19C31,2026-09-02,,hue,19,31,50,-6,M. granadensis Matiz I19 C31.RAW8,0.99741
+granadensis,granadensis|2026-09-02|hue|key-12|I24C36,2026-09-02,,hue,24,36,60,-6,M. granadensis Matiz I24 C36.RAW8,0.99741
+granadensis,granadensis|2026-09-02|hue|key-12|I29C41,2026-09-02,,hue,29,41,70,-6,M. granadensis Matiz I29 C41.RAW8,0.99741
+granadensis,granadensis|2026-09-02|hue|key-12|I4C16,2026-09-02,,hue,4,16,20,-6,M. granadensis Matiz I4 C16.RAW8,0.99741
+granadensis,granadensis|2026-09-02|hue|key-12|I9C21,2026-09-02,,hue,9,21,30,-6,M. granadensis Matiz I9 C21.RAW8,0.99741
+granadensis,granadensis|2026-09-25 #2|hue|key-14|I-2C12,2026-09-25,2,hue,-2,12,10,-7,granadensis2_matiz_I-2C12.RAW8,0.98247
+granadensis,granadensis|2026-09-25 #2|hue|key-14|I13C27,2026-09-25,2,hue,13,27,40,-7,granadensis2_matiz_I13C27.RAW8,0.98247
+granadensis,granadensis|2026-09-25 #2|hue|key-14|I18C32,2026-09-25,2,hue,18,32,50,-7,granadensis2_matiz_I18C32.RAW8,0.98247
+granadensis,granadensis|2026-09-25 #2|hue|key-14|I23C37,2026-09-25,2,hue,23,37,60,-7,granadensis2_matiz_I23C37.RAW8,0.98247
+granadensis,granadensis|2026-09-25 #2|hue|key-14|I28C42,2026-09-25,2,hue,28,42,70,-7,granadensis2_matiz_I28C42.RAW8,0.98247
+granadensis,granadensis|2026-09-25 #2|hue|key-14|I3C17,2026-09-25,2,hue,3,17,20,-7,granadensis2_matiz_I3C17.RAW8,0.98247
+granadensis,granadensis|2026-09-25 #2|hue|key-14|I8C22,2026-09-25,2,hue,8,22,30,-7,granadensis2_matiz_I8C22.RAW8,0.98247
+granadensis,granadensis|2026-10-07 #4|hue|key-16|I-3C13,2026-10-07,4,hue,-3,13,10,-8,granadensis4_matiz_I-3C13.RAW8,0.98759
+granadensis,granadensis|2026-10-07 #4|hue|key-16|I12C28,2026-10-07,4,hue,12,28,40,-8,granadensis4_matiz_I12C28.RAW8,0.98759
+granadensis,granadensis|2026-10-07 #4|hue|key-16|I17C33,2026-10-07,4,hue,17,33,50,-8,granadensis4_matiz_I17C33.RAW8,0.98759
+granadensis,granadensis|2026-10-07 #4|hue|key-16|I22C38,2026-10-07,4,hue,22,38,60,-8,granadensis4_matiz_I22C38.RAW8,0.98759
+granadensis,granadensis|2026-10-07 #4|hue|key-16|I27C43,2026-10-07,4,hue,27,43,70,-8,granadensis4_matiz_I27C43.RAW8,0.98759
+granadensis,granadensis|2026-10-07 #4|hue|key-16|I2C18,2026-10-07,4,hue,2,18,20,-8,granadensis4_matiz_I2C18.RAW8,0.98759
+granadensis,granadensis|2026-10-07 #4|hue|key-16|I7C23,2026-10-07,4,hue,7,23,30,-8,granadensis4_matiz_I7C23.RAW8,0.98759
+granadensis,granadensis|2026-10-15 #5|hue|key-20|I-5C15,2026-10-15,5,hue,-5,15,10,-10,granadensis5_matiz_I-5C15.RAW8,0.99112
+granadensis,granadensis|2026-10-15 #5|hue|key-20|I0C20,2026-10-15,5,hue,0,20,20,-10,granadensis5_matiz_I0C20.RAW8,0.99112
+granadensis,granadensis|2026-10-15 #5|hue|key-20|I10C30,2026-10-15,5,hue,10,30,40,-10,granadensis5_matiz_I10C30.RAW8,0.99112
+granadensis,granadensis|2026-10-15 #5|hue|key-20|I15C35,2026-10-15,5,hue,15,35,50,-10,granadensis5_matiz_I15C35.RAW8,0.99112
+granadensis,granadensis|2026-10-15 #5|hue|key-20|I20C40,2026-10-15,5,hue,20,40,60,-10,granadensis5_matiz_I20C40.RAW8,0.99112
+granadensis,granadensis|2026-10-15 #5|hue|key-20|I25C45,2026-10-15,5,hue,25,45,70,-10,granadensis5_matiz_I25C45.RAW8,0.99112
+granadensis,granadensis|2026-10-15 #5|hue|key-20|I5C25,2026-10-15,5,hue,5,25,30,-10,granadensis5_matiz_I5C25.RAW8,0.99112
+granadensis,granadensis|2026-10-15 #6|hue|key-20|I-5C15,2026-10-15,6,hue,-5,15,10,-10,granadensis6_matiz_I-5C15.RAW8,0.99002
+granadensis,granadensis|2026-10-15 #6|hue|key-20|I0C20,2026-10-15,6,hue,0,20,20,-10,granadensis6_matiz_I0C20.RAW8,0.99002
+granadensis,granadensis|2026-10-15 #6|hue|key-20|I10C30,2026-10-15,6,hue,10,30,40,-10,granadensis6_matiz_I10C30.RAW8,0.99002
+granadensis,granadensis|2026-10-15 #6|hue|key-20|I15C35,2026-10-15,6,hue,15,35,50,-10,granadensis6_matiz_I15C35.RAW8,0.99002
+granadensis,granadensis|2026-10-15 #6|hue|key-20|I20C40,2026-10-15,6,hue,20,40,60,-10,granadensis6_matiz_I20C40.RAW8,0.99002
+granadensis,granadensis|2026-10-15 #6|hue|key-20|I25C45,2026-10-15,6,hue,25,45,70,-10,granadensis6_matiz_I25C45.RAW8,0.99002
+granadensis,granadensis|2026-10-15 #6|hue|key-20|I5C25,2026-10-15,6,hue,5,25,30,-10,granadensis6_matiz_I5C25.RAW8,0.99002
+helenor,helenor|S1|brightness|key40|I0C40,S1,,brightness,0,40,40,-20,M. helenor brillo I0 C40.RAW8,0.93187
+helenor,helenor|S1|brightness|key40|I10C30,S1,,brightness,10,30,40,-10,M. helenor brillo I10 C30.RAW8,0.93187
+helenor,helenor|S1|brightness|key40|I15C25,S1,,brightness,15,25,40,-5,M. helenor brillo I15 C25.RAW8,0.93187
+helenor,helenor|S1|brightness|key40|I20C20,S1,,brightness,20,20,40,0,M. helenor brillo I20 C20.RAW8,0.93187
+helenor,helenor|S1|brightness|key40|I25C15,S1,,brightness,25,15,40,5,M. helenor brillo I25 C15.RAW8,0.93187
+helenor,helenor|S1|brightness|key40|I30C10,S1,,brightness,30,10,40,10,M. helenor brillo I30 C10.RAW8,0.93187
+helenor,helenor|S1|brightness|key40|I35C5,S1,,brightness,35,5,40,15,M. helenor brillo I35 C5.RAW8,0.93187
+helenor,helenor|S1|brightness|key40|I40C0,S1,,brightness,40,0,40,20,M. helenor brillo I40 C0.RAW8,0.93187
+helenor,helenor|S1|brightness|key40|I5C35,S1,,brightness,5,35,40,-15,M. helenor brillo I5 C35.RAW8,0.93187
+helenor,helenor|2026-10-07 #4|brightness|key40|I-5C45,2026-10-07,4,brightness,-5,45,40,-25,helenor4_brillo_I-5C45.RAW8,0.95445
+helenor,helenor|2026-10-07 #4|brightness|key40|I0C40,2026-10-07,4,brightness,0,40,40,-20,helenor4_brillo_I0C40.RAW8,0.95445
+helenor,helenor|2026-10-07 #4|brightness|key40|I10C30,2026-10-07,4,brightness,10,30,40,-10,helenor4_brillo_I10C30.RAW8,0.95445
+helenor,helenor|2026-10-07 #4|brightness|key40|I15C25,2026-10-07,4,brightness,15,25,40,-5,helenor4_brillo_I15C25.RAW8,0.95445
+helenor,helenor|2026-10-07 #4|brightness|key40|I20C20,2026-10-07,4,brightness,20,20,40,0,helenor4_brillo_I20C20.RAW8,0.95445
+helenor,helenor|2026-10-07 #4|brightness|key40|I25C15,2026-10-07,4,brightness,25,15,40,5,helenor4_brillo_I25C15.RAW8,0.95445
+helenor,helenor|2026-10-07 #4|brightness|key40|I30C10,2026-10-07,4,brightness,30,10,40,10,helenor4_brillo_I30C10.RAW8,0.95445
+helenor,helenor|2026-10-07 #4|brightness|key40|I5C35,2026-10-07,4,brightness,5,35,40,-15,helenor4_brillo_I5C35.RAW8,0.95445
+helenor,helenor|2026-10-19 #7|brightness|key40|I-2C42,2026-10-19,7,brightness,-2,42,40,-22,helenor7_brillo_I-2C42.RAW8,0.91302
+helenor,helenor|2026-10-19 #7|brightness|key40|I13C27,2026-10-19,7,brightness,13,27,40,-7,helenor7_brillo_I13C27.RAW8,0.91302
+helenor,helenor|2026-10-19 #7|brightness|key40|I18C22,2026-10-19,7,brightness,18,22,40,-2,helenor7_brillo_I18C22.RAW8,0.91302
+helenor,helenor|2026-10-19 #7|brightness|key40|I23C17,2026-10-19,7,brightness,23,17,40,3,helenor7_brillo_I23C17.RAW8,0.91302
+helenor,helenor|2026-10-19 #7|brightness|key40|I28C12,2026-10-19,7,brightness,28,12,40,8,helenor7_brillo_I28C12.RAW8,0.91302
+helenor,helenor|2026-10-19 #7|brightness|key40|I3C37,2026-10-19,7,brightness,3,37,40,-17,helenor7_brillo_I3C37.RAW8,0.91302
+helenor,helenor|2026-10-19 #7|brightness|key40|I8C32,2026-10-19,7,brightness,8,32,40,-12,helenor7_brillo_I8C32.RAW8,0.91302
+helenor,helenor|2026-10-19 #8|brightness|key40|I-1C41,2026-10-19,8,brightness,-1,41,40,-21,helenor8_brillo_I-1C41.RAW8,0.9231
+helenor,helenor|2026-10-19 #8|brightness|key40|I19C21,2026-10-19,8,brightness,19,21,40,-1,helenor8_brillo_I19C21.RAW8,0.9231
+helenor,helenor|2026-10-19 #8|brightness|key40|I24C16,2026-10-19,8,brightness,24,16,40,4,helenor8_brillo_I24C16.RAW8,0.9231
+helenor,helenor|2026-10-19 #8|brightness|key40|I29C11,2026-10-19,8,brightness,29,11,40,9,helenor8_brillo_I29C11.RAW8,0.9231
+helenor,helenor|2026-10-19 #8|brightness|key40|I4C36,2026-10-19,8,brightness,4,36,40,-16,helenor8_brillo_I4C36.RAW8,0.9231
+helenor,helenor|2026-10-19 #8|brightness|key40|I9C31,2026-10-19,8,brightness,9,31,40,-11,helenor8_brillo_I9C31.RAW8,0.9231
+helenor,helenor|S1|hue|key-10|I0C10,S1,,hue,0,10,10,-5,M. helenor matiz I0 C10.RAW8,0.81152
+helenor,helenor|S1|hue|key-10|I10C20,S1,,hue,10,20,30,-5,M. helenor matiz I10  C20.RAW8,0.81152
+helenor,helenor|S1|hue|key-10|I15C25,S1,,hue,15,25,40,-5,M. helenor matiz I15  C25.RAW8,0.81152
+helenor,helenor|S1|hue|key-10|I20C30,S1,,hue,20,30,50,-5,M. helenor matiz I20  C30.RAW8,0.81152
+helenor,helenor|S1|hue|key-10|I5C15,S1,,hue,5,15,20,-5,M. helenor matiz I5 C15.RAW8,0.81152
+helenor,helenor|2026-09-30 #3|hue|key-20|I-5C15,2026-09-30,3,hue,-5,15,10,-10,helenor3_matizI-5C15.RAW8,0.99624
+helenor,helenor|2026-09-30 #3|hue|key-20|I0C20,2026-09-30,3,hue,0,20,20,-10,helenor3_matiz_I0C20.RAW8,0.99624
+helenor,helenor|2026-09-30 #3|hue|key-20|I10C30,2026-09-30,3,hue,10,30,40,-10,helenor3_matiz_I10C30.RAW8,0.99624
+helenor,helenor|2026-09-30 #3|hue|key-20|I15C35,2026-09-30,3,hue,15,35,50,-10,helenor3_matiz_I15C35.RAW8,0.99624
+helenor,helenor|2026-09-30 #3|hue|key-20|I20C40,2026-09-30,3,hue,20,40,60,-10,helenor3_matiz_I20C40.RAW8,0.99624
+helenor,helenor|2026-09-30 #3|hue|key-20|I25C45,2026-09-30,3,hue,25,45,70,-10,helenor3_matiz_I25C45.RAW8,0.99624
+helenor,helenor|2026-09-30 #3|hue|key-20|I5C25,2026-09-30,3,hue,5,25,30,-10,helenor3_matiz_I5C25.RAW8,0.99624
+helenor,helenor|2026-10-07 #4|hue|key-20|I-5C15,2026-10-07,4,hue,-5,15,10,-10,helenor4_matiz_I-5C15.RAW8,0.99547
+helenor,helenor|2026-10-07 #4|hue|key-20|I0C20,2026-10-07,4,hue,0,20,20,-10,helenor4_matiz_I0C20.RAW8,0.99547
+helenor,helenor|2026-10-07 #4|hue|key-20|I10C30,2026-10-07,4,hue,10,30,40,-10,helenor4_matiz_I10C30.RAW8,0.99547
+helenor,helenor|2026-10-07 #4|hue|key-20|I15C35,2026-10-07,4,hue,15,35,50,-10,helenor4_matiz_I15C35.RAW8,0.99547
+helenor,helenor|2026-10-07 #4|hue|key-20|I20C40,2026-10-07,4,hue,20,40,60,-10,helenor4_matiz_I20C40.RAW8,0.99547
+helenor,helenor|2026-10-07 #4|hue|key-20|I25C45,2026-10-07,4,hue,25,45,70,-10,helenor4_matiz_I25C45.RAW8,0.99547
+helenor,helenor|2026-10-07 #4|hue|key-20|I5C25,2026-10-07,4,hue,5,25,30,-10,helenor4_matiz_I5C25.RAW8,0.99547
+helenor,helenor|2026-10-19 #7|hue|key-14|I-2C12,2026-10-19,7,hue,-2,12,10,-7,helenor7_matiz_I-2C12.RAW8,0.99089
+helenor,helenor|2026-10-19 #7|hue|key-14|I13C27,2026-10-19,7,hue,13,27,40,-7,helenor7_matiz_I13C27.RAW8,0.99089
+helenor,helenor|2026-10-19 #7|hue|key-14|I18C32,2026-10-19,7,hue,18,32,50,-7,helenor7_matiz_I18C32.RAW8,0.99089
+helenor,helenor|2026-10-19 #7|hue|key-14|I23C37,2026-10-19,7,hue,23,37,60,-7,helenor7_matiz_I23C37.RAW8,0.99089
+helenor,helenor|2026-10-19 #7|hue|key-14|I28C42,2026-10-19,7,hue,28,42,70,-7,helenor7_matiz_I28C42.RAW8,0.99089
+helenor,helenor|2026-10-19 #7|hue|key-14|I3C17,2026-10-19,7,hue,3,17,20,-7,helenor7_matiz_I3C17.RAW8,0.99089
+helenor,helenor|2026-10-19 #7|hue|key-14|I8C22,2026-10-19,7,hue,8,22,30,-7,helenor7_matiz_I8C22.RAW8,0.99089
+helenor,helenor|2026-10-19 #8|hue|key-12|I-1C11,2026-10-19,8,hue,-1,11,10,-6,helenor8_matiz_I-1C11.RAW8,0.89701
+helenor,helenor|2026-10-19 #8|hue|key-12|I14C26,2026-10-19,8,hue,14,26,40,-6,helenor8_matiz_I14C26.RAW8,0.89701
+helenor,helenor|2026-10-19 #8|hue|key-12|I19C31,2026-10-19,8,hue,19,31,50,-6,helenor8_matiz_I19C31.RAW8,0.89701
+helenor,helenor|2026-10-19 #8|hue|key-12|I24C36,2026-10-19,8,hue,24,36,60,-6,helenor8_matiz_I24C36.RAW8,0.89701
+helenor,helenor|2026-10-19 #8|hue|key-12|I29C41,2026-10-19,8,hue,29,41,70,-6,helenor8_matiz_I29C41.RAW8,0.89701
+helenor,helenor|2026-10-19 #8|hue|key-12|I4C16,2026-10-19,8,hue,4,16,20,-6,helenor8_matiz_I4C16.RAW8,0.89701
+helenor,helenor|2026-10-19 #8|hue|key-12|I9C21,2026-10-19,8,hue,9,21,30,-6,helenor8_matiz_I9C21.RAW8,0.89701
+lympharis,lympharis|S1|brightness|key40|I15C25,S1,,brightness,15,25,40,-5,lympharis_brillo_I15C25.RAW8,0.9983
+lympharis,lympharis|S1|brightness|key40|I20C20,S1,,brightness,20,20,40,0,lympharis_brillo_I20C20.RAW8,0.9983
+lympharis,lympharis|S1|brightness|key40|I25C15,S1,,brightness,25,15,40,5,lympharis_brillo_I25C15.RAW8,0.9983
+lympharis,lympharis|S1|brightness|key40|I30C10,S1,,brightness,30,10,40,10,lympharis_brillo_I30C10.RAW8,0.9983
+lympharis,lympharis|S1|brightness|key40|I5C35,S1,,brightness,5,35,40,-15,lympharis_brillo_I5C35.RAW8,0.9983
+lympharis,lympharis|2026-10-07 #4|brightness|key40|I13C27,2026-10-07,4,brightness,13,27,40,-7,lympharis4_brillo_I13C27.RAW8,0.98726
+lympharis,lympharis|2026-10-07 #4|brightness|key40|I18C22,2026-10-07,4,brightness,18,22,40,-2,lympharis4_brillo_I18C22.RAW8,0.98726
+lympharis,lympharis|2026-10-07 #4|brightness|key40|I23C17,2026-10-07,4,brightness,23,17,40,3,lympharis4_brillo_I23C17.RAW8,0.98726
+lympharis,lympharis|2026-10-07 #4|brightness|key40|I28C12,2026-10-07,4,brightness,28,12,40,8,lympharis4_brillo_I28C12.RAW8,0.98726
+lympharis,lympharis|2026-10-07 #4|brightness|key40|I33C7,2026-10-07,4,brightness,33,7,40,13,lympharis4_brillo_I33C7.RAW8,0.98726
+lympharis,lympharis|2026-10-07 #4|brightness|key40|I3C37,2026-10-07,4,brightness,3,37,40,-17,lympharis4_brillo_I3C37.RAW8,0.98726
+lympharis,lympharis|2026-10-07 #4|brightness|key40|I8C32,2026-10-07,4,brightness,8,32,40,-12,lympharis4_brillo_I8C32.RAW8,0.98726
+lympharis,lympharis|2026-10-09 #5|brightness|key40|I10C30,2026-10-09,5,brightness,10,30,40,-10,lympharis5_brillo_I10C30.RAW8,0.99521
+lympharis,lympharis|2026-10-09 #5|brightness|key40|I15C25,2026-10-09,5,brightness,15,25,40,-5,lympharis5_brillo_I15C25.RAW8,0.99521
+lympharis,lympharis|2026-10-09 #5|brightness|key40|I20C20,2026-10-09,5,brightness,20,20,40,0,lympharis5_brillo_I20C20.RAW8,0.99521
+lympharis,lympharis|2026-10-09 #5|brightness|key40|I25C15,2026-10-09,5,brightness,25,15,40,5,lympharis5_brillo_I25C15.RAW8,0.99521
+lympharis,lympharis|2026-10-09 #5|brightness|key40|I30C10,2026-10-09,5,brightness,30,10,40,10,lympharis5_brillo_I30C10.RAW8,0.99521
+lympharis,lympharis|2026-10-09 #5|brightness|key40|I35C5,2026-10-09,5,brightness,35,5,40,15,lympharis5_brillo_I35C5.RAW8,0.99521
+lympharis,lympharis|2026-10-09 #5|brightness|key40|I5C35,2026-10-09,5,brightness,5,35,40,-15,lympharis5_brillo_I5C35.RAW8,0.99521
+lympharis,lympharis|2026-10-09 #6|brightness|key40|I10C30,2026-10-09,6,brightness,10,30,40,-10,lympharis6_brillo_I10C30.RAW8,0.99509
+lympharis,lympharis|2026-10-09 #6|brightness|key40|I15C25,2026-10-09,6,brightness,15,25,40,-5,lympharis6_brillo_I15C25.RAW8,0.99509
+lympharis,lympharis|2026-10-09 #6|brightness|key40|I20C20,2026-10-09,6,brightness,20,20,40,0,lympharis6_brillo_I20C20.RAW8,0.99509
+lympharis,lympharis|2026-10-09 #6|brightness|key40|I25C15,2026-10-09,6,brightness,25,15,40,5,lympharis6_brillo_I25C15.RAW8,0.99509
+lympharis,lympharis|2026-10-09 #6|brightness|key40|I30C10,2026-10-09,6,brightness,30,10,40,10,lympharis6_brillo_I30C10.RAW8,0.99509
+lympharis,lympharis|2026-10-09 #6|brightness|key40|I35C5,2026-10-09,6,brightness,35,5,40,15,lympharis6_brillo_I35C5.RAW8,0.99509
+lympharis,lympharis|2026-10-09 #6|brightness|key40|I5C35,2026-10-09,6,brightness,5,35,40,-15,lympharis6_brillo_I5C35.RAW8,0.99509
+lympharis,lympharis|S1|hue|key0|I10C10,S1,,hue,10,10,20,0,lympharis_matizI10C10.RAW8,0.96764
+lympharis,lympharis|S1|hue|key0|I13C13,S1,,hue,13,13,26,0,lympharis_matizI13C13.RAW8,0.96764
+lympharis,lympharis|S1|hue|key0|I16C16,S1,,hue,16,16,32,0,lympharis_matizI16C16.RAW8,0.96764
+lympharis,lympharis|S1|hue|key0|I19C19,S1,,hue,19,19,38,0,lympharis_matizI19C19.RAW8,0.96764
+lympharis,lympharis|S1|hue|key0|I21C21,S1,,hue,21,21,42,0,lympharis_matizI21C21.RAW8,0.96764
+lympharis,lympharis|S1|hue|key0|I24C24,S1,,hue,24,24,48,0,lympharis_matizI24C24.RAW8,0.96764
+lympharis,lympharis|S1|hue|key0|I27C27,S1,,hue,27,27,54,0,lympharis_matizI27C27.RAW8,0.96764
+lympharis,lympharis|S1|hue|key0|I30C30,S1,,hue,30,30,60,0,lympharis_matizI30C30.RAW8,0.96764
+lympharis,lympharis|S1|hue|key0|I33C33,S1,,hue,33,33,66,0,lympharis_matizI33C33.RAW8,0.96764
+lympharis,lympharis|S1|hue|key0|I4C4,S1,,hue,4,4,8,0,lympharis_matizI4C4.RAW8,0.96764
+lympharis,lympharis|S1|hue|key0|I7C7,S1,,hue,7,7,14,0,lympharis_matizI7C7.RAW8,0.96764
+lympharis,lympharis|2026-09-30 #3|hue|key-4|I11C15,2026-09-30,3,hue,11,15,26,-2,lympharis3_matiz_I11C15.RAW8,0.90788
+lympharis,lympharis|2026-09-30 #3|hue|key-4|I14C18,2026-09-30,3,hue,14,18,32,-2,lympharis3_matiz_I14C18.RAW8,0.90788
+lympharis,lympharis|2026-09-30 #3|hue|key-4|I17C21,2026-09-30,3,hue,17,21,38,-2,lympharis3_matiz_I17C21.RAW8,0.90788
+lympharis,lympharis|2026-09-30 #3|hue|key-4|I20C24,2026-09-30,3,hue,20,24,44,-2,lympharis3_matiz_I20C24.RAW8,0.90788
+lympharis,lympharis|2026-09-30 #3|hue|key-4|I23C27,2026-09-30,3,hue,23,27,50,-2,lympharis3_matiz_I23C27.RAW8,0.90788
+lympharis,lympharis|2026-09-30 #3|hue|key-4|I26C30,2026-09-30,3,hue,26,30,56,-2,lympharis3_matiz_I26C30.RAW8,0.90788
+lympharis,lympharis|2026-09-30 #3|hue|key-4|I29C33,2026-09-30,3,hue,29,33,62,-2,lympharis3_matiz_I29C33.RAW8,0.90788
+lympharis,lympharis|2026-09-30 #3|hue|key-4|I2C6,2026-09-30,3,hue,2,6,8,-2,lympharis3_matiz_I2C6.RAW8,0.90788
+lympharis,lympharis|2026-09-30 #3|hue|key-4|I5C9,2026-09-30,3,hue,5,9,14,-2,lympharis3_matiz_I5C9.RAW8,0.90788
+lympharis,lympharis|2026-09-30 #3|hue|key-4|I8C12,2026-09-30,3,hue,8,12,20,-2,lympharis3_matiz_I8C12.RAW8,0.90788
+lympharis,lympharis|2026-10-07 #4|hue|key-4|I11C15,2026-10-07,4,hue,11,15,26,-2,lympharis4_matiz_I11C15.RAW8,0.92582
+lympharis,lympharis|2026-10-07 #4|hue|key-4|I14C18,2026-10-07,4,hue,14,18,32,-2,lympharis4_matiz_I14C18.RAW8,0.92582
+lympharis,lympharis|2026-10-07 #4|hue|key-4|I17C21,2026-10-07,4,hue,17,21,38,-2,lympharis4_matiz_I17C21.RAW8,0.92582
+lympharis,lympharis|2026-10-07 #4|hue|key-4|I20C24,2026-10-07,4,hue,20,24,44,-2,lympharis4_matiz_I20C24.RAW8,0.92582
+lympharis,lympharis|2026-10-07 #4|hue|key-4|I23C27,2026-10-07,4,hue,23,27,50,-2,lympharis4_matiz_I23C27.RAW8,0.92582
+lympharis,lympharis|2026-10-07 #4|hue|key-4|I26C30,2026-10-07,4,hue,26,30,56,-2,lympharis4_matiz_I26C30.RAW8,0.92582
+lympharis,lympharis|2026-10-07 #4|hue|key-4|I29C33,2026-10-07,4,hue,29,33,62,-2,lympharis4_matiz_I29C33.RAW8,0.92582
+lympharis,lympharis|2026-10-07 #4|hue|key-4|I2C6,2026-10-07,4,hue,2,6,8,-2,lympharis4_matiz_I2C6.RAW8,0.92582
+lympharis,lympharis|2026-10-07 #4|hue|key-4|I32C36,2026-10-07,4,hue,32,36,68,-2,lympharis4_matiz_I32C36.RAW8,0.92582
+lympharis,lympharis|2026-10-07 #4|hue|key-4|I5C9,2026-10-07,4,hue,5,9,14,-2,lympharis4_matiz_I5C9.RAW8,0.92582
+lympharis,lympharis|2026-10-07 #4|hue|key-4|I8C12,2026-10-07,4,hue,8,12,20,-2,lympharis4_matiz_I8C12.RAW8,0.92582
+lympharis,lympharis|2026-10-09 #5|hue|key0|I10C10,2026-10-09,5,hue,10,10,20,0,lympharis5_matiz_I10C10.RAW8,0.96158
+lympharis,lympharis|2026-10-09 #5|hue|key0|I13C13,2026-10-09,5,hue,13,13,26,0,lympharis5_matiz_I13C13.RAW8,0.96158
+lympharis,lympharis|2026-10-09 #5|hue|key0|I16C16,2026-10-09,5,hue,16,16,32,0,lympharis5_matiz_I16C16.RAW8,0.96158
+lympharis,lympharis|2026-10-09 #5|hue|key0|I19C19,2026-10-09,5,hue,19,19,38,0,lympharis5_matiz_I19C19.RAW8,0.96158
+lympharis,lympharis|2026-10-09 #5|hue|key0|I22C22,2026-10-09,5,hue,22,22,44,0,lympharis5_matiz_I22C22.RAW8,0.96158
+lympharis,lympharis|2026-10-09 #5|hue|key0|I25C25,2026-10-09,5,hue,25,25,50,0,lympharis5_matiz_I25C25.RAW8,0.96158
+lympharis,lympharis|2026-10-09 #5|hue|key0|I28C28,2026-10-09,5,hue,28,28,56,0,lympharis5_matiz_I28C28.RAW8,0.96158
+lympharis,lympharis|2026-10-09 #5|hue|key0|I31C31,2026-10-09,5,hue,31,31,62,0,lympharis5_matiz_I31C31.RAW8,0.96158
+lympharis,lympharis|2026-10-09 #5|hue|key0|I34C34,2026-10-09,5,hue,34,34,68,0,lympharis5_matiz_I34C34.RAW8,0.96158
+lympharis,lympharis|2026-10-09 #5|hue|key0|I37C37,2026-10-09,5,hue,37,37,74,0,lympharis5_matiz_I37C37.RAW8,0.96158
+lympharis,lympharis|2026-10-09 #5|hue|key0|I4C4,2026-10-09,5,hue,4,4,8,0,lympharis5_matiz_I4C4.RAW8,0.96158
+lympharis,lympharis|2026-10-09 #5|hue|key0|I7C7,2026-10-09,5,hue,7,7,14,0,lympharis5_matiz_I7C7.RAW8,0.96158
+lympharis,lympharis|2026-10-09 #6|hue|key0|I10C10,2026-10-09,6,hue,10,10,20,0,lympharis6_matiz_I10C10.RAW8,0.96329
+lympharis,lympharis|2026-10-09 #6|hue|key0|I13C13,2026-10-09,6,hue,13,13,26,0,lympharis6_matiz_I13C13.RAW8,0.96329
+lympharis,lympharis|2026-10-09 #6|hue|key0|I16C16,2026-10-09,6,hue,16,16,32,0,lympharis6_matiz_I16C16.RAW8,0.96329
+lympharis,lympharis|2026-10-09 #6|hue|key0|I19C19,2026-10-09,6,hue,19,19,38,0,lympharis6_matiz_I19C19.RAW8,0.96329
+lympharis,lympharis|2026-10-09 #6|hue|key0|I22C22,2026-10-09,6,hue,22,22,44,0,lympharis6_matiz_I22C22.RAW8,0.96329
+lympharis,lympharis|2026-10-09 #6|hue|key0|I25C25,2026-10-09,6,hue,25,25,50,0,lympharis6_matiz_I25C25.RAW8,0.96329
+lympharis,lympharis|2026-10-09 #6|hue|key0|I28C28,2026-10-09,6,hue,28,28,56,0,lympharis6_matiz_I28C28.RAW8,0.96329
+lympharis,lympharis|2026-10-09 #6|hue|key0|I31C31,2026-10-09,6,hue,31,31,62,0,lympharis6_matiz_I31C31.RAW8,0.96329
+lympharis,lympharis|2026-10-09 #6|hue|key0|I34C34,2026-10-09,6,hue,34,34,68,0,lympharis6_matiz_I34C34.RAW8,0.96329
+lympharis,lympharis|2026-10-09 #6|hue|key0|I4C4,2026-10-09,6,hue,4,4,8,0,lympharis6_matiz_I4C4.RAW8,0.96329
+lympharis,lympharis|2026-10-09 #6|hue|key0|I7C7,2026-10-09,6,hue,7,7,14,0,lympharis6_matiz_I7C7.RAW8,0.96329
+marcus,marcus|S1|brightness|key40|I14C26,S1,,brightness,14,26,40,-6,marcus_brillo_I14C26.RAW8,0.95804
+marcus,marcus|S1|brightness|key40|I19C21,S1,,brightness,19,21,40,-1,marcus_brillo_I19C21.RAW8,0.95804
+marcus,marcus|S1|brightness|key40|I24C16,S1,,brightness,24,16,40,4,marcus_brillo_I24C16.RAW8,0.95804
+marcus,marcus|S1|brightness|key40|I29C11,S1,,brightness,29,11,40,9,marcus_brillo_I29C11.RAW8,0.95804
+marcus,marcus|S1|brightness|key40|I34C6,S1,,brightness,34,6,40,14,marcus_brillo_I34C6.RAW8,0.95804
+marcus,marcus|S1|brightness|key40|I4C36,S1,,brightness,4,36,40,-16,marcus_brillo_I4C36.RAW8,0.95804
+marcus,marcus|S1|brightness|key40|I9C31,S1,,brightness,9,31,40,-11,marcus_brillo_I9C31.RAW8,0.95804
+marcus,marcus|2026-10-19 #7|brightness|key40|I10C30,2026-10-19,7,brightness,10,30,40,-10,marcus7_brillo_I10C30.RAW8,0.9912
+marcus,marcus|2026-10-19 #7|brightness|key40|I15C25,2026-10-19,7,brightness,15,25,40,-5,marcus7_brillo_I15C25.RAW8,0.9912
+marcus,marcus|2026-10-19 #7|brightness|key40|I20C20,2026-10-19,7,brightness,20,20,40,0,marcus7_brillo_I20C20.RAW8,0.9912
+marcus,marcus|2026-10-19 #7|brightness|key40|I25C15,2026-10-19,7,brightness,25,15,40,5,marcus7_brillo_I25C15.RAW8,0.9912
+marcus,marcus|2026-10-19 #7|brightness|key40|I30C10,2026-10-19,7,brightness,30,10,40,10,marcus7_brillo_I30C10.RAW8,0.9912
+marcus,marcus|2026-10-19 #7|brightness|key40|I35C5,2026-10-19,7,brightness,35,5,40,15,marcus7_brillo_I35C5.RAW8,0.9912
+marcus,marcus|2026-10-19 #7|brightness|key40|I5C35,2026-10-19,7,brightness,5,35,40,-15,marcus7_brillo_I5C35.RAW8,0.9912
+marcus,marcus|2026-10-19 #8|brightness|key40|I10C30,2026-10-19,8,brightness,10,30,40,-10,marcus8_brillo_I10C30.RAW8,0.98872
+marcus,marcus|2026-10-19 #8|brightness|key40|I15C25,2026-10-19,8,brightness,15,25,40,-5,marcus8_brillo_I15C25.RAW8,0.98872
+marcus,marcus|2026-10-19 #8|brightness|key40|I20C20,2026-10-19,8,brightness,20,20,40,0,marcus8_brillo_I20C20.RAW8,0.98872
+marcus,marcus|2026-10-19 #8|brightness|key40|I25C15,2026-10-19,8,brightness,25,15,40,5,marcus8_brillo_I25C15.RAW8,0.98872
+marcus,marcus|2026-10-19 #8|brightness|key40|I30C10,2026-10-19,8,brightness,30,10,40,10,marcus8_brillo_I30C10.RAW8,0.98872
+marcus,marcus|2026-10-19 #8|brightness|key40|I35C5,2026-10-19,8,brightness,35,5,40,15,marcus8_brillo_I35C5.RAW8,0.98872
+marcus,marcus|2026-10-19 #8|brightness|key40|I5C35,2026-10-19,8,brightness,5,35,40,-15,marcus8_brillo_I5C35.RAW8,0.98872
+marcus,marcus|2026-10-19 #9|brightness|key40|I10C30,2026-10-19,9,brightness,10,30,40,-10,marcus9_brillo_I10C30.RAW8,0.99036
+marcus,marcus|2026-10-19 #9|brightness|key40|I15C25,2026-10-19,9,brightness,15,25,40,-5,marcus9_brillo_I15C25.RAW8,0.99036
+marcus,marcus|2026-10-19 #9|brightness|key40|I20C20,2026-10-19,9,brightness,20,20,40,0,marcus9_brillo_I20C20.RAW8,0.99036
+marcus,marcus|2026-10-19 #9|brightness|key40|I25C15,2026-10-19,9,brightness,25,15,40,5,marcus9_brillo_I25C15.RAW8,0.99036
+marcus,marcus|2026-10-19 #9|brightness|key40|I30C10,2026-10-19,9,brightness,30,10,40,10,marcus9_brillo_I30C10.RAW8,0.99036
+marcus,marcus|2026-10-19 #9|brightness|key40|I35C5,2026-10-19,9,brightness,35,5,40,15,marcus9_brillo_I35C5.RAW8,0.99036
+marcus,marcus|2026-10-19 #9|brightness|key40|I5C35,2026-10-19,9,brightness,5,35,40,-15,marcus9_brillo_I5C35.RAW8,0.99036
+marcus,marcus|S1|hue|key-2|I14C16,S1,,hue,14,16,30,-1,marcus_matiz_I14C16.RAW8,0.99403
+marcus,marcus|S1|hue|key-2|I19C21,S1,,hue,19,21,40,-1,marcus_matiz_I19C21.RAW8,0.99403
+marcus,marcus|S1|hue|key-2|I24C26,S1,,hue,24,26,50,-1,marcus_matiz_I24C26.RAW8,0.99403
+marcus,marcus|S1|hue|key-2|I29C31,S1,,hue,29,31,60,-1,marcus_matiz_I29C31.RAW8,0.99403
+marcus,marcus|S1|hue|key-2|I34C36,S1,,hue,34,36,70,-1,marcus_matiz_I34C36.RAW8,0.99403
+marcus,marcus|S1|hue|key-2|I4C6,S1,,hue,4,6,10,-1,marcus_matiz_I4C6.RAW8,0.99403
+marcus,marcus|S1|hue|key-2|I9C11,S1,,hue,9,11,20,-1,marcus_matiz_I9C11.RAW8,0.99403
+marcus,marcus|2026-09-30 #3|hue|key0|I10C10,2026-09-30,3,hue,10,10,20,0,marcus3_matiz_I10C10.RAW8,0.97426
+marcus,marcus|2026-09-30 #3|hue|key0|I13C13,2026-09-30,3,hue,13,13,26,0,marcus3_matiz_I13C13.RAW8,0.97426
+marcus,marcus|2026-09-30 #3|hue|key0|I16C16,2026-09-30,3,hue,16,16,32,0,marcus3_matiz_I16C16.RAW8,0.97426
+marcus,marcus|2026-09-30 #3|hue|key0|I19C19,2026-09-30,3,hue,19,19,38,0,marcus3_matiz_I19C19.RAW8,0.97426
+marcus,marcus|2026-09-30 #3|hue|key0|I22C22,2026-09-30,3,hue,22,22,44,0,marcus3_matiz_I22C22.RAW8,0.97426
+marcus,marcus|2026-09-30 #3|hue|key0|I25C25,2026-09-30,3,hue,25,25,50,0,marcus3_matiz_I25C25.RAW8,0.97426
+marcus,marcus|2026-09-30 #3|hue|key0|I28C28,2026-09-30,3,hue,28,28,56,0,marcus3_matiz_I28C28.RAW8,0.97426
+marcus,marcus|2026-09-30 #3|hue|key0|I31C31,2026-09-30,3,hue,31,31,62,0,marcus3_matiz_I31C31.RAW8,0.97426
+marcus,marcus|2026-09-30 #3|hue|key0|I34C34,2026-09-30,3,hue,34,34,68,0,marcus3_matiz_I34C34.RAW8,0.97426
+marcus,marcus|2026-09-30 #3|hue|key0|I37C37,2026-09-30,3,hue,37,37,74,0,marcus3_matiz_I37C37.RAW8,0.97426
+marcus,marcus|2026-09-30 #3|hue|key0|I4C4,2026-09-30,3,hue,4,4,8,0,marcus3_matiz_I4C4.RAW8,0.97426
+marcus,marcus|2026-09-30 #3|hue|key0|I7C7,2026-09-30,3,hue,7,7,14,0,marcus3_matiz_I7C7.RAW8,0.97426
+marcus,marcus|2026-10-19 #7|hue|key0|I10C10,2026-10-19,7,hue,10,10,20,0,marcus7_matiz_I10C10.RAW8,0.98903
+marcus,marcus|2026-10-19 #7|hue|key0|I15C15,2026-10-19,7,hue,15,15,30,0,marcus7_matiz_I15C15.RAW8,0.98903
+marcus,marcus|2026-10-19 #7|hue|key0|I20C20,2026-10-19,7,hue,20,20,40,0,marcus7_matiz_I20C20.RAW8,0.98903
+marcus,marcus|2026-10-19 #7|hue|key0|I25C25,2026-10-19,7,hue,25,25,50,0,marcus7_matiz_I25C25.RAW8,0.98903
+marcus,marcus|2026-10-19 #7|hue|key0|I30C30,2026-10-19,7,hue,30,30,60,0,marcus7_matiz_I30C30.RAW8,0.98903
+marcus,marcus|2026-10-19 #7|hue|key0|I35C35,2026-10-19,7,hue,35,35,70,0,marcus7_matiz_I35C35.RAW8,0.98903
+marcus,marcus|2026-10-19 #7|hue|key0|I5C5,2026-10-19,7,hue,5,5,10,0,marcus7_matiz_I5C5.RAW8,0.98903
+marcus,marcus|2026-10-19 #8|hue|key0|I10C10,2026-10-19,8,hue,10,10,20,0,marcus8_matiz_I10C10.RAW8,0.98312
+marcus,marcus|2026-10-19 #8|hue|key0|I15C15,2026-10-19,8,hue,15,15,30,0,marcus8_matiz_I15C15.RAW8,0.98312
+marcus,marcus|2026-10-19 #8|hue|key0|I20C20,2026-10-19,8,hue,20,20,40,0,marcus8_matiz_I20C20.RAW8,0.98312
+marcus,marcus|2026-10-19 #8|hue|key0|I25C25,2026-10-19,8,hue,25,25,50,0,marcus8_matiz_I25C25.RAW8,0.98312
+marcus,marcus|2026-10-19 #8|hue|key0|I30C30,2026-10-19,8,hue,30,30,60,0,marcus8_matiz_I30C30.RAW8,0.98312
+marcus,marcus|2026-10-19 #8|hue|key0|I35C35,2026-10-19,8,hue,35,35,70,0,marcus8_matiz_I35C35.RAW8,0.98312
+marcus,marcus|2026-10-19 #8|hue|key0|I5C5,2026-10-19,8,hue,5,5,10,0,marcus8_matiz_I5C5.RAW8,0.98312
+menelaus,menelaus|S1|brightness|key40|I10C30,S1,,brightness,10,30,40,-10,M. menelaus brillo I10 C30.RAW8,0.97671
+menelaus,menelaus|S1|brightness|key40|I15C25,S1,,brightness,15,25,40,-5,M. menelaus brillo I15 C25.RAW8,0.97671
+menelaus,menelaus|S1|brightness|key40|I20C20,S1,,brightness,20,20,40,0,M. menelaus brillo I20 C20.RAW8,0.97671
+menelaus,menelaus|S1|brightness|key40|I25C15,S1,,brightness,25,15,40,5,M. menelaus brillo I25 C15.RAW8,0.97671
+menelaus,menelaus|S1|brightness|key40|I30C10,S1,,brightness,30,10,40,10,M. menelaus brillo I30 C10.RAW8,0.97671
+menelaus,menelaus|S1|brightness|key40|I35C5,S1,,brightness,35,5,40,15,M. menelaus brillo I35 C5.RAW8,0.97671
+menelaus,menelaus|S1|brightness|key40|I5C35,S1,,brightness,5,35,40,-15,M. menelaus brillo I5 C 35.RAW8,0.97671
+menelaus,menelaus|2026-10-07 #4|brightness|key40|I13C27,2026-10-07,4,brightness,13,27,40,-7,menelaus4_brillo_I13C27.RAW8,0.9913
+menelaus,menelaus|2026-10-07 #4|brightness|key40|I18C22,2026-10-07,4,brightness,18,22,40,-2,menelaus4_brillo_I18C22.RAW8,0.9913
+menelaus,menelaus|2026-10-07 #4|brightness|key40|I23C17,2026-10-07,4,brightness,23,17,40,3,menelaus4_brillo_I23C17.RAW8,0.9913
+menelaus,menelaus|2026-10-07 #4|brightness|key40|I28C12,2026-10-07,4,brightness,28,12,40,8,menelaus4_brillo_I28C12.RAW8,0.9913
+menelaus,menelaus|2026-10-07 #4|brightness|key40|I33C7,2026-10-07,4,brightness,33,7,40,13,menelaus4_brillo_I33C7.RAW8,0.9913
+menelaus,menelaus|2026-10-07 #4|brightness|key40|I3C37,2026-10-07,4,brightness,3,37,40,-17,menelaus4_brillo_I3C37.RAW8,0.9913
+menelaus,menelaus|2026-10-07 #4|brightness|key40|I8C32,2026-10-07,4,brightness,8,32,40,-12,menelaus4_brillo_I8C32.RAW8,0.9913
+menelaus,menelaus|2026-10-19 #7|brightness|key40|I14C26,2026-10-19,7,brightness,14,26,40,-6,menelaus7_brillo_I14C26.RAW8,0.98326
+menelaus,menelaus|2026-10-19 #7|brightness|key40|I19C21,2026-10-19,7,brightness,19,21,40,-1,menelaus7_brillo_I19C21.RAW8,0.98326
+menelaus,menelaus|2026-10-19 #7|brightness|key40|I24C16,2026-10-19,7,brightness,24,16,40,4,menelaus7_brillo_I24C16.RAW8,0.98326
+menelaus,menelaus|2026-10-19 #7|brightness|key40|I29C11,2026-10-19,7,brightness,29,11,40,9,menelaus7_brillo_I29C11.RAW8,0.98326
+menelaus,menelaus|2026-10-19 #7|brightness|key40|I34C6,2026-10-19,7,brightness,34,6,40,14,menelaus7_brillo_I34C6.RAW8,0.98326
+menelaus,menelaus|2026-10-19 #7|brightness|key40|I4C36,2026-10-19,7,brightness,4,36,40,-16,menelaus7_brillo_I4C36.RAW8,0.98326
+menelaus,menelaus|2026-10-19 #7|brightness|key40|I9C31,2026-10-19,7,brightness,9,31,40,-11,menelaus7_brillo_I9C31.RAW8,0.98326
+menelaus,menelaus|2026-10-19 #8|brightness|key40|I14C26,2026-10-19,8,brightness,14,26,40,-6,menelaus8_brillo_I14C26.RAW8,0.98862
+menelaus,menelaus|2026-10-19 #8|brightness|key40|I19C21,2026-10-19,8,brightness,19,21,40,-1,menelaus8_brillo_I19C21.RAW8,0.98862
+menelaus,menelaus|2026-10-19 #8|brightness|key40|I24C16,2026-10-19,8,brightness,24,16,40,4,menelaus8_brillo_I24C16.RAW8,0.98862
+menelaus,menelaus|2026-10-19 #8|brightness|key40|I29C11,2026-10-19,8,brightness,29,11,40,9,menelaus8_brillo_I29C11.RAW8,0.98862
+menelaus,menelaus|2026-10-19 #8|brightness|key40|I34C6,2026-10-19,8,brightness,34,6,40,14,menelaus8_brillo_I34C6.RAW8,0.98862
+menelaus,menelaus|2026-10-19 #8|brightness|key40|I4C36,2026-10-19,8,brightness,4,36,40,-16,menelaus8_brillo_I4C36.RAW8,0.98862
+menelaus,menelaus|2026-10-19 #8|brightness|key40|I9C31,2026-10-19,8,brightness,9,31,40,-11,menelaus8_brillo_I9C31.RAW8,0.98862
+menelaus,menelaus|S1|hue|key0|I10C10,S1,,hue,10,10,20,0,M. menelaus Matiz I10 C10.RAW8,0.96393
+menelaus,menelaus|S1|hue|key0|I15C15,S1,,hue,15,15,30,0,M. menelaus Matiz I15 C15.RAW8,0.96393
+menelaus,menelaus|S1|hue|key0|I20C20,S1,,hue,20,20,40,0,M. menelaus Matiz I20 C20.RAW8,0.96393
+menelaus,menelaus|S1|hue|key0|I25C25,S1,,hue,25,25,50,0,M. menelaus Matiz I25 C25.RAW8,0.96393
+menelaus,menelaus|S1|hue|key0|I5C5,S1,,hue,5,5,10,0,M. menelaus Matiz I5 C5.RAW8,0.96393
+menelaus,menelaus|2026-09-25 #2|hue|key-10|I0C10,2026-09-25,2,hue,0,10,10,-5,menelaus2_matiz_I0C10.RAW8,0.98186
+menelaus,menelaus|2026-09-25 #2|hue|key-10|I10C20,2026-09-25,2,hue,10,20,30,-5,menelaus2_matiz_I10C20.RAW8,0.98186
+menelaus,menelaus|2026-09-25 #2|hue|key-10|I15C25,2026-09-25,2,hue,15,25,40,-5,menelaus2_matiz_I15C25.RAW8,0.98186
+menelaus,menelaus|2026-09-25 #2|hue|key-10|I20C30,2026-09-25,2,hue,20,30,50,-5,menelaus2_matiz_I20C30.RAW8,0.98186
+menelaus,menelaus|2026-09-25 #2|hue|key-10|I25C35,2026-09-25,2,hue,25,35,60,-5,menelaus2_matiz_I25C35.RAW8,0.98186
+menelaus,menelaus|2026-09-25 #2|hue|key-10|I30C40,2026-09-25,2,hue,30,40,70,-5,menelaus2_matiz_I30C40.RAW8,0.98186
+menelaus,menelaus|2026-09-25 #2|hue|key-10|I5C15,2026-09-25,2,hue,5,15,20,-5,menelaus2_matiz_I5C15.RAW8,0.98186
+menelaus,menelaus|2026-09-30 #3|hue|key-2|I14C16,2026-09-30,3,hue,14,16,30,-1,menelaus3_I14C16.RAW8,0.9654
+menelaus,menelaus|2026-09-30 #3|hue|key-2|I19C21,2026-09-30,3,hue,19,21,40,-1,menelaus3_I19C21.RAW8,0.9654
+menelaus,menelaus|2026-09-30 #3|hue|key-2|I24C26,2026-09-30,3,hue,24,26,50,-1,menelaus3_I24C26.RAW8,0.9654
+menelaus,menelaus|2026-09-30 #3|hue|key-2|I29C31,2026-09-30,3,hue,29,31,60,-1,menelaus3_I29C31.RAW8,0.9654
+menelaus,menelaus|2026-09-30 #3|hue|key-2|I34C36,2026-09-30,3,hue,34,36,70,-1,menelaus3_I34C36.RAW8,0.9654
+menelaus,menelaus|2026-09-30 #3|hue|key-2|I4C6,2026-09-30,3,hue,4,6,10,-1,menelaus3_I4C6.RAW8,0.9654
+menelaus,menelaus|2026-09-30 #3|hue|key-2|I9C11,2026-09-30,3,hue,9,11,20,-1,menelaus3_I9C11.RAW8,0.9654
+menelaus,menelaus|2026-10-07 #4|hue|key-4|I13C17,2026-10-07,4,hue,13,17,30,-2,menelaus4_matiz_I13C17.RAW8,0.96921
+menelaus,menelaus|2026-10-07 #4|hue|key-4|I18C22,2026-10-07,4,hue,18,22,40,-2,menelaus4_matiz_I18C22.RAW8,0.96921
+menelaus,menelaus|2026-10-07 #4|hue|key-4|I23C26,2026-10-07,4,hue,23,26,49,-1.5,menelaus4_matiz_I23C26.RAW8,0.96921
+menelaus,menelaus|2026-10-07 #4|hue|key-4|I28C32,2026-10-07,4,hue,28,32,60,-2,menelaus4_matiz_I28C32.RAW8,0.96921
+menelaus,menelaus|2026-10-07 #4|hue|key-4|I33C37,2026-10-07,4,hue,33,37,70,-2,menelaus4_matiz_I33C37.RAW8,0.96921
+menelaus,menelaus|2026-10-07 #4|hue|key-4|I3C7,2026-10-07,4,hue,3,7,10,-2,menelaus4_matiz_I3C7.RAW8,0.96921
+menelaus,menelaus|2026-10-07 #4|hue|key-4|I8C12,2026-10-07,4,hue,8,12,20,-2,menelaus4_matiz_I8C12.RAW8,0.96921
+portis,portis|S1|brightness|key40|I10C30,S1,,brightness,10,30,40,-10,portis_brillo_I10C30.RAW8,0.99644
+portis,portis|S1|brightness|key40|I15C25,S1,,brightness,15,25,40,-5,portis_brillo_I15C25.RAW8,0.99644
+portis,portis|S1|brightness|key40|I20C20,S1,,brightness,20,20,40,0,portis_brillo_I20C20.RAW8,0.99644
+portis,portis|S1|brightness|key40|I25C15,S1,,brightness,25,15,40,5,portis_brillo_I25C15.RAW8,0.99644
+portis,portis|S1|brightness|key40|I30C10,S1,,brightness,30,10,40,10,portis_brillo_I30C10.RAW8,0.99644
+portis,portis|S1|brightness|key40|I35C5,S1,,brightness,35,5,40,15,portis_brillo_I35C5.RAW8,0.99644
+portis,portis|S1|brightness|key40|I5C35,S1,,brightness,5,35,40,-15,portis_brillo_I5C35.RAW8,0.99644
+portis,portis|2026-10-07 #4|brightness|key40|I-1C41,2026-10-07,4,brightness,-1,41,40,-21,portis4_brillo_I-1C41.RAW8,0.99303
+portis,portis|2026-10-07 #4|brightness|key40|I14C26,2026-10-07,4,brightness,14,26,40,-6,portis4_brillo_I14C26.RAW8,0.99303
+portis,portis|2026-10-07 #4|brightness|key40|I19C21,2026-10-07,4,brightness,19,21,40,-1,portis4_brillo_I19C21.RAW8,0.99303
+portis,portis|2026-10-07 #4|brightness|key40|I24C16,2026-10-07,4,brightness,24,16,40,4,portis4_brillo_I24C16.RAW8,0.99303
+portis,portis|2026-10-07 #4|brightness|key40|I29C11,2026-10-07,4,brightness,29,11,40,9,portis4_brillo_I29C11.RAW8,0.99303
+portis,portis|2026-10-07 #4|brightness|key40|I4C36,2026-10-07,4,brightness,4,36,40,-16,portis4_brillo_I4C36.RAW8,0.99303
+portis,portis|2026-10-07 #4|brightness|key40|I9C31,2026-10-07,4,brightness,9,31,40,-11,portis4_brillo_I9C31.RAW8,0.99303
+portis,portis|2026-10-09 #5|brightness|key40|I12C28,2026-10-09,5,brightness,12,28,40,-8,portis5_brillo_I12C28.RAW8,0.99896
+portis,portis|2026-10-09 #5|brightness|key40|I17C23,2026-10-09,5,brightness,17,23,40,-3,portis5_brillo_I17C23.RAW8,0.99896
+portis,portis|2026-10-09 #5|brightness|key40|I22C18,2026-10-09,5,brightness,22,18,40,2,portis5_brillo_I22C18.RAW8,0.99896
+portis,portis|2026-10-09 #5|brightness|key40|I27C13,2026-10-09,5,brightness,27,13,40,7,portis5_brillo_I27C13.RAW8,0.99896
+portis,portis|2026-10-09 #5|brightness|key40|I2C38,2026-10-09,5,brightness,2,38,40,-18,portis5_brillo_I2C38.RAW8,0.99896
+portis,portis|2026-10-09 #5|brightness|key40|I32C8,2026-10-09,5,brightness,32,8,40,12,portis5_brillo_I32C8.RAW8,0.99896
+portis,portis|2026-10-09 #5|brightness|key40|I7C33,2026-10-09,5,brightness,7,33,40,-13,portis5_brillo_I7C33.RAW8,0.99896
+portis,portis|2026-10-09 #6|brightness|key40|I-2C42,2026-10-09,6,brightness,-2,42,40,-22,portis6_brillo_I-2C42.RAW8,0.99406
+portis,portis|2026-10-09 #6|brightness|key40|I13C27,2026-10-09,6,brightness,13,27,40,-7,portis6_brillo_I13C27.RAW8,0.99406
+portis,portis|2026-10-09 #6|brightness|key40|I18C22,2026-10-09,6,brightness,18,22,40,-2,portis6_brillo_I18C22.RAW8,0.99406
+portis,portis|2026-10-09 #6|brightness|key40|I23C17,2026-10-09,6,brightness,23,17,40,3,portis6_brillo_I23C17.RAW8,0.99406
+portis,portis|2026-10-09 #6|brightness|key40|I28C12,2026-10-09,6,brightness,28,12,40,8,portis6_brillo_I28C12.RAW8,0.99406
+portis,portis|2026-10-09 #6|brightness|key40|I3C37,2026-10-09,6,brightness,3,37,40,-17,portis6_brillo_I3C37.RAW8,0.99406
+portis,portis|2026-10-09 #6|brightness|key40|I8C32,2026-10-09,6,brightness,8,32,40,-12,portis6_brillo_I8C32.RAW8,0.99406
+portis,portis|S1|hue|key0|I10C10,S1,,hue,10,10,20,0,portis_matiz_I10C10.RAW8,0.94946
+portis,portis|S1|hue|key0|I15C15,S1,,hue,15,15,30,0,portis_matiz_I15C15.RAW8,0.94946
+portis,portis|S1|hue|key0|I20C20,S1,,hue,20,20,40,0,portis_matiz_I20C20.RAW8,0.94946
+portis,portis|S1|hue|key0|I25C25,S1,,hue,25,25,50,0,portis_matiz_I25C25.RAW8,0.94946
+portis,portis|S1|hue|key0|I30C30,S1,,hue,30,30,60,0,portis_matiz_I30C30.RAW8,0.94946
+portis,portis|S1|hue|key0|I35C35,S1,,hue,35,35,70,0,portis_matiz_I35C35.RAW8,0.94946
+portis,portis|S1|hue|key0|I5C5,S1,,hue,5,5,10,0,portis_matiz_I5C5.RAW8,0.94946
+portis,portis|2026-10-07 #4|hue|key-12|I-1C11,2026-10-07,4,hue,-1,11,10,-6,portis4_matiz_I-1C11.RAW8,0.90572
+portis,portis|2026-10-07 #4|hue|key-12|I14C26,2026-10-07,4,hue,14,26,40,-6,portis4_matiz_I14C26.RAW8,0.90572
+portis,portis|2026-10-07 #4|hue|key-12|I19C31,2026-10-07,4,hue,19,31,50,-6,portis4_matiz_I19C31.RAW8,0.90572
+portis,portis|2026-10-07 #4|hue|key-12|I24C36,2026-10-07,4,hue,24,36,60,-6,portis4_matiz_I24C36.RAW8,0.90572
+portis,portis|2026-10-07 #4|hue|key-12|I29C41,2026-10-07,4,hue,29,41,70,-6,portis4_matiz_I29C41.RAW8,0.90572
+portis,portis|2026-10-07 #4|hue|key-12|I4C16,2026-10-07,4,hue,4,16,20,-6,portis4_matiz_I4C16.RAW8,0.90572
+portis,portis|2026-10-07 #4|hue|key-12|I9C21,2026-10-07,4,hue,9,21,30,-6,portis4_matiz_I9C21.RAW8,0.90572
+portis,portis|2026-10-09 #5|hue|key-6|I12C18,2026-10-09,5,hue,12,18,30,-3,portis5_matiz_I12C18.RAW8,0.95532
+portis,portis|2026-10-09 #5|hue|key-6|I17C23,2026-10-09,5,hue,17,23,40,-3,portis5_matiz_I17C23.RAW8,0.95532
+portis,portis|2026-10-09 #5|hue|key-6|I22C28,2026-10-09,5,hue,22,28,50,-3,portis5_matiz_I22C28.RAW8,0.95532
+portis,portis|2026-10-09 #5|hue|key-6|I27C33,2026-10-09,5,hue,27,33,60,-3,portis5_matiz_I27C33.RAW8,0.95532
+portis,portis|2026-10-09 #5|hue|key-6|I2C8,2026-10-09,5,hue,2,8,10,-3,portis5_matiz_I2C8.RAW8,0.95532
+portis,portis|2026-10-09 #5|hue|key-6|I32C38,2026-10-09,5,hue,32,38,70,-3,portis5_matiz_I32C38.RAW8,0.95532
+portis,portis|2026-10-09 #5|hue|key-6|I7C13,2026-10-09,5,hue,7,13,20,-3,portis5_matiz_I7C13.RAW8,0.95532
+portis,portis|2026-10-09 #6|hue|key-14|I-2C12,2026-10-09,6,hue,-2,12,10,-7,portis6_matiz_I-2C12.RAW8,0.9374
+portis,portis|2026-10-09 #6|hue|key-14|I13C27,2026-10-09,6,hue,13,27,40,-7,portis6_matiz_I13C27.RAW8,0.9374
+portis,portis|2026-10-09 #6|hue|key-14|I18C32,2026-10-09,6,hue,18,32,50,-7,portis6_matiz_I18C32.RAW8,0.9374
+portis,portis|2026-10-09 #6|hue|key-14|I23C37,2026-10-09,6,hue,23,37,60,-7,portis6_matiz_I23C37.RAW8,0.9374
+portis,portis|2026-10-09 #6|hue|key-14|I28C42,2026-10-09,6,hue,28,42,70,-7,portis6_matiz_I28C42.RAW8,0.9374
+portis,portis|2026-10-09 #6|hue|key-14|I3C17,2026-10-09,6,hue,3,17,20,-7,portis6_matiz_I3C17.RAW8,0.9374
+portis,portis|2026-10-09 #6|hue|key-14|I8C22,2026-10-09,6,hue,8,22,30,-7,portis6_matiz_I8C22.RAW8,0.9374
+rhetenor,rhetenor|S1|brightness|key40|I13C27,S1,,brightness,13,27,40,-7,rhetenor_brillo_I13C27.RAW8,0.94651
+rhetenor,rhetenor|S1|brightness|key40|I18C22,S1,,brightness,18,22,40,-2,rhetenor_brillo_I18C22.RAW8,0.94651
+rhetenor,rhetenor|S1|brightness|key40|I23C17,S1,,brightness,23,17,40,3,rhetenor_brillo_I23C17.RAW8,0.94651
+rhetenor,rhetenor|S1|brightness|key40|I28C12,S1,,brightness,28,12,40,8,rhetenor_brillo_I28C12.RAW8,0.94651
+rhetenor,rhetenor|S1|brightness|key40|I33C7,S1,,brightness,33,7,40,13,rhetenor_brillo_I33C7.RAW8,0.94651
+rhetenor,rhetenor|S1|brightness|key40|I3C37,S1,,brightness,3,37,40,-17,rhetenor_brillo_I3C37.RAW8,0.94651
+rhetenor,rhetenor|S1|brightness|key40|I8C32,S1,,brightness,8,32,40,-12,rhetenor_brillo_I8C32.RAW8,0.94651
+rhetenor,rhetenor|2026-10-07 #4|brightness|key40|I12C28,2026-10-07,4,brightness,12,28,40,-8,rhetenor4_brillo_I12C28.RAW8,0.96285
+rhetenor,rhetenor|2026-10-07 #4|brightness|key40|I17C23,2026-10-07,4,brightness,17,23,40,-3,rhetenor4_brillo_I17C23.RAW8,0.96285
+rhetenor,rhetenor|2026-10-07 #4|brightness|key40|I23C18,2026-10-07,4,brightness,23,18,41,2.5,rhetenor4_brillo_I23C18.RAW8,0.96285
+rhetenor,rhetenor|2026-10-07 #4|brightness|key40|I27C13,2026-10-07,4,brightness,27,13,40,7,rhetenor4_brillo_I27C13.RAW8,0.96285
+rhetenor,rhetenor|2026-10-07 #4|brightness|key40|I2C38,2026-10-07,4,brightness,2,38,40,-18,rhetenor4_brillo_I2C38.RAW8,0.96285
+rhetenor,rhetenor|2026-10-07 #4|brightness|key40|I32C8,2026-10-07,4,brightness,32,8,40,12,rhetenor4_brillo_I32C8.RAW8,0.96285
+rhetenor,rhetenor|2026-10-07 #4|brightness|key40|I7C33,2026-10-07,4,brightness,7,33,40,-13,rhetenor4_brillo_I7C33.RAW8,0.96285
+rhetenor,rhetenor|2026-10-15 #5|brightness|key40|I13C27,2026-10-15,5,brightness,13,27,40,-7,rhetenor5_brillo_I13C27.RAW8,0.94653
+rhetenor,rhetenor|2026-10-15 #5|brightness|key40|I18C22,2026-10-15,5,brightness,18,22,40,-2,rhetenor5_brillo_I18C22.RAW8,0.94653
+rhetenor,rhetenor|2026-10-15 #5|brightness|key40|I23C17,2026-10-15,5,brightness,23,17,40,3,rhetenor5_brillo_I23C17.RAW8,0.94653
+rhetenor,rhetenor|2026-10-15 #5|brightness|key40|I28C12,2026-10-15,5,brightness,28,12,40,8,rhetenor5_brillo_I28C12.RAW8,0.94653
+rhetenor,rhetenor|2026-10-15 #5|brightness|key40|I33C7,2026-10-15,5,brightness,33,7,40,13,rhetenor5_brillo_I33C7.RAW8,0.94653
+rhetenor,rhetenor|2026-10-15 #5|brightness|key40|I3C37,2026-10-15,5,brightness,3,37,40,-17,rhetenor5_brillo_I3C37.RAW8,0.94653
+rhetenor,rhetenor|2026-10-15 #5|brightness|key40|I8C32,2026-10-15,5,brightness,8,32,40,-12,rhetenor5_brillo_I8C32.RAW8,0.94653
+rhetenor,rhetenor|2026-10-15 #6|brightness|key40|I12C28,2026-10-15,6,brightness,12,28,40,-8,rhetenor6_brillo_I12C28.RAW8,0.95476
+rhetenor,rhetenor|2026-10-15 #6|brightness|key40|I17C23,2026-10-15,6,brightness,17,23,40,-3,rhetenor6_brillo_I17C23.RAW8,0.95476
+rhetenor,rhetenor|2026-10-15 #6|brightness|key40|I22C18,2026-10-15,6,brightness,22,18,40,2,rhetenor6_brillo_I22C18.RAW8,0.95476
+rhetenor,rhetenor|2026-10-15 #6|brightness|key40|I27C13,2026-10-15,6,brightness,27,13,40,7,rhetenor6_brillo_I27C13.RAW8,0.95476
+rhetenor,rhetenor|2026-10-15 #6|brightness|key40|I2C38,2026-10-15,6,brightness,2,38,40,-18,rhetenor6_brillo_I2C38.RAW8,0.95476
+rhetenor,rhetenor|2026-10-15 #6|brightness|key40|I32C8,2026-10-15,6,brightness,32,8,40,12,rhetenor6_brillo_I32C8.RAW8,0.95476
+rhetenor,rhetenor|2026-10-15 #6|brightness|key40|I7C33,2026-10-15,6,brightness,7,33,40,-13,rhetenor6_brillo_I7C33.RAW8,0.95476
+rhetenor,rhetenor|2026-10-21 #8|brightness|key40|I12C28,2026-10-21,8,brightness,12,28,40,-8,rhetenor8_brillo_I12C28.RAW8,0.9601
+rhetenor,rhetenor|2026-10-21 #8|brightness|key40|I17C23,2026-10-21,8,brightness,17,23,40,-3,rhetenor8_brillo_I17C23.RAW8,0.9601
+rhetenor,rhetenor|2026-10-21 #8|brightness|key40|I22C18,2026-10-21,8,brightness,22,18,40,2,rhetenor8_brillo_I22C18.RAW8,0.9601
+rhetenor,rhetenor|2026-10-21 #8|brightness|key40|I27C13,2026-10-21,8,brightness,27,13,40,7,rhetenor8_brillo_I27C13.RAW8,0.9601
+rhetenor,rhetenor|2026-10-21 #8|brightness|key40|I2C38,2026-10-21,8,brightness,2,38,40,-18,rhetenor8_brillo_I2C38.RAW8,0.9601
+rhetenor,rhetenor|2026-10-21 #8|brightness|key40|I32C8,2026-10-21,8,brightness,32,8,40,12,rhetenor8_brillo_I32C8.RAW8,0.9601
+rhetenor,rhetenor|2026-10-21 #8|brightness|key40|I7C33,2026-10-21,8,brightness,7,33,40,-13,rhetenor8_brillo_I7C33.RAW8,0.9601
+rhetenor,rhetenor|2026-10-21 #9|brightness|key40|I12C28,2026-10-21,9,brightness,12,28,40,-8,rhetenor9_brillo_I12C28.RAW8,0.98011
+rhetenor,rhetenor|2026-10-21 #9|brightness|key40|I17C23,2026-10-21,9,brightness,17,23,40,-3,rhetenor9_brillo_I17C23.RAW8,0.98011
+rhetenor,rhetenor|2026-10-21 #9|brightness|key40|I22C18,2026-10-21,9,brightness,22,18,40,2,rhetenor9_brillo_I22C18.RAW8,0.98011
+rhetenor,rhetenor|2026-10-21 #9|brightness|key40|I27C13,2026-10-21,9,brightness,27,13,40,7,rhetenor9_brillo_I27C13.RAW8,0.98011
+rhetenor,rhetenor|2026-10-21 #9|brightness|key40|I2C38,2026-10-21,9,brightness,2,38,40,-18,rhetenor9_brillo_I2C38.RAW8,0.98011
+rhetenor,rhetenor|2026-10-21 #9|brightness|key40|I32C8,2026-10-21,9,brightness,32,8,40,12,rhetenor9_brillo_I32C8.RAW8,0.98011
+rhetenor,rhetenor|2026-10-21 #9|brightness|key40|I7C33,2026-10-21,9,brightness,7,33,40,-13,rhetenor9_brillo_I7C33.RAW8,0.98011
+rhetenor,rhetenor|S1|hue|key-4|I11C15,S1,,hue,11,15,26,-2,rhetenor_matiz_I11C15.RAW8,0.9481
+rhetenor,rhetenor|S1|hue|key-4|I14C18,S1,,hue,14,18,32,-2,rhetenor_matiz_I14C18.RAW8,0.9481
+rhetenor,rhetenor|S1|hue|key-4|I17C21,S1,,hue,17,21,38,-2,rhetenor_matiz_I17C21.RAW8,0.9481
+rhetenor,rhetenor|S1|hue|key-4|I20C24,S1,,hue,20,24,44,-2,rhetenor_matiz_I20C24.RAW8,0.9481
+rhetenor,rhetenor|S1|hue|key-4|I23C27,S1,,hue,23,27,50,-2,rhetenor_matiz_I23C27.RAW8,0.9481
+rhetenor,rhetenor|S1|hue|key-4|I26C30,S1,,hue,26,30,56,-2,rhetenor_matiz_I26C30.RAW8,0.9481
+rhetenor,rhetenor|S1|hue|key-4|I29C33,S1,,hue,29,33,62,-2,rhetenor_matiz_I29C33.RAW8,0.9481
+rhetenor,rhetenor|S1|hue|key-4|I2C6,S1,,hue,2,6,8,-2,rhetenor_matiz_I2C6.RAW8,0.9481
+rhetenor,rhetenor|S1|hue|key-4|I5C9,S1,,hue,5,9,14,-2,rhetenor_matiz_I5C9.RAW8,0.9481
+rhetenor,rhetenor|S1|hue|key-4|I8C12,S1,,hue,8,12,20,-2,rhetenor_matiz_I8C12.RAW8,0.9481
+rhetenor,rhetenor|2026-09-30 #3|hue|key-6|I10C16,2026-09-30,3,hue,10,16,26,-3,rhetenro3_I10C16.RAW8,0.96844
+rhetenor,rhetenor|2026-09-30 #3|hue|key-6|I13C19,2026-09-30,3,hue,13,19,32,-3,rhetenro3_I13C19.RAW8,0.96844
+rhetenor,rhetenor|2026-09-30 #3|hue|key-6|I16C22,2026-09-30,3,hue,16,22,38,-3,rhetenro3_I16C22.RAW8,0.96844
+rhetenor,rhetenor|2026-09-30 #3|hue|key-6|I19C25,2026-09-30,3,hue,19,25,44,-3,rhetenro3_I19C25.RAW8,0.96844
+rhetenor,rhetenor|2026-09-30 #3|hue|key-6|I1C7,2026-09-30,3,hue,1,7,8,-3,rhetenro3_I1C7.RAW8,0.96844
+rhetenor,rhetenor|2026-09-30 #3|hue|key-6|I22C28,2026-09-30,3,hue,22,28,50,-3,rhetenro3_I22C28.RAW8,0.96844
+rhetenor,rhetenor|2026-09-30 #3|hue|key-6|I25C31,2026-09-30,3,hue,25,31,56,-3,rhetenro3_I25C31.RAW8,0.96844
+rhetenor,rhetenor|2026-09-30 #3|hue|key-6|I28C34,2026-09-30,3,hue,28,34,62,-3,rhetenro3_I28C34.RAW8,0.96844
+rhetenor,rhetenor|2026-09-30 #3|hue|key-6|I31C37,2026-09-30,3,hue,31,37,68,-3,rhetenro3_I31C37.RAW8,0.96844
+rhetenor,rhetenor|2026-09-30 #3|hue|key-6|I4C10,2026-09-30,3,hue,4,10,14,-3,rhetenro3_I4C10.RAW8,0.96844
+rhetenor,rhetenor|2026-09-30 #3|hue|key-6|I7C13,2026-09-30,3,hue,7,13,20,-3,rhetenro3_I7C13.RAW8,0.96844
+rhetenor,rhetenor|2026-10-07 #4|hue|key-6|I10C16,2026-10-07,4,hue,10,16,26,-3,rhetenor4_matiz_I10C16.RAW8,0.90821
+rhetenor,rhetenor|2026-10-07 #4|hue|key-6|I13C19,2026-10-07,4,hue,13,19,32,-3,rhetenor4_matiz_I13C19.RAW8,0.90821
+rhetenor,rhetenor|2026-10-07 #4|hue|key-6|I16C22,2026-10-07,4,hue,16,22,38,-3,rhetenor4_matiz_I16C22.RAW8,0.90821
+rhetenor,rhetenor|2026-10-07 #4|hue|key-6|I19C25,2026-10-07,4,hue,19,25,44,-3,rhetenor4_matiz_I19C25.RAW8,0.90821
+rhetenor,rhetenor|2026-10-07 #4|hue|key-6|I1C7,2026-10-07,4,hue,1,7,8,-3,rhetenor4_matiz_I1C7.RAW8,0.90821
+rhetenor,rhetenor|2026-10-07 #4|hue|key-6|I22C28,2026-10-07,4,hue,22,28,50,-3,rhetenor4_matiz_I22C28.RAW8,0.90821
+rhetenor,rhetenor|2026-10-07 #4|hue|key-6|I25C31,2026-10-07,4,hue,25,31,56,-3,rhetenor4_matiz_I25C31.RAW8,0.90821
+rhetenor,rhetenor|2026-10-07 #4|hue|key-6|I28C34,2026-10-07,4,hue,28,34,62,-3,rhetenor4_matiz_I28C34.RAW8,0.90821
+rhetenor,rhetenor|2026-10-07 #4|hue|key-6|I4C10,2026-10-07,4,hue,4,10,14,-3,rhetenor4_matiz_I4C10.RAW8,0.90821
+rhetenor,rhetenor|2026-10-07 #4|hue|key-6|I7C13,2026-10-07,4,hue,7,13,20,-3,rhetenor4_matiz_I7C13.RAW8,0.90821
+rhetenor,rhetenor|2026-10-15 #5|hue|key0|I10C10,2026-10-15,5,hue,10,10,20,0,rhetenor5_matiz_I10C10.RAW8,0.97221
+rhetenor,rhetenor|2026-10-15 #5|hue|key0|I13C13,2026-10-15,5,hue,13,13,26,0,rhetenor5_matiz_I13C13.RAW8,0.97221
+rhetenor,rhetenor|2026-10-15 #5|hue|key0|I16C16,2026-10-15,5,hue,16,16,32,0,rhetenor5_matiz_I16C16.RAW8,0.97221
+rhetenor,rhetenor|2026-10-15 #5|hue|key0|I19C19,2026-10-15,5,hue,19,19,38,0,rhetenor5_matiz_I19C19.RAW8,0.97221
+rhetenor,rhetenor|2026-10-15 #5|hue|key0|I22C22,2026-10-15,5,hue,22,22,44,0,rhetenor5_matiz_I22C22.RAW8,0.97221
+rhetenor,rhetenor|2026-10-15 #5|hue|key0|I25C25,2026-10-15,5,hue,25,25,50,0,rhetenor5_matiz_I25C25.RAW8,0.97221
+rhetenor,rhetenor|2026-10-15 #5|hue|key0|I28C28,2026-10-15,5,hue,28,28,56,0,rhetenor5_matiz_I28C28.RAW8,0.97221
+rhetenor,rhetenor|2026-10-15 #5|hue|key0|I31C31,2026-10-15,5,hue,31,31,62,0,rhetenor5_matiz_I31C31.RAW8,0.97221
+rhetenor,rhetenor|2026-10-15 #5|hue|key0|I34C34,2026-10-15,5,hue,34,34,68,0,rhetenor5_matiz_I34C34.RAW8,0.97221
+rhetenor,rhetenor|2026-10-15 #5|hue|key0|I4C4,2026-10-15,5,hue,4,4,8,0,rhetenor5_matiz_I4C4.RAW8,0.97221
+rhetenor,rhetenor|2026-10-15 #5|hue|key0|I7C7,2026-10-15,5,hue,7,7,14,0,rhetenor5_matiz_I7C7.RAW8,0.97221
+rhetenor,rhetenor|2026-10-15 #6|hue|key-6|I10C16,2026-10-15,6,hue,10,16,26,-3,rhetenor6_matiz_I10C16.RAW8,0.96792
+rhetenor,rhetenor|2026-10-15 #6|hue|key-6|I13C19,2026-10-15,6,hue,13,19,32,-3,rhetenor6_matiz_I13C19.RAW8,0.96792
+rhetenor,rhetenor|2026-10-15 #6|hue|key-6|I16C22,2026-10-15,6,hue,16,22,38,-3,rhetenor6_matiz_I16C22.RAW8,0.96792
+rhetenor,rhetenor|2026-10-15 #6|hue|key-6|I19C25,2026-10-15,6,hue,19,25,44,-3,rhetenor6_matiz_I19C25.RAW8,0.96792
+rhetenor,rhetenor|2026-10-15 #6|hue|key-6|I1C7,2026-10-15,6,hue,1,7,8,-3,rhetenor6_matiz_I1C7.RAW8,0.96792
+rhetenor,rhetenor|2026-10-15 #6|hue|key-6|I22C28,2026-10-15,6,hue,22,28,50,-3,rhetenor6_matiz_I22C28.RAW8,0.96792
+rhetenor,rhetenor|2026-10-15 #6|hue|key-6|I25C31,2026-10-15,6,hue,25,31,56,-3,rhetenor6_matiz_I25C31.RAW8,0.96792
+rhetenor,rhetenor|2026-10-15 #6|hue|key-6|I28C34,2026-10-15,6,hue,28,34,62,-3,rhetenor6_matiz_I28C34.RAW8,0.96792
+rhetenor,rhetenor|2026-10-15 #6|hue|key-6|I4C10,2026-10-15,6,hue,4,10,14,-3,rhetenor6_matiz_I4C10.RAW8,0.96792
+rhetenor,rhetenor|2026-10-15 #6|hue|key-6|I7C13,2026-10-15,6,hue,7,13,20,-3,rhetenor6_matiz_I7C13.RAW8,0.96792
+rhetenor,rhetenor|2026-10-21 #8|hue|key-6|I10C16,2026-10-21,8,hue,10,16,26,-3,rhetenor8_matiz_I10C16.RAW8,0.93685
+rhetenor,rhetenor|2026-10-21 #8|hue|key-6|I13C19,2026-10-21,8,hue,13,19,32,-3,rhetenor8_matiz_I13C19.RAW8,0.93685
+rhetenor,rhetenor|2026-10-21 #8|hue|key-6|I16C22,2026-10-21,8,hue,16,22,38,-3,rhetenor8_matiz_I16C22.RAW8,0.93685
+rhetenor,rhetenor|2026-10-21 #8|hue|key-6|I19C25,2026-10-21,8,hue,19,25,44,-3,rhetenor8_matiz_I19C25.RAW8,0.93685
+rhetenor,rhetenor|2026-10-21 #8|hue|key-6|I1C7,2026-10-21,8,hue,1,7,8,-3,rhetenor8_matiz_I1C7.RAW8,0.93685
+rhetenor,rhetenor|2026-10-21 #8|hue|key-6|I22C28,2026-10-21,8,hue,22,28,50,-3,rhetenor8_matiz_I22C28.RAW8,0.93685
+rhetenor,rhetenor|2026-10-21 #8|hue|key-6|I25C31,2026-10-21,8,hue,25,31,56,-3,rhetenor8_matiz_I25C31.RAW8,0.93685
+rhetenor,rhetenor|2026-10-21 #8|hue|key-6|I28C34,2026-10-21,8,hue,28,34,62,-3,rhetenor8_matiz_I28C34.RAW8,0.93685
+rhetenor,rhetenor|2026-10-21 #8|hue|key-6|I4C10,2026-10-21,8,hue,4,10,14,-3,rhetenor8_matiz_I4C10.RAW8,0.93685
+rhetenor,rhetenor|2026-10-21 #8|hue|key-6|I7C13,2026-10-21,8,hue,7,13,20,-3,rhetenor8_matiz_I7C13.RAW8,0.93685
+rhetenor,rhetenor|2026-10-21 #9|hue|key-6|I10C16,2026-10-21,9,hue,10,16,26,-3,rhetenor9_matiz_I10C16.RAW8,0.92652
+rhetenor,rhetenor|2026-10-21 #9|hue|key-6|I13C19,2026-10-21,9,hue,13,19,32,-3,rhetenor9_matiz_I13C19.RAW8,0.92652
+rhetenor,rhetenor|2026-10-21 #9|hue|key-6|I16C22,2026-10-21,9,hue,16,22,38,-3,rhetenor9_matiz_I16C22.RAW8,0.92652
+rhetenor,rhetenor|2026-10-21 #9|hue|key-6|I19C25,2026-10-21,9,hue,19,25,44,-3,rhetenor9_matiz_I19C25.RAW8,0.92652
+rhetenor,rhetenor|2026-10-21 #9|hue|key-6|I1C7,2026-10-21,9,hue,1,7,8,-3,rhetenor9_matiz_I1C7.RAW8,0.92652
+rhetenor,rhetenor|2026-10-21 #9|hue|key-6|I22C28,2026-10-21,9,hue,22,28,50,-3,rhetenor9_matiz_I22C28.RAW8,0.92652
+rhetenor,rhetenor|2026-10-21 #9|hue|key-6|I25C31,2026-10-21,9,hue,25,31,56,-3,rhetenor9_matiz_I25C31.RAW8,0.92652
+rhetenor,rhetenor|2026-10-21 #9|hue|key-6|I28C34,2026-10-21,9,hue,28,34,62,-3,rhetenor9_matiz_I28C34.RAW8,0.92652
+rhetenor,rhetenor|2026-10-21 #9|hue|key-6|I4C10,2026-10-21,9,hue,4,10,14,-3,rhetenor9_matiz_I4C10.RAW8,0.92652
+rhetenor,rhetenor|2026-10-21 #9|hue|key-6|I7C13,2026-10-21,9,hue,7,13,20,-3,rhetenor9_matiz_I7C13.RAW8,0.92652
+rhodopteron,rhodopteron|2026-10-07 #4|brightness|key40|I12C28,2026-10-07,4,brightness,12,28,40,-8,rhodopteron4_brillo_I12C28.RAW8,0.99586
+rhodopteron,rhodopteron|2026-10-07 #4|brightness|key40|I17C23,2026-10-07,4,brightness,17,23,40,-3,rhodopteron4_brillo_I17C23.RAW8,0.99586
+rhodopteron,rhodopteron|2026-10-07 #4|brightness|key40|I22C18,2026-10-07,4,brightness,22,18,40,2,rhodopteron4_brillo_I22C18.RAW8,0.99586
+rhodopteron,rhodopteron|2026-10-07 #4|brightness|key40|I27C13,2026-10-07,4,brightness,27,13,40,7,rhodopteron4_brillo_I27C13.RAW8,0.99586
+rhodopteron,rhodopteron|2026-10-07 #4|brightness|key40|I2C38,2026-10-07,4,brightness,2,38,40,-18,rhodopteron4_brillo_I2C38.RAW8,0.99586
+rhodopteron,rhodopteron|2026-10-07 #4|brightness|key40|I32C8,2026-10-07,4,brightness,32,8,40,12,rhodopteron4_brillo_I32C8.RAW8,0.99586
+rhodopteron,rhodopteron|2026-10-07 #4|brightness|key40|I7C33,2026-10-07,4,brightness,7,33,40,-13,rhodopteron4_brillo_I7C33.RAW8,0.99586
+rhodopteron,rhodopteron|2026-10-15 #5|brightness|key40|I0C40,2026-10-15,5,brightness,0,40,40,-20,rhodopteron5_brillo_I0C40.RAW8,0.98867
+rhodopteron,rhodopteron|2026-10-15 #5|brightness|key40|I10C30,2026-10-15,5,brightness,10,30,40,-10,rhodopteron5_brillo_I10C30.RAW8,0.98867
+rhodopteron,rhodopteron|2026-10-15 #5|brightness|key40|I15C25,2026-10-15,5,brightness,15,25,40,-5,rhodopteron5_brillo_I15C25.RAW8,0.98867
+rhodopteron,rhodopteron|2026-10-15 #5|brightness|key40|I20C20,2026-10-15,5,brightness,20,20,40,0,rhodopteron5_brillo_I20C20.RAW8,0.98867
+rhodopteron,rhodopteron|2026-10-15 #5|brightness|key40|I25C15,2026-10-15,5,brightness,25,15,40,5,rhodopteron5_brillo_I25C15.RAW8,0.98867
+rhodopteron,rhodopteron|2026-10-15 #5|brightness|key40|I30C10,2026-10-15,5,brightness,30,10,40,10,rhodopteron5_brillo_I30C10.RAW8,0.98867
+rhodopteron,rhodopteron|2026-10-15 #5|brightness|key40|I5C35,2026-10-15,5,brightness,5,35,40,-15,rhodopteron5_brillo_I5C35.RAW8,0.98867
+rhodopteron,rhodopteron|2026-10-15 #6|brightness|key40|I0C40,2026-10-15,6,brightness,0,40,40,-20,rhodopteron6_brillo_I0C40.RAW8,0.99009
+rhodopteron,rhodopteron|2026-10-15 #6|brightness|key40|I10C30,2026-10-15,6,brightness,10,30,40,-10,rhodopteron6_brillo_I10C30.RAW8,0.99009
+rhodopteron,rhodopteron|2026-10-15 #6|brightness|key40|I15C25,2026-10-15,6,brightness,15,25,40,-5,rhodopteron6_brillo_I15C25.RAW8,0.99009
+rhodopteron,rhodopteron|2026-10-15 #6|brightness|key40|I20C20,2026-10-15,6,brightness,20,20,40,0,rhodopteron6_brillo_I20C20.RAW8,0.99009
+rhodopteron,rhodopteron|2026-10-15 #6|brightness|key40|I25C15,2026-10-15,6,brightness,25,15,40,5,rhodopteron6_brillo_I25C15.RAW8,0.99009
+rhodopteron,rhodopteron|2026-10-15 #6|brightness|key40|I30C10,2026-10-15,6,brightness,30,10,40,10,rhodopteron6_brillo_I30C10.RAW8,0.99009
+rhodopteron,rhodopteron|2026-10-15 #6|brightness|key40|I5C35,2026-10-15,6,brightness,5,35,40,-15,rhodopteron6_brillo_I5C35.RAW8,0.99009
+rhodopteron,rhodopteron|2026-10-19 #7|brightness|key40|I13C27,2026-10-19,7,brightness,13,27,40,-7,rhodopteron7_brillo_I13C27.RAW8,0.98557
+rhodopteron,rhodopteron|2026-10-19 #7|brightness|key40|I18C22,2026-10-19,7,brightness,18,22,40,-2,rhodopteron7_brillo_I18C22.RAW8,0.98557
+rhodopteron,rhodopteron|2026-10-19 #7|brightness|key40|I23C17,2026-10-19,7,brightness,23,17,40,3,rhodopteron7_brillo_I23C17.RAW8,0.98557
+rhodopteron,rhodopteron|2026-10-19 #7|brightness|key40|I28C12,2026-10-19,7,brightness,28,12,40,8,rhodopteron7_brillo_I28C12.RAW8,0.98557
+rhodopteron,rhodopteron|2026-10-19 #7|brightness|key40|I33C7,2026-10-19,7,brightness,33,7,40,13,rhodopteron7_brillo_I33C7.RAW8,0.98557
+rhodopteron,rhodopteron|2026-10-19 #7|brightness|key40|I3C37,2026-10-19,7,brightness,3,37,40,-17,rhodopteron7_brillo_I3C37.RAW8,0.98557
+rhodopteron,rhodopteron|2026-10-19 #7|brightness|key40|I8C32,2026-10-19,7,brightness,8,32,40,-12,rhodopteron7_brillo_I8C32.RAW8,0.98557
+rhodopteron,rhodopteron|2026-10-19 #8|brightness|key40|I0C40,2026-10-19,8,brightness,0,40,40,-20,rhodopteron8_brillo_I0C40.RAW8,0.99193
+rhodopteron,rhodopteron|2026-10-19 #8|brightness|key40|I10C30,2026-10-19,8,brightness,10,30,40,-10,rhodopteron8_brillo_I10C30.RAW8,0.99193
+rhodopteron,rhodopteron|2026-10-19 #8|brightness|key40|I15C25,2026-10-19,8,brightness,15,25,40,-5,rhodopteron8_brillo_I15C25.RAW8,0.99193
+rhodopteron,rhodopteron|2026-10-19 #8|brightness|key40|I20C20,2026-10-19,8,brightness,20,20,40,0,rhodopteron8_brillo_I20C20.RAW8,0.99193
+rhodopteron,rhodopteron|2026-10-19 #8|brightness|key40|I25C15,2026-10-19,8,brightness,25,15,40,5,rhodopteron8_brillo_I25C15.RAW8,0.99193
+rhodopteron,rhodopteron|2026-10-19 #8|brightness|key40|I30C10,2026-10-19,8,brightness,30,10,40,10,rhodopteron8_brillo_I30C10.RAW8,0.99193
+rhodopteron,rhodopteron|2026-10-19 #8|brightness|key40|I5C35,2026-10-19,8,brightness,5,35,40,-15,rhodopteron8_brillo_I5C35.RAW8,0.99193
+rhodopteron,rhodopteron|2026-10-21 #8|brightness|key40|I0C40,2026-10-21,8,brightness,0,40,40,-20,rhodopteron8_brillo_I0C40.RAW8,0.99787
+rhodopteron,rhodopteron|2026-10-21 #8|brightness|key40|I10C30,2026-10-21,8,brightness,10,30,40,-10,rhodopteron8_brillo_I10C30.RAW8,0.99787
+rhodopteron,rhodopteron|2026-10-21 #8|brightness|key40|I15C25,2026-10-21,8,brightness,15,25,40,-5,rhodopteron8_brillo_I15C25.RAW8,0.99787
+rhodopteron,rhodopteron|2026-10-21 #8|brightness|key40|I20C20,2026-10-21,8,brightness,20,20,40,0,rhodopteron8_brillo_I20C20.RAW8,0.99787
+rhodopteron,rhodopteron|2026-10-21 #8|brightness|key40|I25C15,2026-10-21,8,brightness,25,15,40,5,rhodopteron8_brillo_I25C15.RAW8,0.99787
+rhodopteron,rhodopteron|2026-10-21 #8|brightness|key40|I30C10,2026-10-21,8,brightness,30,10,40,10,rhodopteron8_brillo_I30C10.RAW8,0.99787
+rhodopteron,rhodopteron|2026-10-21 #8|brightness|key40|I5C35,2026-10-21,8,brightness,5,35,40,-15,rhodopteron8_brillo_I5C35.RAW8,0.99787
+rhodopteron,rhodopteron|2026-10-21 #9|brightness|key40|I-1C41,2026-10-21,9,brightness,-1,41,40,-21,rhodopteron9_brillo_I-1C41.RAW8,0.9966
+rhodopteron,rhodopteron|2026-10-21 #9|brightness|key40|I14C26,2026-10-21,9,brightness,14,26,40,-6,rhodopteron9_brillo_I14C26.RAW8,0.9966
+rhodopteron,rhodopteron|2026-10-21 #9|brightness|key40|I19C21,2026-10-21,9,brightness,19,21,40,-1,rhodopteron9_brillo_I19C21.RAW8,0.9966
+rhodopteron,rhodopteron|2026-10-21 #9|brightness|key40|I24C16,2026-10-21,9,brightness,24,16,40,4,rhodopteron9_brillo_I24C16.RAW8,0.9966
+rhodopteron,rhodopteron|2026-10-21 #9|brightness|key40|I29C11,2026-10-21,9,brightness,29,11,40,9,rhodopteron9_brillo_I29C11.RAW8,0.9966
+rhodopteron,rhodopteron|2026-10-21 #9|brightness|key40|I4C36,2026-10-21,9,brightness,4,36,40,-16,rhodopteron9_brillo_I4C36.RAW8,0.9966
+rhodopteron,rhodopteron|2026-10-21 #9|brightness|key40|I9C31,2026-10-21,9,brightness,9,31,40,-11,rhodopteron9_brillo_I9C31.RAW8,0.9966
+rhodopteron,rhodopteron|S1|hue|key-10|I-1C9,S1,,hue,-1,9,8,-5,rhodopteron_matiz_I-1C9.RAW8,0.9611
+rhodopteron,rhodopteron|S1|hue|key-10|I11C21,S1,,hue,11,21,32,-5,rhodopteron_matiz_I11C21.RAW8,0.9611
+rhodopteron,rhodopteron|S1|hue|key-10|I17C27,S1,,hue,17,27,44,-5,rhodopteron_matiz_I17C27.RAW8,0.9611
+rhodopteron,rhodopteron|S1|hue|key-10|I20C30,S1,,hue,20,30,50,-5,rhodopteron_matiz_I20C30.RAW8,0.9611
+rhodopteron,rhodopteron|S1|hue|key-10|I23C33,S1,,hue,23,33,56,-5,rhodopteron_matiz_I23C33.RAW8,0.9611
+rhodopteron,rhodopteron|S1|hue|key-10|I26C36,S1,,hue,26,36,62,-5,rhodopteron_matiz_I26C36.RAW8,0.9611
+rhodopteron,rhodopteron|S1|hue|key-10|I2C12,S1,,hue,2,12,14,-5,rhodopteron_matiz_I2C12.RAW8,0.9611
+rhodopteron,rhodopteron|S1|hue|key-10|I5C15,S1,,hue,5,15,20,-5,rhodopteron_matiz_I5C15.RAW8,0.9611
+rhodopteron,rhodopteron|S1|hue|key-10|I8C18,S1,,hue,8,18,26,-5,rhodopteron_matiz_I8C18.RAW8,0.9611
+rhodopteron,rhodopteron|2026-09-25 #2|hue|key-16|I-1C15,2026-09-25,2,hue,-1,15,14,-8,rhodopyeron2_matiz_I-1C15.RAW8,0.96622
+rhodopteron,rhodopteron|2026-09-25 #2|hue|key-16|I-4C12,2026-09-25,2,hue,-4,12,8,-8,rhodopyeron2_matiz_I-4C12.RAW8,0.96622
+rhodopteron,rhodopteron|2026-09-25 #2|hue|key-16|I11C27,2026-09-25,2,hue,11,27,38,-8,rhodopyeron2_matiz_I11C27.RAW8,0.96622
+rhodopteron,rhodopteron|2026-09-25 #2|hue|key-16|I14C30,2026-09-25,2,hue,14,30,44,-8,rhodopyeron2_matiz_I14C30.RAW8,0.96622
+rhodopteron,rhodopteron|2026-09-25 #2|hue|key-16|I17C33,2026-09-25,2,hue,17,33,50,-8,rhodopyeron2_matiz_I17C33.RAW8,0.96622
+rhodopteron,rhodopteron|2026-09-25 #2|hue|key-16|I20C36,2026-09-25,2,hue,20,36,56,-8,rhodopyeron2_matiz_I20C36.RAW8,0.96622
+rhodopteron,rhodopteron|2026-09-25 #2|hue|key-16|I23C39,2026-09-25,2,hue,23,39,62,-8,rhodopyeron2_matiz_I23C39.RAW8,0.96622
+rhodopteron,rhodopteron|2026-09-25 #2|hue|key-16|I2C18,2026-09-25,2,hue,2,18,20,-8,rhodopyeron2_matiz_I2C18.RAW8,0.96622
+rhodopteron,rhodopteron|2026-09-25 #2|hue|key-16|I5C21,2026-09-25,2,hue,5,21,26,-8,rhodopyeron2_matiz_I5C21.RAW8,0.96622
+rhodopteron,rhodopteron|2026-09-25 #2|hue|key-16|I8C24,2026-09-25,2,hue,8,24,32,-8,rhodopyeron2_matiz_I8C24.RAW8,0.96622
+rhodopteron,rhodopteron|2026-09-30 #3|hue|key-10|I-1C9,2026-09-30,3,hue,-1,9,8,-5,rhodopteron3_matiz_I-1C9.RAW8,0.95839
+rhodopteron,rhodopteron|2026-09-30 #3|hue|key-10|I11C21,2026-09-30,3,hue,11,21,32,-5,rhodopteron3_matiz_I11C21.RAW8,0.95839
+rhodopteron,rhodopteron|2026-09-30 #3|hue|key-10|I14C24,2026-09-30,3,hue,14,24,38,-5,rhodopteron3_matiz_I14C24.RAW8,0.95839
+rhodopteron,rhodopteron|2026-09-30 #3|hue|key-10|I17C27,2026-09-30,3,hue,17,27,44,-5,rhodopteron3_matiz_I17C27.RAW8,0.95839
+rhodopteron,rhodopteron|2026-09-30 #3|hue|key-10|I20C30,2026-09-30,3,hue,20,30,50,-5,rhodopteron3_matiz_I20C30.RAW8,0.95839
+rhodopteron,rhodopteron|2026-09-30 #3|hue|key-10|I23C33,2026-09-30,3,hue,23,33,56,-5,rhodopteron3_matiz_I23C33.RAW8,0.95839
+rhodopteron,rhodopteron|2026-09-30 #3|hue|key-10|I29C39,2026-09-30,3,hue,29,39,68,-5,rhodopteron3_matiz_I29C39.RAW8,0.95839
+rhodopteron,rhodopteron|2026-09-30 #3|hue|key-10|I2C12,2026-09-30,3,hue,2,12,14,-5,rhodopteron3_matiz_I2C12.RAW8,0.95839
+rhodopteron,rhodopteron|2026-09-30 #3|hue|key-10|I5C15,2026-09-30,3,hue,5,15,20,-5,rhodopteron3_matiz_I5C15.RAW8,0.95839
+rhodopteron,rhodopteron|2026-09-30 #3|hue|key-10|I8C18,2026-09-30,3,hue,8,18,26,-5,rhodopteron3_matiz_I8C18.RAW8,0.95839
+rhodopteron,rhodopteron|2026-10-07 #4|hue|key-6|I10C16,2026-10-07,4,hue,10,16,26,-3,rhodopteron4_matiz_I10C16.RAW8,0.99513
+rhodopteron,rhodopteron|2026-10-07 #4|hue|key-6|I13C19,2026-10-07,4,hue,13,19,32,-3,rhodopteron4_matiz_I13C19.RAW8,0.99513
+rhodopteron,rhodopteron|2026-10-07 #4|hue|key-6|I16C22,2026-10-07,4,hue,16,22,38,-3,rhodopteron4_matiz_I16C22.RAW8,0.99513
+rhodopteron,rhodopteron|2026-10-07 #4|hue|key-6|I19C25,2026-10-07,4,hue,19,25,44,-3,rhodopteron4_matiz_I19C25.RAW8,0.99513
+rhodopteron,rhodopteron|2026-10-07 #4|hue|key-6|I1C7,2026-10-07,4,hue,1,7,8,-3,rhodopteron4_matiz_I1C7.RAW8,0.99513
+rhodopteron,rhodopteron|2026-10-07 #4|hue|key-6|I22C28,2026-10-07,4,hue,22,28,50,-3,rhodopteron4_matiz_I22C28.RAW8,0.99513
+rhodopteron,rhodopteron|2026-10-07 #4|hue|key-6|I25C31,2026-10-07,4,hue,25,31,56,-3,rhodopteron4_matiz_I25C31.RAW8,0.99513
+rhodopteron,rhodopteron|2026-10-07 #4|hue|key-6|I28C34,2026-10-07,4,hue,28,34,62,-3,rhodopteron4_matiz_I28C34.RAW8,0.99513
+rhodopteron,rhodopteron|2026-10-07 #4|hue|key-6|I4C10,2026-10-07,4,hue,4,10,14,-3,rhodopteron4_matiz_I4C10.RAW8,0.99513
+rhodopteron,rhodopteron|2026-10-07 #4|hue|key-6|I7C13,2026-10-07,4,hue,7,13,20,-3,rhodopteron4_matiz_I7C13.RAW8,0.99513
+rhodopteron,rhodopteron|2026-10-15 #5|hue|key-10|I-1C9,2026-10-15,5,hue,-1,9,8,-5,rhodopteron5_matiz_I-1C9.RAW8,0.96086
+rhodopteron,rhodopteron|2026-10-15 #5|hue|key-10|I11C21,2026-10-15,5,hue,11,21,32,-5,rhodopteron5_matiz_I11C21.RAW8,0.96086
+rhodopteron,rhodopteron|2026-10-15 #5|hue|key-10|I14C24,2026-10-15,5,hue,14,24,38,-5,rhodopteron5_matiz_I14C24.RAW8,0.96086
+rhodopteron,rhodopteron|2026-10-15 #5|hue|key-10|I17C27,2026-10-15,5,hue,17,27,44,-5,rhodopteron5_matiz_I17C27.RAW8,0.96086
+rhodopteron,rhodopteron|2026-10-15 #5|hue|key-10|I20C30,2026-10-15,5,hue,20,30,50,-5,rhodopteron5_matiz_I20C30.RAW8,0.96086
+rhodopteron,rhodopteron|2026-10-15 #5|hue|key-10|I23C33,2026-10-15,5,hue,23,33,56,-5,rhodopteron5_matiz_I23C33.RAW8,0.96086
+rhodopteron,rhodopteron|2026-10-15 #5|hue|key-10|I26C36,2026-10-15,5,hue,26,36,62,-5,rhodopteron5_matiz_I26C36.RAW8,0.96086
+rhodopteron,rhodopteron|2026-10-15 #5|hue|key-10|I29C39,2026-10-15,5,hue,29,39,68,-5,rhodopteron5_matiz_I29C39.RAW8,0.96086
+rhodopteron,rhodopteron|2026-10-15 #5|hue|key-10|I2C12,2026-10-15,5,hue,2,12,14,-5,rhodopteron5_matiz_I2C12.RAW8,0.96086
+rhodopteron,rhodopteron|2026-10-15 #5|hue|key-10|I5C15,2026-10-15,5,hue,5,15,20,-5,rhodopteron5_matiz_I5C15.RAW8,0.96086
+rhodopteron,rhodopteron|2026-10-15 #5|hue|key-10|I8C18,2026-10-15,5,hue,8,18,26,-5,rhodopteron5_matiz_I8C18.RAW8,0.96086
+rhodopteron,rhodopteron|2026-10-15 #6|hue|key-10|I11C21,2026-10-15,6,hue,11,21,32,-5,rhodopteron6_matizI11C21.RAW8,0.97441
+rhodopteron,rhodopteron|2026-10-15 #6|hue|key-10|I14C24,2026-10-15,6,hue,14,24,38,-5,rhodopteron6_matizI14C24.RAW8,0.97441
+rhodopteron,rhodopteron|2026-10-15 #6|hue|key-10|I17C27,2026-10-15,6,hue,17,27,44,-5,rhodopteron6_matizI17C27.RAW8,0.97441
+rhodopteron,rhodopteron|2026-10-15 #6|hue|key-10|I20C30,2026-10-15,6,hue,20,30,50,-5,rhodopteron6_matizI20C30.RAW8,0.97441
+rhodopteron,rhodopteron|2026-10-15 #6|hue|key-10|I23C33,2026-10-15,6,hue,23,33,56,-5,rhodopteron6_matizI23C33.RAW8,0.97441
+rhodopteron,rhodopteron|2026-10-15 #6|hue|key-10|I26C36,2026-10-15,6,hue,26,36,62,-5,rhodopteron6_matizI26C36.RAW8,0.97441
+rhodopteron,rhodopteron|2026-10-15 #6|hue|key-10|I2C12,2026-10-15,6,hue,2,12,14,-5,rhodopteron6_matizI2C12.RAW8,0.97441
+rhodopteron,rhodopteron|2026-10-15 #6|hue|key-10|I5C15,2026-10-15,6,hue,5,15,20,-5,rhodopteron6_matizI5C15.RAW8,0.97441
+rhodopteron,rhodopteron|2026-10-15 #6|hue|key-10|I8C18,2026-10-15,6,hue,8,18,26,-5,rhodopteron6_matizI8C18.RAW8,0.97441
+rhodopteron,rhodopteron|2026-10-15 #6|hue|key-10|I-1C9,2026-10-15,6,hue,-1,9,8,-5,rhodopteron6_matiz_I-1C9.RAW8,0.97441
+sulkowskyi,sulkowskyi|S1|brightness|key40|I11C29,S1,,brightness,11,29,40,-9,M. sulkowskyi brillo I11  C29.RAW8,0.98776
+sulkowskyi,sulkowskyi|S1|brightness|key40|I14C26,S1,,brightness,14,26,40,-6,M. sulkowskyi brillo I14  C26.RAW8,0.98776
+sulkowskyi,sulkowskyi|S1|brightness|key40|I17C23,S1,,brightness,17,23,40,-3,M. sulkowskyi brillo I17  C23.RAW8,0.98776
+sulkowskyi,sulkowskyi|S1|brightness|key40|I20C20,S1,,brightness,20,20,40,0,M. sulkowskyi brillo I20  C20.RAW8,0.98776
+sulkowskyi,sulkowskyi|S1|brightness|key40|I23C17,S1,,brightness,23,17,40,3,M. sulkowskyi brillo I23  C17.RAW8,0.98776
+sulkowskyi,sulkowskyi|S1|brightness|key40|I26C14,S1,,brightness,26,14,40,6,M. sulkowskyi brillo I26  C14.RAW8,0.98776
+sulkowskyi,sulkowskyi|S1|brightness|key40|I29C11,S1,,brightness,29,11,40,9,M. sulkowskyi brillo I29 C11.RAW8,0.98776
+sulkowskyi,sulkowskyi|S1|brightness|key40|I32C8,S1,,brightness,32,8,40,12,M. sulkowskyi brillo I32 C8.RAW8,0.98776
+sulkowskyi,sulkowskyi|S1|brightness|key40|I35C5,S1,,brightness,35,5,40,15,M. sulkowskyi brillo I35 C5.RAW8,0.98776
+sulkowskyi,sulkowskyi|S1|brightness|key40|I5C35,S1,,brightness,5,35,40,-15,M. sulkowskyi brillo I5  C35.RAW8,0.98776
+sulkowskyi,sulkowskyi|S1|brightness|key40|I8C32,S1,,brightness,8,32,40,-12,M. sulkowskyi brillo I8  C32.RAW8,0.98776
+sulkowskyi,sulkowskyi|2026-09-02|brightness|key10|I-1C11,2026-09-02,,brightness,-1,11,10,-6,M. sulkowskyi Brillo I-1 C11.RAW8,0.93254
+sulkowskyi,sulkowskyi|2026-09-02|brightness|key10|I-10C20,2026-09-02,,brightness,-10,20,10,-15,M. sulkowskyi Brillo I-10 20.RAW8,0.93254
+sulkowskyi,sulkowskyi|2026-09-02|brightness|key10|I-13C23,2026-09-02,,brightness,-13,23,10,-18,M. sulkowskyi Brillo I-13 23.RAW8,0.93254
+sulkowskyi,sulkowskyi|2026-09-02|brightness|key10|I-22C32,2026-09-02,,brightness,-22,32,10,-27,M. sulkowskyi Brillo I-22 32.RAW8,0.93254
+sulkowskyi,sulkowskyi|2026-09-02|brightness|key10|I-25C35,2026-09-02,,brightness,-25,35,10,-30,M. sulkowskyi Brillo I-25 35.RAW8,0.93254
+sulkowskyi,sulkowskyi|2026-09-02|brightness|key10|I-4C14,2026-09-02,,brightness,-4,14,10,-9,M. sulkowskyi Brillo I-4 C14.RAW8,0.93254
+sulkowskyi,sulkowskyi|2026-09-02|brightness|key10|I-7C17,2026-09-02,,brightness,-7,17,10,-12,M. sulkowskyi Brillo I-7 C17.RAW8,0.93254
+sulkowskyi,sulkowskyi|2026-09-02|brightness|key10|I1C9,2026-09-02,,brightness,1,9,10,-4,M. sulkowskyi Brillo I1 C9.RAW8,0.93254
+sulkowskyi,sulkowskyi|2026-09-02|brightness|key10|I11C-1,2026-09-02,,brightness,11,-1,10,6,M. sulkowskyi Brillo I11 C-1.RAW8,0.93254
+sulkowskyi,sulkowskyi|2026-09-02|brightness|key10|I14C-4,2026-09-02,,brightness,14,-4,10,9,M. sulkowskyi Brillo I14 C-4.RAW8,0.93254
+sulkowskyi,sulkowskyi|2026-09-02|brightness|key10|I17C-7,2026-09-02,,brightness,17,-7,10,12,M. sulkowskyi Brillo I17 C-7.RAW8,0.93254
+sulkowskyi,sulkowskyi|2026-09-02|brightness|key10|I2C8,2026-09-02,,brightness,2,8,10,-3,M. sulkowskyi Brillo I2 C8.RAW8,0.93254
+sulkowskyi,sulkowskyi|2026-09-02|brightness|key10|I20C-10,2026-09-02,,brightness,20,-10,10,15,M. sulkowskyi Brillo I20 C-10.RAW8,0.93254
+sulkowskyi,sulkowskyi|2026-09-02|brightness|key10|I23C-13,2026-09-02,,brightness,23,-13,10,18,M. sulkowskyi Brillo I23 C-13.RAW8,0.93254
+sulkowskyi,sulkowskyi|2026-09-02|brightness|key10|I26C-16,2026-09-02,,brightness,26,-16,10,21,M. sulkowskyi Brillo I26 C-16.RAW8,0.93254
+sulkowskyi,sulkowskyi|2026-09-02|brightness|key10|I29C-19,2026-09-02,,brightness,29,-19,10,24,M. sulkowskyi Brillo I29 C-19.RAW8,0.93254
+sulkowskyi,sulkowskyi|2026-09-02|brightness|key10|I32C-22,2026-09-02,,brightness,32,-22,10,27,M. sulkowskyi Brillo I32 C-22.RAW8,0.93254
+sulkowskyi,sulkowskyi|2026-09-02|brightness|key10|I5C5,2026-09-02,,brightness,5,5,10,0,M. sulkowskyi Brillo I5 C5.RAW8,0.93254
+sulkowskyi,sulkowskyi|2026-09-02|brightness|key10|I8C2,2026-09-02,,brightness,8,2,10,3,M. sulkowskyi Brillo I8 C2.RAW8,0.93254
+sulkowskyi,sulkowskyi|2026-10-07 #4|brightness|key40|I10C30,2026-10-07,4,brightness,10,30,40,-10,sulkowskyi4_brillo_I10C30.RAW8,0.99511
+sulkowskyi,sulkowskyi|2026-10-07 #4|brightness|key40|I15C25,2026-10-07,4,brightness,15,25,40,-5,sulkowskyi4_brillo_I15C25.RAW8,0.99511
+sulkowskyi,sulkowskyi|2026-10-07 #4|brightness|key40|I20C20,2026-10-07,4,brightness,20,20,40,0,sulkowskyi4_brillo_I20C20.RAW8,0.99511
+sulkowskyi,sulkowskyi|2026-10-07 #4|brightness|key40|I25C15,2026-10-07,4,brightness,25,15,40,5,sulkowskyi4_brillo_I25C15.RAW8,0.99511
+sulkowskyi,sulkowskyi|2026-10-07 #4|brightness|key40|I30C10,2026-10-07,4,brightness,30,10,40,10,sulkowskyi4_brillo_I30C10.RAW8,0.99511
+sulkowskyi,sulkowskyi|2026-10-07 #4|brightness|key40|I35C5,2026-10-07,4,brightness,35,5,40,15,sulkowskyi4_brillo_I35C5.RAW8,0.99511
+sulkowskyi,sulkowskyi|2026-10-07 #4|brightness|key40|I5C35,2026-10-07,4,brightness,5,35,40,-15,sulkowskyi4_brillo_I5C35.RAW8,0.99511
+sulkowskyi,sulkowskyi|2026-10-19 #7|brightness|key40|I0C40,2026-10-19,7,brightness,0,40,40,-20,sulkowskyi7_brillo_I0C40.RAW8,0.99022
+sulkowskyi,sulkowskyi|2026-10-19 #7|brightness|key40|I10C30,2026-10-19,7,brightness,10,30,40,-10,sulkowskyi7_brillo_I10C30.RAW8,0.99022
+sulkowskyi,sulkowskyi|2026-10-19 #7|brightness|key40|I15C25,2026-10-19,7,brightness,15,25,40,-5,sulkowskyi7_brillo_I15C25.RAW8,0.99022
+sulkowskyi,sulkowskyi|2026-10-19 #7|brightness|key40|I20C20,2026-10-19,7,brightness,20,20,40,0,sulkowskyi7_brillo_I20C20.RAW8,0.99022
+sulkowskyi,sulkowskyi|2026-10-19 #7|brightness|key40|I25C15,2026-10-19,7,brightness,25,15,40,5,sulkowskyi7_brillo_I25C15.RAW8,0.99022
+sulkowskyi,sulkowskyi|2026-10-19 #7|brightness|key40|I30C10,2026-10-19,7,brightness,30,10,40,10,sulkowskyi7_brillo_I30C10.RAW8,0.99022
+sulkowskyi,sulkowskyi|2026-10-19 #7|brightness|key40|I5C35,2026-10-19,7,brightness,5,35,40,-15,sulkowskyi7_brillo_I5C35.RAW8,0.99022
+sulkowskyi,sulkowskyi|2026-09-02|hue|key0|I10C10,2026-09-02,,hue,10,10,20,0,M. sulkowskyi Matiz I10 C10.RAW8,0.98792
+sulkowskyi,sulkowskyi|2026-09-02|hue|key0|I12C12,2026-09-02,,hue,12,12,24,0,M. sulkowskyi Matiz I12 C12.RAW8,0.98792
+sulkowskyi,sulkowskyi|2026-09-02|hue|key0|I14C14,2026-09-02,,hue,14,14,28,0,M. sulkowskyi Matiz I14 C14.RAW8,0.98792
+sulkowskyi,sulkowskyi|2026-09-02|hue|key0|I16C16,2026-09-02,,hue,16,16,32,0,M. sulkowskyi Matiz I16 C16.RAW8,0.98792
+sulkowskyi,sulkowskyi|2026-09-02|hue|key0|I18C18,2026-09-02,,hue,18,18,36,0,M. sulkowskyi Matiz I18 C18.RAW8,0.98792
+sulkowskyi,sulkowskyi|2026-09-02|hue|key0|I20C20,2026-09-02,,hue,20,20,40,0,M. sulkowskyi Matiz I20 C20.RAW8,0.98792
+sulkowskyi,sulkowskyi|2026-09-02|hue|key0|I22C22,2026-09-02,,hue,22,22,44,0,M. sulkowskyi Matiz I22 C22.RAW8,0.98792
+sulkowskyi,sulkowskyi|2026-09-02|hue|key0|I24C24,2026-09-02,,hue,24,24,48,0,M. sulkowskyi Matiz I24 C24.RAW8,0.98792
+sulkowskyi,sulkowskyi|2026-09-02|hue|key0|I26C26,2026-09-02,,hue,26,26,52,0,M. sulkowskyi Matiz I26 C26.RAW8,0.98792
+sulkowskyi,sulkowskyi|2026-09-02|hue|key0|I28C28,2026-09-02,,hue,28,28,56,0,M. sulkowskyi Matiz I28 C28.RAW8,0.98792
+sulkowskyi,sulkowskyi|2026-09-02|hue|key0|I30C30,2026-09-02,,hue,30,30,60,0,M. sulkowskyi Matiz I30 C30.RAW8,0.98792
+sulkowskyi,sulkowskyi|2026-09-02|hue|key0|I4C4,2026-09-02,,hue,4,4,8,0,M. sulkowskyi Matiz I4 C4.RAW8,0.98792
+sulkowskyi,sulkowskyi|2026-09-02|hue|key0|I6C6,2026-09-02,,hue,6,6,12,0,M. sulkowskyi Matiz I6 C6.RAW8,0.98792
+sulkowskyi,sulkowskyi|2026-09-02|hue|key0|I8C8,2026-09-02,,hue,8,8,16,0,M. sulkowskyi Matiz I8 C8.RAW8,0.98792
+sulkowskyi,sulkowskyi|2026-09-30 #3|hue|key-4|I11C15,2026-09-30,3,hue,11,15,26,-2,sulkowkyi3_matizI11C15.RAW8,0.99303
+sulkowskyi,sulkowskyi|2026-09-30 #3|hue|key-4|I14C18,2026-09-30,3,hue,14,18,32,-2,sulkowkyi3_matizI14C18.RAW8,0.99303
+sulkowskyi,sulkowskyi|2026-09-30 #3|hue|key-4|I17C21,2026-09-30,3,hue,17,21,38,-2,sulkowkyi3_matizI17C21.RAW8,0.99303
+sulkowskyi,sulkowskyi|2026-09-30 #3|hue|key-4|I20C24,2026-09-30,3,hue,20,24,44,-2,sulkowkyi3_matizI20C24.RAW8,0.99303
+sulkowskyi,sulkowskyi|2026-09-30 #3|hue|key-4|I23C27,2026-09-30,3,hue,23,27,50,-2,sulkowkyi3_matizI23C27.RAW8,0.99303
+sulkowskyi,sulkowskyi|2026-09-30 #3|hue|key-4|I26C30,2026-09-30,3,hue,26,30,56,-2,sulkowkyi3_matizI26C30.RAW8,0.99303
+sulkowskyi,sulkowskyi|2026-09-30 #3|hue|key-4|I29C33,2026-09-30,3,hue,29,33,62,-2,sulkowkyi3_matizI29C33.RAW8,0.99303
+sulkowskyi,sulkowskyi|2026-09-30 #3|hue|key-4|I2C6,2026-09-30,3,hue,2,6,8,-2,sulkowkyi3_matizI2C6.RAW8,0.99303
+sulkowskyi,sulkowskyi|2026-09-30 #3|hue|key-4|I5C9,2026-09-30,3,hue,5,9,14,-2,sulkowkyi3_matizI5C9.RAW8,0.99303
+sulkowskyi,sulkowskyi|2026-09-30 #3|hue|key-4|I8C12,2026-09-30,3,hue,8,12,20,-2,sulkowkyi3_matizI8C12.RAW8,0.99303
+sulkowskyi,sulkowskyi|2026-10-07 #4|hue|key-4|I11C15,2026-10-07,4,hue,11,15,26,-2,sulkowskyi4_matiz_I11C15.RAW8,0.99529
+sulkowskyi,sulkowskyi|2026-10-07 #4|hue|key-4|I14C18,2026-10-07,4,hue,14,18,32,-2,sulkowskyi4_matiz_I14C18.RAW8,0.99529
+sulkowskyi,sulkowskyi|2026-10-07 #4|hue|key-4|I17C21,2026-10-07,4,hue,17,21,38,-2,sulkowskyi4_matiz_I17C21.RAW8,0.99529
+sulkowskyi,sulkowskyi|2026-10-07 #4|hue|key-4|I20C24,2026-10-07,4,hue,20,24,44,-2,sulkowskyi4_matiz_I20C24.RAW8,0.99529
+sulkowskyi,sulkowskyi|2026-10-07 #4|hue|key-4|I23C27,2026-10-07,4,hue,23,27,50,-2,sulkowskyi4_matiz_I23C27.RAW8,0.99529
+sulkowskyi,sulkowskyi|2026-10-07 #4|hue|key-4|I26C30,2026-10-07,4,hue,26,30,56,-2,sulkowskyi4_matiz_I26C30.RAW8,0.99529
+sulkowskyi,sulkowskyi|2026-10-07 #4|hue|key-4|I29C33,2026-10-07,4,hue,29,33,62,-2,sulkowskyi4_matiz_I29C33.RAW8,0.99529
+sulkowskyi,sulkowskyi|2026-10-07 #4|hue|key-4|I2C6,2026-10-07,4,hue,2,6,8,-2,sulkowskyi4_matiz_I2C6.RAW8,0.99529
+sulkowskyi,sulkowskyi|2026-10-07 #4|hue|key-4|I5C9,2026-10-07,4,hue,5,9,14,-2,sulkowskyi4_matiz_I5C9.RAW8,0.99529
+sulkowskyi,sulkowskyi|2026-10-07 #4|hue|key-4|I8C12,2026-10-07,4,hue,8,12,20,-2,sulkowskyi4_matiz_I8C12.RAW8,0.99529
+sulkowskyi,sulkowskyi|2026-10-19 #7|hue|key-6|I10C16,2026-10-19,7,hue,10,16,26,-3,sulkowskyi7_matiz_I10C16.RAW8,0.99757
+sulkowskyi,sulkowskyi|2026-10-19 #7|hue|key-6|I13C19,2026-10-19,7,hue,13,19,32,-3,sulkowskyi7_matiz_I13C19.RAW8,0.99757
+sulkowskyi,sulkowskyi|2026-10-19 #7|hue|key-6|I16C22,2026-10-19,7,hue,16,22,38,-3,sulkowskyi7_matiz_I16C22.RAW8,0.99757
+sulkowskyi,sulkowskyi|2026-10-19 #7|hue|key-6|I19C25,2026-10-19,7,hue,19,25,44,-3,sulkowskyi7_matiz_I19C25.RAW8,0.99757
+sulkowskyi,sulkowskyi|2026-10-19 #7|hue|key-6|I1C7,2026-10-19,7,hue,1,7,8,-3,sulkowskyi7_matiz_I1C7.RAW8,0.99757
+sulkowskyi,sulkowskyi|2026-10-19 #7|hue|key-6|I22C28,2026-10-19,7,hue,22,28,50,-3,sulkowskyi7_matiz_I22C28.RAW8,0.99757
+sulkowskyi,sulkowskyi|2026-10-19 #7|hue|key-6|I25C31,2026-10-19,7,hue,25,31,56,-3,sulkowskyi7_matiz_I25C31.RAW8,0.99757
+sulkowskyi,sulkowskyi|2026-10-19 #7|hue|key-6|I28C34,2026-10-19,7,hue,28,34,62,-3,sulkowskyi7_matiz_I28C34.RAW8,0.99757
+sulkowskyi,sulkowskyi|2026-10-19 #7|hue|key-6|I4C10,2026-10-19,7,hue,4,10,14,-3,sulkowskyi7_matiz_I4C10.RAW8,0.99757
+sulkowskyi,sulkowskyi|2026-10-19 #7|hue|key-6|I7C13,2026-10-19,7,hue,7,13,20,-3,sulkowskyi7_matiz_I7C13.RAW8,0.99757
+zephyritis,zephyritis|S1|brightness|key40|I13C27,S1,,brightness,13,27,40,-7,zephyritis_brillo_I13C27.RAW8,0.99831
+zephyritis,zephyritis|S1|brightness|key40|I18C22,S1,,brightness,18,22,40,-2,zephyritis_brillo_I18C22.RAW8,0.99831
+zephyritis,zephyritis|S1|brightness|key40|I23C17,S1,,brightness,23,17,40,3,zephyritis_brillo_I23C17.RAW8,0.99831
+zephyritis,zephyritis|S1|brightness|key40|I28C12,S1,,brightness,28,12,40,8,zephyritis_brillo_I28C12.RAW8,0.99831
+zephyritis,zephyritis|S1|brightness|key40|I33C7,S1,,brightness,33,7,40,13,zephyritis_brillo_I33C7.RAW8,0.99831
+zephyritis,zephyritis|S1|brightness|key40|I3C37,S1,,brightness,3,37,40,-17,zephyritis_brillo_I3C37.RAW8,0.99831
+zephyritis,zephyritis|2026-09-02|brightness|key40|I10C30,2026-09-02,,brightness,10,30,40,-10,M. zephyritis Brillo I10 C30.RAW8,0.99674
+zephyritis,zephyritis|2026-09-02|brightness|key40|I15C25,2026-09-02,,brightness,15,25,40,-5,M. zephyritis Brillo I15 C25.RAW8,0.99674
+zephyritis,zephyritis|2026-09-02|brightness|key40|I20C20,2026-09-02,,brightness,20,20,40,0,M. zephyritis Brillo I20 C20.RAW8,0.99674
+zephyritis,zephyritis|2026-09-02|brightness|key40|I25C15,2026-09-02,,brightness,25,15,40,5,M. zephyritis Brillo I25 C15.RAW8,0.99674
+zephyritis,zephyritis|2026-09-02|brightness|key40|I30C10,2026-09-02,,brightness,30,10,40,10,M. zephyritis Brillo I30 C10.RAW8,0.99674
+zephyritis,zephyritis|2026-09-02|brightness|key40|I35C5,2026-09-02,,brightness,35,5,40,15,M. zephyritis Brillo I35 C5.RAW8,0.99674
+zephyritis,zephyritis|2026-09-02|brightness|key40|I5C35,2026-09-02,,brightness,5,35,40,-15,M. zephyritis Brillo I5 C35.RAW8,0.99674
+zephyritis,zephyritis|2026-10-07 #4|brightness|key40|I10C30,2026-10-07,4,brightness,10,30,40,-10,zephyritis4_brillo_I10C30.RAW8,0.99257
+zephyritis,zephyritis|2026-10-07 #4|brightness|key40|I15C25,2026-10-07,4,brightness,15,25,40,-5,zephyritis4_brillo_I15C25.RAW8,0.99257
+zephyritis,zephyritis|2026-10-07 #4|brightness|key40|I20C20,2026-10-07,4,brightness,20,20,40,0,zephyritis4_brillo_I20C20.RAW8,0.99257
+zephyritis,zephyritis|2026-10-07 #4|brightness|key40|I25C15,2026-10-07,4,brightness,25,15,40,5,zephyritis4_brillo_I25C15.RAW8,0.99257
+zephyritis,zephyritis|2026-10-07 #4|brightness|key40|I30C10,2026-10-07,4,brightness,30,10,40,10,zephyritis4_brillo_I30C10.RAW8,0.99257
+zephyritis,zephyritis|2026-10-07 #4|brightness|key40|I35C5,2026-10-07,4,brightness,35,5,40,15,zephyritis4_brillo_I35C5.RAW8,0.99257
+zephyritis,zephyritis|2026-10-07 #4|brightness|key40|I5C35,2026-10-07,4,brightness,5,35,40,-15,zephyritis4_brillo_I5C35.RAW8,0.99257
+zephyritis,zephyritis|2026-10-19 #7|brightness|key40|I13C27,2026-10-19,7,brightness,13,27,40,-7,zephyritis7_brillo_I13C27.RAW8,0.98902
+zephyritis,zephyritis|2026-10-19 #7|brightness|key40|I18C22,2026-10-19,7,brightness,18,22,40,-2,zephyritis7_brillo_I18C22.RAW8,0.98902
+zephyritis,zephyritis|2026-10-19 #7|brightness|key40|I23C17,2026-10-19,7,brightness,23,17,40,3,zephyritis7_brillo_I23C17.RAW8,0.98902
+zephyritis,zephyritis|2026-10-19 #7|brightness|key40|I28C12,2026-10-19,7,brightness,28,12,40,8,zephyritis7_brillo_I28C12.RAW8,0.98902
+zephyritis,zephyritis|2026-10-19 #7|brightness|key40|I33C7,2026-10-19,7,brightness,33,7,40,13,zephyritis7_brillo_I33C7.RAW8,0.98902
+zephyritis,zephyritis|2026-10-19 #7|brightness|key40|I3C37,2026-10-19,7,brightness,3,37,40,-17,zephyritis7_brillo_I3C37.RAW8,0.98902
+zephyritis,zephyritis|2026-10-19 #7|brightness|key40|I8C32,2026-10-19,7,brightness,8,32,40,-12,zephyritis7_brillo_I8C32.RAW8,0.98902
+zephyritis,zephyritis|S1|hue|key-4|I11C15,S1,,hue,11,15,26,-2,zephyritis_matiz_I11C15.RAW8,0.96793
+zephyritis,zephyritis|S1|hue|key-4|I14C18,S1,,hue,14,18,32,-2,zephyritis_matiz_I14C18.RAW8,0.96793
+zephyritis,zephyritis|S1|hue|key-4|I17C21,S1,,hue,17,21,38,-2,zephyritis_matiz_I17C21.RAW8,0.96793
+zephyritis,zephyritis|S1|hue|key-4|I20C24,S1,,hue,20,24,44,-2,zephyritis_matiz_I20C24.RAW8,0.96793
+zephyritis,zephyritis|S1|hue|key-4|I23C27,S1,,hue,23,27,50,-2,zephyritis_matiz_I23C27.RAW8,0.96793
+zephyritis,zephyritis|S1|hue|key-4|I26C30,S1,,hue,26,30,56,-2,zephyritis_matiz_I26C30.RAW8,0.96793
+zephyritis,zephyritis|S1|hue|key-4|I29C33,S1,,hue,29,33,62,-2,zephyritis_matiz_I29C33.RAW8,0.96793
+zephyritis,zephyritis|S1|hue|key-4|I2C6,S1,,hue,2,6,8,-2,zephyritis_matiz_I2C6.RAW8,0.96793
+zephyritis,zephyritis|S1|hue|key-4|I5C9,S1,,hue,5,9,14,-2,zephyritis_matiz_I5C9.RAW8,0.96793
+zephyritis,zephyritis|S1|hue|key-4|I8C12,S1,,hue,8,12,20,-2,zephyritis_matiz_I8C12.RAW8,0.96793
+zephyritis,zephyritis|2026-10-07 #4|hue|key0|I10C10,2026-10-07,4,hue,10,10,20,0,zephyritis4_matiz_I10C10.RAW8,0.97445
+zephyritis,zephyritis|2026-10-07 #4|hue|key0|I13C13,2026-10-07,4,hue,13,13,26,0,zephyritis4_matiz_I13C13.RAW8,0.97445
+zephyritis,zephyritis|2026-10-07 #4|hue|key0|I16C16,2026-10-07,4,hue,16,16,32,0,zephyritis4_matiz_I16C16.RAW8,0.97445
+zephyritis,zephyritis|2026-10-07 #4|hue|key0|I19C19,2026-10-07,4,hue,19,19,38,0,zephyritis4_matiz_I19C19.RAW8,0.97445
+zephyritis,zephyritis|2026-10-07 #4|hue|key0|I22C22,2026-10-07,4,hue,22,22,44,0,zephyritis4_matiz_I22C22.RAW8,0.97445
+zephyritis,zephyritis|2026-10-07 #4|hue|key0|I25C25,2026-10-07,4,hue,25,25,50,0,zephyritis4_matiz_I25C25.RAW8,0.97445
+zephyritis,zephyritis|2026-10-07 #4|hue|key0|I28C28,2026-10-07,4,hue,28,28,56,0,zephyritis4_matiz_I28C28.RAW8,0.97445
+zephyritis,zephyritis|2026-10-07 #4|hue|key0|I31C31,2026-10-07,4,hue,31,31,62,0,zephyritis4_matiz_I31C31.RAW8,0.97445
+zephyritis,zephyritis|2026-10-07 #4|hue|key0|I34C34,2026-10-07,4,hue,34,34,68,0,zephyritis4_matiz_I34C34.RAW8,0.97445
+zephyritis,zephyritis|2026-10-07 #4|hue|key0|I37C37,2026-10-07,4,hue,37,37,74,0,zephyritis4_matiz_I37C37.RAW8,0.97445
+zephyritis,zephyritis|2026-10-07 #4|hue|key0|I4C4,2026-10-07,4,hue,4,4,8,0,zephyritis4_matiz_I4C4.RAW8,0.97445
+zephyritis,zephyritis|2026-10-07 #4|hue|key0|I7C7,2026-10-07,4,hue,7,7,14,0,zephyritis4_matiz_I7C7.RAW8,0.97445
+zephyritis,zephyritis|2026-10-19 #7|hue|key-4|I11C15,2026-10-19,7,hue,11,15,26,-2,zephyritis7_matiz_I11C15.RAW8,0.91434
+zephyritis,zephyritis|2026-10-19 #7|hue|key-4|I14C18,2026-10-19,7,hue,14,18,32,-2,zephyritis7_matiz_I14C18.RAW8,0.91434
+zephyritis,zephyritis|2026-10-19 #7|hue|key-4|I17C21,2026-10-19,7,hue,17,21,38,-2,zephyritis7_matiz_I17C21.RAW8,0.91434
+zephyritis,zephyritis|2026-10-19 #7|hue|key-4|I20C24,2026-10-19,7,hue,20,24,44,-2,zephyritis7_matiz_I20C24.RAW8,0.91434
+zephyritis,zephyritis|2026-10-19 #7|hue|key-4|I23C27,2026-10-19,7,hue,23,27,50,-2,zephyritis7_matiz_I23C27.RAW8,0.91434
+zephyritis,zephyritis|2026-10-19 #7|hue|key-4|I26C30,2026-10-19,7,hue,26,30,56,-2,zephyritis7_matiz_I26C30.RAW8,0.91434
+zephyritis,zephyritis|2026-10-19 #7|hue|key-4|I29C33,2026-10-19,7,hue,29,33,62,-2,zephyritis7_matiz_I29C33.RAW8,0.91434
+zephyritis,zephyritis|2026-10-19 #7|hue|key-4|I2C6,2026-10-19,7,hue,2,6,8,-2,zephyritis7_matiz_I2C6.RAW8,0.91434
+zephyritis,zephyritis|2026-10-19 #7|hue|key-4|I5C9,2026-10-19,7,hue,5,9,14,-2,zephyritis7_matiz_I5C9.RAW8,0.91434
+zephyritis,zephyritis|2026-10-19 #7|hue|key-4|I8C12,2026-10-19,7,hue,8,12,20,-2,zephyritis7_matiz_I8C12.RAW8,0.91434
+zephyritis,zephyritis|2026-10-21 #10|hue|key-6|I10C16,2026-10-21,10,hue,10,16,26,-3,zephyritis10_matiz_I10C16.RAW8,0.9798
+zephyritis,zephyritis|2026-10-21 #10|hue|key-6|I13C19,2026-10-21,10,hue,13,19,32,-3,zephyritis10_matiz_I13C19.RAW8,0.9798
+zephyritis,zephyritis|2026-10-21 #10|hue|key-6|I16C22,2026-10-21,10,hue,16,22,38,-3,zephyritis10_matiz_I16C22.RAW8,0.9798
+zephyritis,zephyritis|2026-10-21 #10|hue|key-6|I19C25,2026-10-21,10,hue,19,25,44,-3,zephyritis10_matiz_I19C25.RAW8,0.9798
+zephyritis,zephyritis|2026-10-21 #10|hue|key-6|I1C7,2026-10-21,10,hue,1,7,8,-3,zephyritis10_matiz_I1C7.RAW8,0.9798
+zephyritis,zephyritis|2026-10-21 #10|hue|key-6|I22C28,2026-10-21,10,hue,22,28,50,-3,zephyritis10_matiz_I22C28.RAW8,0.9798
+zephyritis,zephyritis|2026-10-21 #10|hue|key-6|I25C31,2026-10-21,10,hue,25,31,56,-3,zephyritis10_matiz_I25C31.RAW8,0.9798
+zephyritis,zephyritis|2026-10-21 #10|hue|key-6|I28C34,2026-10-21,10,hue,28,34,62,-3,zephyritis10_matiz_I28C34.RAW8,0.9798
+zephyritis,zephyritis|2026-10-21 #10|hue|key-6|I4C10,2026-10-21,10,hue,4,10,14,-3,zephyritis10_matiz_I4C10.RAW8,0.9798
+zephyritis,zephyritis|2026-10-21 #10|hue|key-6|I7C13,2026-10-21,10,hue,7,13,20,-3,zephyritis10_matiz_I7C13.RAW8,0.9798
+zephyritis,zephyritis|2026-10-21 #9|hue|key-6|I10C16,2026-10-21,9,hue,10,16,26,-3,zephyritis9_matiz_I10C16.RAW8,0.98781
+zephyritis,zephyritis|2026-10-21 #9|hue|key-6|I13C19,2026-10-21,9,hue,13,19,32,-3,zephyritis9_matiz_I13C19.RAW8,0.98781
+zephyritis,zephyritis|2026-10-21 #9|hue|key-6|I16C22,2026-10-21,9,hue,16,22,38,-3,zephyritis9_matiz_I16C22.RAW8,0.98781
+zephyritis,zephyritis|2026-10-21 #9|hue|key-6|I19C25,2026-10-21,9,hue,19,25,44,-3,zephyritis9_matiz_I19C25.RAW8,0.98781
+zephyritis,zephyritis|2026-10-21 #9|hue|key-6|I1C7,2026-10-21,9,hue,1,7,8,-3,zephyritis9_matiz_I1C7.RAW8,0.98781
+zephyritis,zephyritis|2026-10-21 #9|hue|key-6|I22C28,2026-10-21,9,hue,22,28,50,-3,zephyritis9_matiz_I22C28.RAW8,0.98781
+zephyritis,zephyritis|2026-10-21 #9|hue|key-6|I25C31,2026-10-21,9,hue,25,31,56,-3,zephyritis9_matiz_I25C31.RAW8,0.98781
+zephyritis,zephyritis|2026-10-21 #9|hue|key-6|I28C34,2026-10-21,9,hue,28,34,62,-3,zephyritis9_matiz_I28C34.RAW8,0.98781
+zephyritis,zephyritis|2026-10-21 #9|hue|key-6|I4C10,2026-10-21,9,hue,4,10,14,-3,zephyritis9_matiz_I4C10.RAW8,0.98781
+zephyritis,zephyritis|2026-10-21 #9|hue|key-6|I7C13,2026-10-21,9,hue,7,13,20,-3,zephyritis9_matiz_I7C13.RAW8,0.98781

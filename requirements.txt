@@ -1,0 +1,5 @@
+# Direct Python dependencies for both pipelines and the notebooks.
+# For the exact versions that were tested, use requirements-lock.txt.
+-e .[test]
+colour-science>=0.4.4   # Atlas step 2 (CIE colour)
+jupyterlab              # notebooks

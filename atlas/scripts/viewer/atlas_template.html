@@ -1,0 +1,616 @@
+<meta charset="utf-8">
+<title>Morpho Angular Atlas</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<style>
+/* Layout: optical bench — sober header, maps on a fixed dark "viewing booth" plate, spectrum panel alongside. */
+:root{
+  --bg:#f3f5f8; --surface:#ffffff; --surface-2:#e8ecf2; --line:#d3d9e2;
+  --fg:#111722; --fg-2:#4a5466; --fg-3:#6f7889;
+  --accent:#1f5fd1; --accent-soft:#dbe6fb;
+  --plate:#0c0f14; --plate-line:#2a3140; --plate-fg:#c9d1de; --plate-mute:#8b95a7;
+  --good:#0ca30c; --warning:#fab219; --serious:#ec835a; --critical:#d03b3b;
+  --seq-100:#cde2fb; --seq-200:#9ec5f4; --seq-300:#6da7ec; --seq-400:#3987e5; --seq-500:#256abf; --seq-600:#184f95; --seq-700:#0d366b;
+  --s1:#2a78d6; --s2:#eb6834; --s3:#1baf7a; --s4:#eda100; --s5:#e87ba4; --s6:#008300; --s7:#6250d6; --muted-mark:#a3aab6;
+  --f-display:"IBM Plex Sans Condensed","Arial Narrow",system-ui,sans-serif;
+  --f-body:"IBM Plex Sans",system-ui,-apple-system,"Segoe UI",sans-serif;
+  --f-mono:"IBM Plex Mono",ui-monospace,"SFMono-Regular",Menlo,monospace;
+}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  --bg:#0f1218; --surface:#171b23; --surface-2:#222833; --line:#2e3542;
+  --fg:#e9edf3; --fg-2:#aab3c2; --fg-3:#838da0; --accent:#6ea8ff; --accent-soft:#1d2c48; --s1:#3987e5; --s2:#d95926; --s3:#199e70; --s4:#c98500; --s5:#d55181; --s6:#008300; --s7:#9085e9; --muted-mark:#5d6575; color-scheme:dark}}
+:root[data-theme="dark"]{
+  --bg:#0f1218; --surface:#171b23; --surface-2:#222833; --line:#2e3542;
+  --fg:#e9edf3; --fg-2:#aab3c2; --fg-3:#838da0; --accent:#6ea8ff; --accent-soft:#1d2c48; --s1:#3987e5; --s2:#d95926; --s3:#199e70; --s4:#c98500; --s5:#d55181; --s6:#008300; --s7:#9085e9; --muted-mark:#5d6575; color-scheme:dark}
+*{box-sizing:border-box}
+body{background:var(--bg);color:var(--fg);font:15px/1.55 var(--f-body);margin:0}
+.wrap{max-width:1280px;margin:0 auto;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));padding-block:28px 64px;display:flex;flex-direction:column;gap:40px}
+h1,h2,h3{font-family:var(--f-display);font-weight:600;text-wrap:balance;margin:0;letter-spacing:.005em}
+h1{font-size:clamp(30px,4.4vw,46px);line-height:1.05}
+h2{font-size:24px} h3{font-size:16px}
+p{margin:0}
+.eyebrow{font:500 12px/1 var(--f-mono);letter-spacing:.08em;text-transform:uppercase;color:var(--fg-3)}
+.lede{color:var(--fg-2);max-width:70ch}
+header{display:flex;flex-direction:column;gap:12px}
+.facts{display:flex;flex-wrap:wrap;gap:8px 22px;font:13px var(--f-mono);color:var(--fg-2)}
+.facts b{color:var(--fg);font-weight:500}
+section{display:flex;flex-direction:column;gap:16px}
+.sec-head{display:flex;flex-direction:column;gap:6px}
+.sec-head p{color:var(--fg-2);max-width:74ch}
+.mono{font-family:var(--f-mono);font-variant-numeric:tabular-nums}
+.plate{background:var(--plate);border-radius:10px;padding:16px;color:var(--plate-fg)}
+.filters{display:flex;flex-wrap:wrap;gap:8px;align-items:center;margin-bottom:14px}
+.filters .lbl{font:500 11px var(--f-mono);letter-spacing:.06em;text-transform:uppercase;color:var(--plate-mute);margin-right:4px}
+.pill{font:500 12px var(--f-body);border:1px solid var(--plate-line);background:none;color:var(--plate-fg);padding:5px 11px;border-radius:999px;cursor:pointer;display:inline-flex;gap:6px;align-items:center}
+.pill[aria-pressed="true"]{border-color:#6ea8ff;background:#16233a}
+.pill i,.badge i{width:8px;height:8px;border-radius:50%;display:inline-block}
+.thumbs{display:grid;grid-template-columns:repeat(auto-fill,minmax(168px,1fr));gap:12px}
+.thumb{background:none;border:1px solid transparent;border-radius:8px;padding:6px;cursor:pointer;color:inherit;text-align:left;display:flex;flex-direction:column;gap:6px;font:inherit}
+.thumb:hover{border-color:var(--plate-line)}
+.thumb[aria-pressed="true"]{border-color:#6ea8ff}
+.thumb:focus-visible,.pill:focus-visible{outline:2px solid #6ea8ff;outline-offset:2px}
+.thumb .tt{display:flex;justify-content:space-between;align-items:center;gap:6px}
+.thumb span.nm{font:500 13px var(--f-display);font-style:italic}
+.thumb svg{width:100%;height:auto;display:block}
+.dot{width:9px;height:9px;border-radius:50%;flex:none}
+.controls{display:flex;flex-wrap:wrap;gap:10px 18px;align-items:center}
+.seg{display:inline-flex;border:1px solid var(--line);border-radius:7px;overflow:hidden;background:var(--surface);flex-wrap:wrap}
+.seg button{font:500 13px var(--f-body);border:0;background:none;color:var(--fg-2);padding:7px 12px;cursor:pointer}
+.seg button+button{border-left:1px solid var(--line)}
+.seg button[aria-pressed="true"]{background:var(--accent-soft);color:var(--fg)}
+.seg button:focus-visible,select:focus-visible{outline:2px solid var(--accent);outline-offset:-2px}
+select{font:500 13px var(--f-body);padding:7px 10px;border:1px solid var(--line);border-radius:7px;background:var(--surface);color:var(--fg);max-width:100%}
+.dsinfo:empty{display:none}
+.dsinfo{display:flex;flex-wrap:wrap;gap:8px;align-items:center;font-size:13px;color:var(--fg-2)}
+.badge{font:500 12px var(--f-body);padding:3px 9px;border-radius:999px;border:1px solid var(--line);display:inline-flex;gap:6px;align-items:center;color:var(--fg)}
+.explorer{display:grid;grid-template-columns:minmax(0,1.25fr) minmax(0,1fr);gap:18px;align-items:start}
+@media (max-width:900px){.explorer{grid-template-columns:minmax(0,1fr)}}
+.mapbox{position:relative}
+.mapbox svg{width:100%;height:auto;display:block}
+.legend{display:flex;flex-wrap:wrap;gap:6px 16px;align-items:center;font:12px var(--f-mono);color:var(--plate-fg);margin-top:10px;min-height:22px}
+.legend .sw{display:inline-block;width:12px;height:12px;border-radius:2px;vertical-align:-2px;margin-right:6px}
+.legend .ramp{display:inline-block;width:150px;height:10px;border-radius:2px;vertical-align:-1px;margin:0 6px}
+.mapnote{font-size:12px;color:var(--plate-mute);margin-top:6px}
+.panel{background:var(--surface);border:1px solid var(--line);border-radius:10px;padding:16px;display:flex;flex-direction:column;gap:12px;min-width:0}
+.panel svg{width:100%;height:auto;display:block}
+.kv{display:grid;grid-template-columns:auto 1fr;gap:4px 14px;font-size:13px}
+.kv dt{color:var(--fg-3)} .kv dd{margin:0;font-family:var(--f-mono);font-variant-numeric:tabular-nums;overflow-wrap:anywhere}
+.chips{display:flex;flex-wrap:wrap;gap:6px}
+.chip{font:500 12px var(--f-body);padding:3px 9px;border-radius:999px;border:1px solid var(--line);color:var(--fg-2);display:inline-flex;gap:6px;align-items:center}
+.chip i{width:8px;height:8px;border-radius:50%;display:inline-block}
+.tip{position:absolute;pointer-events:none;background:var(--surface);color:var(--fg);border:1px solid var(--line);border-radius:7px;padding:7px 9px;font:12px/1.45 var(--f-mono);box-shadow:0 4px 16px rgba(0,0,0,.25);white-space:nowrap;z-index:5}
+.swatch-big{width:44px;height:44px;border-radius:6px;border:1px solid var(--line);flex:none}
+.sel-head{display:flex;gap:12px;align-items:center}
+.sel-head p{color:var(--fg-2);font-size:13px}
+.loading{font-size:13px;color:var(--fg-3);padding:40px 0;text-align:center}
+.tablewrap{overflow-x:auto;border:1px solid var(--line);border-radius:10px;background:var(--surface)}
+table{border-collapse:collapse;width:100%;font-size:13px}
+th,td{text-align:left;padding:8px 12px;border-bottom:1px solid var(--line);vertical-align:top}
+th{font:500 11px var(--f-mono);letter-spacing:.06em;text-transform:uppercase;color:var(--fg-3);white-space:nowrap}
+th button{all:unset;cursor:pointer}
+th button:focus-visible{outline:2px solid var(--accent)}
+tr:last-child td{border-bottom:0}
+tbody tr{cursor:pointer} tbody tr:hover{background:var(--surface-2)}
+td.num{font-family:var(--f-mono);font-variant-numeric:tabular-nums;text-align:right;white-space:nowrap}
+table.gloss td:first-child{font-family:var(--f-mono);white-space:nowrap;min-width:0}
+table.gloss tr.grp td{font:500 11px var(--f-mono);letter-spacing:.06em;text-transform:uppercase;color:var(--fg-3);background:var(--surface-2)}
+table.gloss tbody tr{cursor:default}
+table.gloss tbody tr:hover{background:none}
+td.why{color:var(--fg-2);min-width:340px}
+td:first-child{min-width:150px}
+td code,p code,li code{font:12.5px var(--f-mono);background:var(--surface-2);padding:1px 5px;border-radius:4px}
+ol.steps{margin:0;padding-left:22px;display:flex;flex-direction:column;gap:10px;max-width:84ch;color:var(--fg-2)}
+ol.steps b{color:var(--fg)}
+
+/* Gruson */
+.gr-head{display:flex;flex-wrap:wrap;gap:10px 18px;align-items:center}
+.tiles{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:10px}
+.tile{background:var(--surface);border:1px solid var(--line);border-radius:10px;padding:12px 14px;display:flex;flex-direction:column;gap:3px;min-width:0}
+.tile .k{font:500 12px var(--f-mono);letter-spacing:.02em;color:var(--fg-3)}
+.tile .v{font:600 24px/1.1 var(--f-display);font-variant-numeric:tabular-nums}
+.tile .v small{font:500 13px var(--f-mono);color:var(--fg-2);margin-left:4px}
+.tile .s{font:12px var(--f-body);color:var(--fg-3)}
+.gr-grid{display:grid;grid-template-columns:minmax(0,1.05fr) minmax(0,1fr);gap:18px;align-items:start}
+.gr-grid>.plate{position:sticky;top:max(12px,env(safe-area-inset-top,0px))}
+@media (max-width:960px){.gr-grid{grid-template-columns:minmax(0,1fr)}.gr-grid>.plate{position:static}}
+.gr-charts{display:flex;flex-direction:column;gap:14px;min-width:0}
+.chart-card{background:var(--surface);border:1px solid var(--line);border-radius:10px;padding:14px 14px 8px;display:flex;flex-direction:column;gap:8px;min-width:0;position:relative}
+.chart-card h3{display:flex;justify-content:space-between;gap:10px;flex-wrap:wrap;align-items:baseline}
+.chart-card h3 span{font:12px var(--f-mono);color:var(--fg-3);font-weight:400}
+.chart-card svg{width:100%;height:auto;display:block}
+.sweeps{display:flex;flex-wrap:wrap;gap:6px;align-items:center}
+.sweeps .lbl{font:500 11px var(--f-mono);letter-spacing:.04em;color:var(--fg-3);margin-right:2px}
+.sw-chip{font:500 12px var(--f-body);padding:3px 9px 3px 7px;border-radius:999px;border:1px solid var(--line);background:var(--surface);color:var(--fg);cursor:pointer;display:inline-flex;gap:6px;align-items:center}
+.sw-chip[aria-pressed="false"]{opacity:.4;text-decoration:line-through}
+.sw-chip:focus-visible{outline:2px solid var(--accent);outline-offset:1px}
+.chart-card .sw-chip svg,.sw-chip svg{flex:none;width:12px;height:12px;display:inline-block}
+.tablewrap td svg{width:12px;height:12px;vertical-align:-1px}
+.plate .sweeps .sw-chip{background:#151a22;border-color:var(--plate-line);color:var(--plate-fg)}
+.gr-warn{border-left:3px solid var(--warning);padding:8px 12px;background:var(--surface-2);font-size:13px;border-radius:0 6px 6px 0;color:var(--fg-2)}
+.gr-empty{background:var(--surface);border:1px dashed var(--line);border-radius:10px;padding:22px;display:flex;flex-direction:column;gap:12px;color:var(--fg-2)}
+.gr-empty .chips button{font:500 12px var(--f-body);padding:4px 10px;border-radius:999px;border:1px solid var(--line);background:var(--surface-2);color:var(--fg);cursor:pointer}
+.xs-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,380px),1fr));gap:14px}
+.xs-grid .chart-card svg text{cursor:default}
+.xs-row{cursor:pointer}
+.xs-row:hover rect.hit{fill:var(--surface-2)}
+#grBody[data-hl] [data-sw]{transition:opacity .12s}
+@media (prefers-reduced-motion:no-preference){.thumb,.seg button,.pill{transition:background .15s,border-color .15s}}
+</style>
+
+<div class="wrap">
+<header>
+  <div class="eyebrow">Goniometry · angle-resolved reflectance · Avantes .RFL8</div>
+  <h1>Morpho Angular Atlas</h1>
+  <p class="lede">Thirty-one <i>Morpho</i> specimens measured at incidence angles I from −80° to 80° (10° steps) and collection angles C from −90° to 90° (5° steps). Each map cell is one geometry (I, C), coloured as the eye would see it in daylight (CIE D65 illuminant, 2° standard observer), computed from the cleaned spectrum.</p>
+  <div class="facts" id="facts"></div>
+</header>
+
+<section>
+  <div class="sec-head">
+    <h2>Colour maps by species</h2>
+    <p>All maps share one exposure, so brightness is comparable across species. The dashed line is the ideal specular geometry C = −I. Hatched cells are the blind zone where the detector blocks the source (C ≈ I); red cells are geometries that were never measured. Select a species to explore it.</p>
+  </div>
+  <div class="plate">
+    <div class="thumbs" id="thumbs"></div>
+  </div>
+</section>
+
+<section id="explore">
+  <div class="sec-head">
+    <h2>Explorer</h2>
+    <p>Hover the map to read a geometry; click a cell to see its raw and cleaned spectrum. The five remeasured species also offer their previous sweep for comparison. Every symbol is defined in <a href="#definitions" onclick="event.preventDefault();document.getElementById('definitions').scrollIntoView({behavior:'smooth',block:'start'})">Definitions</a>.</p>
+  </div>
+  <div class="controls">
+    <label class="eyebrow" for="spSel">Dataset</label>
+    <select id="spSel"></select>
+    <div class="seg" id="modeSeg" role="group" aria-label="Map variable"></div>
+  </div>
+  <div class="dsinfo" id="dsinfo"></div>
+  <div class="explorer">
+    <div class="plate">
+      <div class="mapbox" id="mapbox"></div>
+      <div class="legend" id="legend"></div>
+      <div class="mapnote" id="mapnote"></div>
+    </div>
+    <div class="panel" id="panel"></div>
+  </div>
+</section>
+
+<section id="gruson">
+  <div class="sec-head">
+    <h2>Gruson model fits</h2>
+    <p>Angular fits of brightness and hue with the model of Gruson et al. (2019), from the dedicated sweep sessions (31 Aug – 21 Oct 2026, accepted fits only). The colour map shows where each sweep sits on the angular grid: circles are brightness sweeps (constant I + C, across the specular band) and diamonds are hue sweeps (constant I − C, along it). Hover a sweep anywhere to highlight it everywhere; click a chip to hide it.</p>
+  </div>
+  <div class="gr-head">
+    <label class="eyebrow" for="grSel">Species</label>
+    <select id="grSel"></select>
+    <div class="seg" id="grShow" role="group" aria-label="Sweeps shown on the map"></div>
+    <div class="seg" id="grAlign" role="group" aria-label="Sweep placement"></div>
+    <div class="seg" id="grBg" role="group" aria-label="Map background"></div>
+  </div>
+  <div id="grBody"></div>
+</section>
+
+<section id="gruson-all">
+  <div class="sec-head">
+    <h2>Gruson parameters across species</h2>
+    <p>Mean ± SD over accepted sweeps for each parameter, sorted by value. The selected species is highlighted; click any row to open that species.</p>
+  </div>
+  <div class="xs-grid" id="grAll"></div>
+</section>
+
+
+<section id="definitions">
+  <div class="sec-head">
+    <h2>Definitions</h2>
+    <p>Every quantity shown in the Atlas. Spectral descriptors are computed on the cleaned spectrum R(λ), in % of the white reference, over 400–700 nm with negative values set to zero. Brightness, hue and chroma variables follow Montgomerie (2006), with the same definitions as <code>summary.rspec</code> in the R package pavo.</p>
+  </div>
+  <div class="tablewrap"><table class="gloss">
+    <thead><tr><th>Symbol</th><th>Name</th><th>Definition</th><th>What it tells you</th></tr></thead>
+    <tbody>
+      <tr class="grp"><td colspan="4">Geometry</td></tr>
+      <tr><td>I</td><td>Incidence angle</td><td>Angle of the light source from the wing normal, −80° to 80° in 10° steps</td><td>Where the light comes from</td></tr>
+      <tr><td>C</td><td>Collection angle</td><td>Angle of the detector from the wing normal, −90° to 90° in 5° steps</td><td>Where the reflected light is observed</td></tr>
+      <tr><td>C = −I</td><td>Ideal specular</td><td>Mirror geometry: detector opposite the source</td><td>Where a flat mirror would reflect; Morpho iridescence peaks near it</td></tr>
+      <tr><td>|C − I| ≤ 5°</td><td>Blind zone</td><td>Geometries where the detector blocks the source</td><td>Not measurable; hatched on the maps</td></tr>
+      <tr><td>Tilt</td><td>Specular shift</td><td>(C<sub>peak</sub> + I) / 2, where C<sub>peak</sub> is the C of maximum B2 in a row</td><td>How far the specular band sits from C = −I (mounting and structure tilt)</td></tr>
+      <tr class="grp"><td colspan="4">Brightness</td></tr>
+      <tr><td>B1</td><td>Total brightness</td><td>Σ R(λ) over 400–700 nm (%·nm)</td><td>Area under the spectrum; depends on the wavelength step, so B2 is preferred for comparisons</td></tr>
+      <tr><td>B2</td><td>Mean brightness</td><td>Mean of R(λ) over 400–700 nm (%)</td><td>Overall amount of reflected light</td></tr>
+      <tr><td>B3</td><td>Intensity</td><td>R<sub>max</sub>, the highest R(λ) in 400–700 nm (%)</td><td>Height of the reflectance peak; noise-sensitive in dark cells</td></tr>
+      <tr class="grp"><td colspan="4">Hue</td></tr>
+      <tr><td>H1</td><td>Peak wavelength</td><td>λ at which R(λ) is maximal (nm)</td><td>Spectral position of the colour; its shift with angle is the iridescence. Falls on noise in flat, dark spectra</td></tr>
+      <tr class="grp"><td colspan="4">Chroma</td></tr>
+      <tr><td>S6</td><td>Contrast</td><td>R<sub>max</sub> − R<sub>min</sub> (percentage points)</td><td>Absolute height of the peak above the lowest reflectance</td></tr>
+      <tr><td>S8</td><td>Chroma</td><td>(R<sub>max</sub> − R<sub>min</sub>) / B2</td><td>How saturated or peaked the spectrum is: high for a narrow peak on a low background, near 0 for white or grey. Inflated by noise when B2 is very low</td></tr>
+      <tr class="grp"><td colspan="4">Colour as seen by the eye (CIE D65 illuminant, 2° standard observer)</td></tr>
+      <tr><td>Perceived colour</td><td>Perceived colour map</td><td>The spectrum is weighted by daylight (D65) and the eye's colour-matching functions to give CIE XYZ, then converted to sRGB. One common exposure for all species: the 99th percentile of luminance maps to white</td><td>The colour and brightness a person would see at that geometry. Comparable between species</td></tr>
+      <tr><td>CIE hue</td><td>Chromaticity map</td><td>The same sRGB colour divided by its largest channel, so the brightest channel equals 1</td><td>Only the colour, with brightness removed: lets you follow the colour in dark cells. In very dark cells it is dominated by noise</td></tr>
+      <tr class="grp"><td colspan="4">Gruson et al. (2019) model</td></tr>
+      <tr><td>x, span</td><td>Bisector, span</td><td>x = (I − C)/2 and span = I + C, in the angle convention of the Gruson sessions</td><td>x: offset from specular; span: angle between source and detector</td></tr>
+      <tr><td>Bmax</td><td>Peak brightness</td><td>Amplitude of B = Bmax · exp(−(x − t)² / 2γB²) (relative reflectance)</td><td>How bright the specular lobe is</td></tr>
+      <tr><td>t</td><td>Peak offset</td><td>Centre of the brightness Gaussian (°)</td><td>How far the brightness peak sits from specular; drawn as the yellow dotted line on the Gruson map</td></tr>
+      <tr><td>γB</td><td>Angular width</td><td>Width of the brightness Gaussian (°)</td><td>How directional the reflection is: small γB = narrow, mirror-like lobe</td></tr>
+      <tr><td>Hmax</td><td>Hue at normal</td><td>Amplitude of H = Hmax · cos(γH · span) (nm)</td><td>Peak wavelength at span 0. For edge-method species it is the edge position and is not comparable</td></tr>
+      <tr><td>γH</td><td>Hue shift rate</td><td>Rate in H = Hmax · cos(γH · span) (deg⁻¹)</td><td>How fast the colour shifts toward shorter wavelengths as the angle opens</td></tr>
+    </tbody>
+  </table></div>
+  <p class="note" style="color:var(--fg-3);font-size:13px">References: Montgomerie R. (2006) Analyzing colors, in Hill &amp; McGraw (eds.) <i>Bird Coloration</i> vol. 1, Harvard University Press · Maia R. et al. (2013, 2019) pavo, R package · CIE 15:2018 Colorimetry · Gruson H. et al. (2019) Quantitative characterization of iridescent colours in biological studies, <i>Interface Focus</i> 9.</p>
+</section>
+
+<section>
+  <div class="sec-head">
+    <h2>Cleaning pipeline</h2>
+    <p>Steps applied by <code>pipeline2.py</code>, in order. Parameters are stored in <code>parametros.json</code>.</p>
+  </div>
+  <ol class="steps">
+    <li><b>Header parsing and repair.</b> I and C are read regardless of token order. Swapped I/C labels (aega), typos such as <code>-60+C</code>, <code>-8OC</code>, <code>70I40C</code>, <code>-2+5C</code>, a missing C letter, <code>990C</code>, and off-grid angles (<code>4C</code>, <code>-79C</code>) are fixed and logged.</li>
+    <li><b>Copies and duplicates.</b> Columns that are byte-identical copies of another spectrum are dropped; this is how the original "negative" files of cisseis and amphitryon turned out to be copies of the positive ones. Both were replaced by corrected files, and the replacement is logged. Repeated geometries with different content keep the column from the file whose incidence sign matches.</li>
+    <li><b>Hot pixels.</b> Pixels that spike in more than 30% of a species' spectra are interpolated, together with their immediate neighbours.</li>
+    <li><b>Random spikes.</b> Hampel filter (7-pixel window, 6 MAD).</li>
+    <li><b>Smoothing.</b> Savitzky–Golay, order 3, 25-pixel window (~14 nm). <i>Morpho</i> peaks are 60–100 nm wide, so their shape is preserved.</li>
+    <li><b>Range and resampling.</b> 380–780 nm on a 1 nm grid. Outside that range the signal is mostly reference noise.</li>
+    <li><b>Colour descriptors.</b> Standard Montgomerie (2006) variables with the same definitions as <code>pavo::summary.rspec</code>, over 400–700 nm with negative values set to zero: brightness B1, B2, B3; hue H1; chroma S6, S8. Map colours are computed with the CIE D65 illuminant and 2° standard observer and shown in sRGB.</li>
+    <li><b>Measurement checks.</b> Row drift, negative baseline, reflectance above the white standard and likely mislabelled spectra are flagged, not corrected. These are data-integrity checks, not colour descriptors.</li>
+  </ol>
+</section>
+</div>
+
+<script>
+const DATA=/*__DATA__*/null;
+const DS=DATA.datasets;
+const Is=[];for(let i=80;i>=-80;i-=10)Is.push(i);
+const Cs=[];for(let c=-90;c<=90;c+=5)Cs.push(c);
+const NC=DATA.nClean,NR=DATA.nRaw;
+const cleanWl=Array.from({length:NC},(_,i)=>DATA.cleanWl[0]+i*DATA.cleanWl[1]);
+const F={DRIFT:2,NEG:4,WHITE:8,SUS:16};
+const css=v=>getComputedStyle(document.documentElement).getPropertyValue(v).trim();
+const short=s=>s.replace('Morpho ','M. ');
+const gName=g=>g.name==='godartii'?'godarti':g.name==='helenor'?'helenor (UNAL)':g.name;
+DS.forEach(d=>{d.idx=new Map();d.rows.forEach((r,k)=>d.idx.set(r[0]+'|'+r[1],k));d.miss=new Set((DATA.missing[d.id]||[]).map(([a,b])=>a+'|'+b))});
+const MAIN=DS.filter(d=>d.variant!=='previous_sweep');
+const MODES=[{id:'exp',label:'Perceived colour'},{id:'hue',label:'CIE hue'},{id:'bright',label:'Brightness B2'},{id:'peak',label:'Hue H1'},{id:'chroma',label:'Chroma S8'}];
+let state={ds:Math.max(0,DS.findIndex(d=>d.sid==='menelaus'&&d.variant!=='previous_sweep')),mode:'exp',sel:null};
+try{const s=JSON.parse(localStorage.getItem('morphoAtlasEN')||'null');if(s&&s.ds<DS.length){state.ds=s.ds;state.mode=MODES.some(m=>m.id===s.mode)?s.mode:'exp'}}catch(e){}
+function save(){try{localStorage.setItem('morphoAtlasEN',JSON.stringify({ds:state.ds,mode:state.mode}))}catch(e){}}
+const cache=new Map();
+function dec(b){const s=atob(b);const u=new Uint8Array(s.length);for(let i=0;i<s.length;i++)u[i]=s.charCodeAt(i);return new Int16Array(u.buffer)}
+async function loadSpectra(d){
+  if(cache.has(d.id))return cache.get(d.id);
+  // offline build: spectra are embedded in the page as <script type="text/plain" id="spec-<dataset>">
+  const emb=document.getElementById('spec-'+d.id);
+  if(emb){const pr=Promise.resolve(dec(emb.textContent.trim()));cache.set(d.id,pr);return pr}
+  const p=fetch(d.file).then(r=>{if(!r.ok)throw new Error(r.status);return r.text()}).then(dec);
+  cache.set(d.id,p);p.catch(()=>cache.delete(d.id));return p;
+}
+const SEQ=['--seq-100','--seq-200','--seq-300','--seq-400','--seq-500','--seq-600','--seq-700'];
+function hex2rgb(h){h=h.replace('#','');return[0,2,4].map(i=>parseInt(h.slice(i,i+2),16))}
+let SEQRGB=null;
+function ramp(t){SEQRGB=SEQRGB||SEQ.map(v=>hex2rgb(css(v)));t=Math.max(0,Math.min(1,t));const x=t*(SEQRGB.length-1),i=Math.min(SEQRGB.length-2,Math.floor(x)),f=x-i;return`rgb(${SEQRGB[i].map((a,k)=>Math.round(a+(SEQRGB[i+1][k]-a)*f))})`}
+const NEUTRAL='#2b313c';
+function cellFill(r,mode){
+  if(mode==='exp')return'#'+r[2];
+  if(mode==='hue')return'#'+r[3];
+  if(mode==='bright'){const b=r[4];if(b<=0.5)return NEUTRAL;return ramp((Math.log10(b)-Math.log10(0.5))/(Math.log10(300)-Math.log10(0.5)))}
+  if(mode==='peak')return ramp((r[5]-400)/(700-400));
+  if(mode==='chroma'){if(r[6]==null)return NEUTRAL;return ramp(Math.min(r[6],6)/6)}
+}
+function mapSVG(d,mode,opts={}){
+  const ax=opts.axes,ml=ax?34:0,mb=ax?30:0,mt=ax?6:0,mr=ax?6:0,cw=ax?14:5,ch=ax?18:6.6;
+  const W=ml+Cs.length*cw+mr,H=mt+Is.length*ch+mb,hid='h'+(opts.uid||'m');
+  let s=`<svg viewBox="0 0 ${W} ${H}" role="img" aria-label="${d.label} map"><defs><pattern id="${hid}" width="4" height="4" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><rect width="4" height="4" fill="#151a22"/><line x1="0" y1="0" x2="0" y2="4" stroke="#3a4352" stroke-width="1.6"/></pattern></defs>`;
+  const crit=css('--critical');
+  Is.forEach((I,yi)=>Cs.forEach((C,xi)=>{
+    const k=d.idx.get(I+'|'+C),x=ml+xi*cw,y=mt+yi*ch;let fill,extra='';
+    if(k==null){const miss=d.miss.has(I+'|'+C);fill=miss?crit:`url(#${hid})`;extra=miss?' data-miss="1"':''}
+    else fill=cellFill(d.rows[k],mode);
+    const sel=ax&&k!=null&&state.sel===k;
+    s+=`<rect x="${x+.35}" y="${y+.35}" width="${cw-.7}" height="${ch-.7}" fill="${fill}"${k!=null?` data-k="${k}"`:''} data-i="${I}" data-c="${C}"${extra}${sel?' stroke="#fff" stroke-width="1.6"':''}/>`;
+  }));
+  const X=c=>ml+(Cs.indexOf(c)+.5)*cw,Y=i=>mt+(Is.indexOf(i)+.5)*ch;
+  s+=`<line x1="${X(-80)}" y1="${Y(80)}" x2="${X(80)}" y2="${Y(-80)}" stroke="#fff" stroke-opacity=".55" stroke-width="${ax?1.2:.7}" stroke-dasharray="${ax?'4 4':'2 2'}" pointer-events="none"/>`;
+  if(ax){
+    const t='fill="#8b95a7" font-size="10" font-family="IBM Plex Mono,monospace"';
+    [-90,-60,-30,0,30,60,90].forEach(c=>s+=`<text x="${X(c)}" y="${H-14}" ${t} text-anchor="middle">${c}°</text>`);
+    s+=`<text x="${ml+Cs.length*cw/2}" y="${H-1}" ${t} text-anchor="middle">C · collection angle</text>`;
+    [80,40,0,-40,-80].forEach(i=>s+=`<text x="${ml-5}" y="${Y(i)+3.5}" ${t} text-anchor="end">${i}°</text>`);
+    s+=`<text transform="translate(9 ${mt+Is.length*ch/2}) rotate(-90)" ${t} text-anchor="middle">I · incidence</text>`;
+  }
+  return s+'</svg>';
+}
+function renderFacts(){
+  const n=MAIN.reduce((a,d)=>a+d.n,0);
+  document.getElementById('facts').innerHTML=`<span><b>${MAIN.length}</b> specimens</span><span><b>${n.toLocaleString('en-US')}</b> cleaned spectra</span><span><b>380–780 nm</b> at 1 nm</span><span>Illuminant <b>D65</b>, <b>2°</b> observer</span>`;
+}
+function renderThumbs(){
+  const el=document.getElementById('thumbs');
+  const list=MAIN;
+  el.innerHTML=list.map(d=>{const i=DS.indexOf(d);return`<button class="thumb" data-ds="${i}" aria-pressed="${i===state.ds}"><span class="tt"><span class="nm">${short(d.name)}${d.variant==='remeasurement'?' <span style="font-style:normal;color:var(--plate-mute)">· remeasured</span>':''}</span></span>${mapSVG(d,'exp',{uid:'t'+i})}</button>`}).join('')||'<p class="mapnote">No datasets in this group.</p>';
+  el.querySelectorAll('.thumb').forEach(b=>b.onclick=()=>{select(+b.dataset.ds);document.getElementById('explore').scrollIntoView({behavior:'smooth',block:'start'})});
+}
+function select(i){state.ds=i;state.sel=null;save();renderThumbs();renderControls();renderInfo();renderMap();renderLegend();renderPanel();renderGruson()}
+function renderControls(){
+  const sel=document.getElementById('spSel');
+  const h=DS.map((d,i)=>`<option value="${i}"${i===state.ds?' selected':''}>${d.label}</option>`).join('');
+  sel.innerHTML=h;sel.onchange=()=>select(+sel.value);
+  const seg=document.getElementById('modeSeg');
+  seg.innerHTML=MODES.map(m=>`<button data-m="${m.id}" aria-pressed="${m.id===state.mode}">${m.label}</button>`).join('');
+  seg.querySelectorAll('button').forEach(b=>b.onclick=()=>{state.mode=b.dataset.m;save();renderControls();renderMap();renderLegend()});
+}
+function renderInfo(){
+  const d=DS[state.ds];
+  const el=document.getElementById('dsinfo');el.innerHTML=''+(typeof GKEY==='function'&&GKEY(d)?`<a href="#gruson" class="badge" style="text-decoration:none;color:var(--accent)" onclick="event.preventDefault();document.getElementById('gruson').scrollIntoView({behavior:'smooth',block:'start'})">Gruson fits ↓</a>`:'');
+}
+function renderLegend(){
+  const L=document.getElementById('legend'),N=document.getElementById('mapnote');
+  const hatch=`<span><span class="sw" style="background:repeating-linear-gradient(45deg,#151a22 0 2px,#3a4352 2px 3.5px)"></span>blind zone</span>`;
+  const miss=`<span><span class="sw" style="background:${css('--critical')}"></span>not measured</span>`;
+  const neutral=t=>`<span><span class="sw" style="background:${NEUTRAL};outline:1px solid #3a4352"></span>${t}</span>`;
+  const rampCss=`linear-gradient(90deg,${SEQ.map(v=>css(v)).join(',')})`;
+  const m=state.mode;
+  if(m==='exp'){L.innerHTML=hatch+miss;N.textContent='Fixed exposure: map white is the 99th percentile of Y across all specimens. Grazing glints above 100% saturate to white.'}
+  if(m==='hue'){L.innerHTML=hatch+miss;N.textContent='CIE chromaticity only (sRGB scaled to max = 1), brightness removed. In very dark cells this colour is dominated by noise.'}
+  if(m==='bright'){L.innerHTML=`<span>0.5%<span class="ramp" style="background:${rampCss}"></span>300%</span>`+neutral('≤ 0.5%')+hatch+miss;N.textContent='B2 = mean reflectance 400–700 nm (Montgomerie 2006), log scale, relative to the white standard.'}
+  if(m==='peak'){L.innerHTML=`<span>400 nm<span class="ramp" style="background:${rampCss}"></span>700 nm</span>`+hatch+miss;N.textContent='H1 = wavelength of maximum reflectance within 400–700 nm (Montgomerie 2006). H1 is noise-sensitive: in dark, flat spectra it falls on noise, often at the red end.'}
+  if(m==='chroma'){L.innerHTML=`<span>0<span class="ramp" style="background:${rampCss}"></span>≥ 6</span>`+neutral('B2 = 0')+hatch+miss;N.textContent='S8 = (Rmax − Rmin) / B2 (Montgomerie 2006). Noise-sensitive in dark cells.'}
+}
+function renderMap(){
+  const d=DS[state.ds],box=document.getElementById('mapbox');
+  box.innerHTML=mapSVG(d,state.mode,{axes:true,uid:'main'})+'<div class="tip" id="tip" hidden></div>';
+  const tip=box.querySelector('#tip');
+  box.querySelectorAll('rect[data-i]').forEach(rc=>{
+    rc.style.cursor=rc.dataset.k?'pointer':'default';
+    rc.onmousemove=e=>{
+      const k=rc.dataset.k,I=rc.dataset.i,C=rc.dataset.c;let h;
+      if(k==null)h=`I ${I}°  C ${C}°<br>${rc.dataset.miss?'not measured':'geometric blind zone'}`;
+      else{const r=d.rows[+k];h=`I ${I}°  C ${C}°<br>B2 ${r[4].toFixed(1)}% · B3 ${r[7]}%<br>H1 ${r[5]} nm · S8 ${r[6]??'—'}`+(r[8]&F.SUS?'<br>⚠ likely mislabelled':'')+(r[8]&F.DRIFT?'<br>⚠ row drift':'')}
+      tip.innerHTML=h;tip.hidden=false;
+      const bb=box.getBoundingClientRect();let x=e.clientX-bb.left+14,y=e.clientY-bb.top+14;
+      if(x+tip.offsetWidth>bb.width)x=e.clientX-bb.left-tip.offsetWidth-10;
+      tip.style.left=x+'px';tip.style.top=y+'px';
+    };
+    rc.onmouseleave=()=>tip.hidden=true;
+    if(rc.dataset.k)rc.onclick=()=>{state.sel=+rc.dataset.k;renderMap();renderPanel()};
+  });
+}
+function niceTicks(lo,hi,n){const span=hi-lo,step0=span/n,mag=Math.pow(10,Math.floor(Math.log10(step0)));const step=[1,2,2.5,5,10].map(f=>f*mag).find(s=>s>=step0);const t=[];for(let v=Math.ceil(lo/step)*step;v<=hi+1e-9;v+=step)t.push(+v.toFixed(6));return t}
+let panelToken=0;
+async function renderPanel(){
+  const d=DS[state.ds],P=document.getElementById('panel');
+  if(state.sel==null){
+    const cand=d.rows.map((r,k)=>[r,k]).filter(([r])=>Math.abs(r[0]+r[1])<=5&&Math.abs(r[0])<=30).sort((a,b)=>b[0][4]-a[0][4]);
+    state.sel=cand.length?cand[0][1]:0;renderMap();
+  }
+  const k=state.sel,r=d.rows[k],tok=++panelToken;
+  P.innerHTML='<div class="loading">Loading spectra…</div>';
+  let arr;
+  try{arr=await loadSpectra(d)}catch(e){if(tok===panelToken)P.innerHTML='<div class="loading">The spectra file for this dataset could not be loaded. The maps and metrics above are unaffected; try reopening the page.</div>';return}
+  if(tok!==panelToken)return;
+  const W0=NC+NR,c=[],raw=[];for(let i=0;i<NC;i++)c.push(arr[k*W0+i]/10);for(let i=0;i<NR;i++)raw.push(arr[k*W0+NC+i]/10);
+  const sorted=[...raw].sort((a,b)=>a-b);let lo=Math.min(sorted[Math.floor(sorted.length*.02)],Math.min(...c)),hi=Math.max(sorted[Math.floor(sorted.length*.98)],Math.max(...c));
+  const pad=(hi-lo)*.08||1;lo-=pad;hi+=pad;
+  const W=560,H=280,ml=44,mr=12,mt=12,mb=34;
+  const x=w=>ml+(w-380)/400*(W-ml-mr),y=v=>mt+(hi-v)/(hi-lo)*(H-mt-mb);
+  const fg3=css('--fg-3'),line=css('--line'),acc=css('--accent');
+  const t=`font-size="10" fill="${fg3}" font-family="IBM Plex Mono,monospace"`;
+  let s=`<svg viewBox="0 0 ${W} ${H}" id="specsvg" role="img" aria-label="Raw and cleaned spectrum">`;
+  niceTicks(lo,hi,5).forEach(tk=>s+=`<line x1="${ml}" x2="${W-mr}" y1="${y(tk)}" y2="${y(tk)}" stroke="${line}" stroke-width="${tk===0?1.2:.6}"/><text x="${ml-6}" y="${y(tk)+3.5}" ${t} text-anchor="end">${tk}</text>`);
+  [400,450,500,550,600,650,700,750].forEach(w=>s+=`<text x="${x(w)}" y="${H-18}" ${t} text-anchor="middle">${w}</text>`);
+  s+=`<text x="${(ml+W-mr)/2}" y="${H-3}" ${t} text-anchor="middle">wavelength (nm)</text><text transform="translate(11 ${(mt+H-mb)/2}) rotate(-90)" ${t} text-anchor="middle">R (%)</text>`;
+  s+=`<clipPath id="cp"><rect x="${ml}" y="${mt}" width="${W-ml-mr}" height="${H-mt-mb}"/></clipPath><g clip-path="url(#cp)">`;
+  s+=`<polyline fill="none" stroke="${fg3}" stroke-opacity=".55" stroke-width=".8" points="${raw.map((v,i)=>x(DATA.rawWl[i]).toFixed(1)+','+y(v).toFixed(1)).join(' ')}"/>`;
+  s+=`<polyline fill="none" stroke="${acc}" stroke-width="2" stroke-linejoin="round" points="${c.map((v,i)=>x(cleanWl[i]).toFixed(1)+','+y(v).toFixed(1)).join(' ')}"/>`;
+  {const i=Math.round((r[5]-380)/2);s+=`<circle cx="${x(r[5])}" cy="${y(c[i])}" r="4.5" fill="${acc}" stroke="${css('--surface')}" stroke-width="2"/>`}
+  s+=`</g><line id="xh" y1="${mt}" y2="${H-mb}" stroke="${fg3}" stroke-width=".8" visibility="hidden"/><rect x="${ml}" y="${mt}" width="${W-ml-mr}" height="${H-mt-mb}" fill="transparent" id="hit"/></svg>`;
+  const chips=[];
+  if(r[8]&F.SUS)chips.push([css('--critical'),'likely mislabelled']);
+  if(r[8]&F.DRIFT)chips.push([css('--serious'),`row drift ${r[9]>0?'+':''}${r[9]} pp`]);
+  if(r[8]&F.NEG)chips.push([css('--warning'),'negative baseline']);
+  if(r[8]&F.WHITE)chips.push([acc,'> 100% of white standard']);
+  if(!chips.length)chips.push([css('--good'),'no flags']);
+  P.innerHTML=`<div class="sel-head"><div class="swatch-big" style="background:#${r[2]}"></div><div><h3>${short(d.label)} · I ${r[0]}° · C ${r[1]}°</h3><p>${Math.abs(r[0]+r[1])<=5?'near the specular geometry':'away from the specular band'}</p></div></div>
+  <div class="legend" style="color:var(--fg-2);margin:0"><span><span class="sw" style="background:${fg3};height:2px;vertical-align:3px"></span>raw</span><span><span class="sw" style="background:${acc};height:3px;vertical-align:3px"></span>cleaned</span><span id="xread" class="mono"></span></div>
+  ${s}
+  <div class="chips">${chips.map(([cc,tt])=>`<span class="chip"><i style="background:${cc}"></i>${tt}</span>`).join('')}</div>
+  <dl class="kv"><dt title="B2 = mean reflectance 400–700 nm; B3 = maximum reflectance">Brightness B2 · B3</dt><dd>${r[4].toFixed(2)}% · ${r[7]}%</dd><dt title="H1 = wavelength of maximum reflectance">Hue H1</dt><dd>${r[5]} nm</dd><dt title="S8 = (Rmax − Rmin)/B2; S6 = Rmax − Rmin">Chroma S8 · S6</dt><dd>${r[6]??'—'} · ${r[16]} pp</dd><dt>Source</dt><dd>${d.srcfiles[r[13]]} → «${r[14]}»</dd></dl>`;
+  const svg=P.querySelector('#specsvg'),hit=svg.querySelector('#hit'),xh=svg.querySelector('#xh'),xr=P.querySelector('#xread');
+  hit.onmousemove=e=>{const pt=svg.createSVGPoint();pt.x=e.clientX;pt.y=e.clientY;const p=pt.matrixTransform(svg.getScreenCTM().inverse());
+    const w=380+(p.x-ml)/(W-ml-mr)*400,i=Math.max(0,Math.min(NC-1,Math.round((w-380)/2)));xh.setAttribute('x1',x(cleanWl[i]));xh.setAttribute('x2',x(cleanWl[i]));xh.setAttribute('visibility','visible');
+    xr.textContent=`${cleanWl[i]} nm · cleaned ${c[i].toFixed(1)}%`};
+  hit.onmouseleave=()=>{xh.setAttribute('visibility','hidden');xr.textContent=''};
+}
+// ===================== Gruson =====================
+const GR=DATA.gruson||{};
+const GKEY=d=>GR[d.sid]?d.sid:(d.sid==='helenor_unal'&&GR.helenor?'helenor':null);
+const SWC=['--s1','--s2','--s3','--s4','--s5','--s6','--s7'];
+let gst={hover:null,hidden:new Set(),show:'both',bg:'exp',key:null,align:'measured'};
+const GAL=DATA.gruson_align||{};
+// Gruson (I, C) -> map. Convention fixed from the data: the Gruson bisector runs opposite to the grid's,
+// so a Gruson point sits at map (−I, C). 'aligned' adds the per-specimen bisector shift d that best matches the grid B2.
+function gPos(Ig,Cg,d){const x=(Ig-Cg)/2,sp=-(Ig+Cg),b=-x+(d||0);return[b+sp/2,b-sp/2]}
+const fmt=(v,d)=>v==null?'—':(+v).toFixed(d).replace('-','−');
+const gauss=(b,x)=>b.Bmax*Math.exp(-((x-b.t)**2)/(2*b.g*b.g));
+const cosH=(h,x)=>h.Hmax*Math.cos(h.g*x*Math.PI/180);
+const sessLabel=k=>k.replace('31 ago-9 sep (S1)','S1 (31 Aug–9 Sep)').replace(/ ago\b/,' Aug').replace(/ sep\b/,' Sep').replace(/ oct\b/,' Oct');
+function gSweeps(g){
+  const L=[];
+  g.B.forEach((b,i)=>L.push({id:'B'+i,type:'B',i,c:SWC[i%7],k:b.k,o:b}));
+  g.H.forEach((h,i)=>L.push({id:'H'+i,type:'H',i,c:SWC[i%7],k:h.k,o:h}));
+  return L;
+}
+function mainIdxFor(key){
+  if(key==='helenor')return DS.findIndex(d=>d.sid==='helenor_unal');
+  const i=DS.findIndex(d=>d.sid===key&&d.variant!=='previous_sweep');return i;
+}
+function shapeIcon(type,color,size=12){
+  const h=size/2;
+  return type==='B'?`<svg width="${size}" height="${size}" viewBox="0 0 ${size} ${size}" aria-hidden="true"><circle cx="${h}" cy="${h}" r="${h-1.5}" fill="${color}" stroke="#fff" stroke-width="1.2"/></svg>`
+    :`<svg width="${size}" height="${size}" viewBox="0 0 ${size} ${size}" aria-hidden="true"><path d="M${h} 1L${size-1} ${h}L${h} ${size-1}L1 ${h}z" fill="${color}" stroke="#fff" stroke-width="1.2"/></svg>`;
+}
+function highlight(id){
+  gst.hover=id;
+  let st=document.getElementById('grhl');
+  if(!st){st=document.createElement('style');st.id='grhl';document.head.appendChild(st)}
+  st.textContent=id?`#grBody [data-sw]:not([data-sw="${id}"]){opacity:.14}#grBody [data-sw="${id}"].crv{stroke-width:3}`:'';
+}
+function grTip(e,html){
+  const tip=document.getElementById('grtip');if(!tip)return;
+  if(!html){tip.hidden=true;return}
+  tip.innerHTML=html;tip.hidden=false;
+  const host=document.getElementById('grBody').getBoundingClientRect();
+  let x=e.clientX-host.left+14,y=e.clientY-host.top+14;
+  if(x+tip.offsetWidth>host.width)x=e.clientX-host.left-tip.offsetWidth-12;
+  tip.style.left=x+'px';tip.style.top=y+'px';
+}
+function grMap(d,g,SW){
+  // same geometry as the explorer map (axes:true)
+  const ml=34,mt=6,cw=14,ch=18;
+  const X=c=>ml+((c+90)/5+.5)*cw, Y=i=>mt+((80-i)/10+.5)*ch;
+  const al=GAL[d.id]||{d:0},dd=gst.align==='aligned'?al.d:0;
+  let o='';
+  // line where Gruson's brightness peak sits: bisector −t (+ shift) -> C = 2b − I
+  if(g.t[0]!=null){const b=-g.t[0]+dd,I0=Math.min(80,2*b+90),I1=Math.max(-80,2*b-90);
+    o+=`<line x1="${X(2*b-I0)}" y1="${Y(I0)}" x2="${X(2*b-I1)}" y2="${Y(I1)}" stroke="#ffd27a" stroke-width="1.3" stroke-dasharray="1 3" stroke-linecap="round" pointer-events="none"/>`;}
+  SW.forEach(w=>{
+    if(gst.hidden.has(w.id))return;
+    if(gst.show!=='both'&&gst.show!==w.type)return;
+    const col=css(w.c);
+    const P=[...w.o.pts].sort((a,b)=>a[2]-b[2]);
+    o+=`<g data-sw="${w.id}">`;
+    o+=`<polyline fill="none" stroke="${col}" stroke-width="1.6" stroke-opacity=".9" points="${P.map(p=>{const q=gPos(p[0],p[1],dd);return X(q[1]).toFixed(1)+','+Y(q[0]).toFixed(1)}).join(' ')}"/>`;
+    P.forEach(p=>{
+      const q=gPos(p[0],p[1],dd),x=X(q[1]),y=Y(q[0]),lab=w.type==='B'?`B ${fmt(p[3],3)}`:`λ ${fmt(p[3],1)} nm`;
+      const tt=`${w.type==='B'?'Brightness':'Hue'} · ${sessLabel(w.k)}<br>Gruson I ${p[0]}°, C ${p[1]}° → map I ${fmt(q[0],1)}°, C ${fmt(q[1],1)}°<br>${w.type==='B'?'bisector':'span'} ${fmt(p[2],1)}° · ${lab}`;
+      o+=w.type==='B'?`<circle cx="${x.toFixed(1)}" cy="${y.toFixed(1)}" r="4.4" fill="${col}" stroke="#fff" stroke-width="1.3" data-tt="${tt}"/>`
+        :`<path d="M${x.toFixed(1)} ${(y-5.4).toFixed(1)}l5.4 5.4l-5.4 5.4l-5.4 -5.4z" fill="${col}" stroke="#fff" stroke-width="1.3" data-tt="${tt}"/>`;
+    });
+    o+='</g>';
+  });
+  return mapSVG(d,gst.bg,{axes:true,uid:'gr'}).replace(/<\/svg>$/,o+'</svg>');
+}
+function fitChart(kind,SW,g){
+  const W=560,H=268,ml=50,mr=14,mt=14,mb=40;
+  const vis=SW.filter(w=>w.type===kind&&!gst.hidden.has(w.id));
+  const all=vis.flatMap(w=>w.o.pts);
+  if(!all.length)return `<p class="note" style="padding:24px 4px">All ${kind==='B'?'brightness':'hue'} sweeps are hidden.</p>`;
+  let x0,x1,y0,y1;
+  if(kind==='B'){x0=Math.min(...all.map(p=>p[2]))-2;x1=Math.max(...all.map(p=>p[2]))+2;
+    const ys=all.map(p=>p[3]).concat(vis.map(w=>w.o.Bmax));y0=Math.min(0,...ys);y1=Math.max(...ys);}
+  else{x0=0;x1=Math.max(...all.map(p=>p[2]))+4;
+    const ys=all.map(p=>p[3]).concat(vis.flatMap(w=>[w.o.Hmax,cosH(w.o,x1)]));y0=Math.min(...ys);y1=Math.max(...ys);}
+  const pad=(y1-y0)*.08||1;y0-=pad;y1+=pad;
+  const sx=v=>ml+(v-x0)/(x1-x0)*(W-ml-mr), sy=v=>mt+(y1-v)/(y1-y0)*(H-mt-mb);
+  const fg3=css('--fg-3'),line=css('--line'),surf=css('--surface');
+  const t=`font-size="10.5" fill="${fg3}" font-family="IBM Plex Mono,monospace"`;
+  let s=`<svg viewBox="0 0 ${W} ${H}" role="img" aria-label="${kind==='B'?'Brightness':'Hue'} fits">`;
+  niceTicks(y0,y1,5).forEach(v=>s+=`<line x1="${ml}" x2="${W-mr}" y1="${sy(v)}" y2="${sy(v)}" stroke="${line}" stroke-width="${v===0?1.1:.6}"/><text x="${ml-7}" y="${sy(v)+3.5}" ${t} text-anchor="end">${kind==='B'?fmt(v,v%1?1:0):Math.round(v)}</text>`);
+  niceTicks(x0,x1,7).forEach(v=>s+=`<text x="${sx(v)}" y="${H-mb+16}" ${t} text-anchor="middle">${String(Math.round(v)).replace('-','−')}°</text>`);
+  s+=`<text x="${(ml+W-mr)/2}" y="${H-4}" ${t} text-anchor="middle">${kind==='B'?'bisector (I − C)/2 (°)':'span I + C (°)'}</text>`;
+  s+=`<text transform="translate(12 ${(mt+H-mb)/2}) rotate(-90)" ${t} text-anchor="middle">${kind==='B'?'brightness (relative)':'hue λ (nm)'}</text>`;
+  if(kind==='B'&&x0<0&&x1>0)s+=`<line x1="${sx(0)}" x2="${sx(0)}" y1="${mt}" y2="${H-mb}" stroke="${fg3}" stroke-dasharray="3 4" stroke-width=".9"/><text x="${sx(0)+5}" y="${mt+10}" ${t}>specular</text>`;
+  s+=`<clipPath id="gc${kind}"><rect x="${ml}" y="${mt}" width="${W-ml-mr}" height="${H-mt-mb}"/></clipPath><g clip-path="url(#gc${kind})">`;
+  vis.forEach(w=>{
+    const col=css(w.c),o=w.o;let pts=[];
+    if(kind==='B'){const a=Math.min(...o.pts.map(p=>p[2]))-2,b=Math.max(...o.pts.map(p=>p[2]))+2;for(let k=0;k<=120;k++){const x=a+(b-a)*k/120;pts.push([x,gauss(o,x)])}}
+    else{const b=Math.max(...o.pts.map(p=>p[2]))+2;for(let k=0;k<=120;k++){const x=b*k/120;pts.push([x,cosH(o,x)])}}
+    s+=`<polyline class="crv" data-sw="${w.id}" fill="none" stroke="${col}" stroke-width="2" stroke-linejoin="round" points="${pts.map(p=>sx(p[0]).toFixed(1)+','+sy(p[1]).toFixed(1)).join(' ')}"/>`;
+  });
+  vis.forEach(w=>{
+    const col=css(w.c);
+    w.o.pts.forEach(p=>{
+      const fit=kind==='B'?gauss(w.o,p[2]):cosH(w.o,p[2]);
+      const tt=`${sessLabel(w.k)} · R² ${fmt(w.o.R2,2)}<br>I ${p[0]}°, C ${p[1]}° · ${kind==='B'?'bisector':'span'} ${fmt(p[2],1)}°<br>observed ${kind==='B'?fmt(p[3],3):fmt(p[3],1)+' nm'} · fit ${kind==='B'?fmt(fit,3):fmt(fit,1)+' nm'}`;
+      s+=kind==='B'?`<circle data-sw="${w.id}" cx="${sx(p[2]).toFixed(1)}" cy="${sy(p[3]).toFixed(1)}" r="4.2" fill="${col}" stroke="${surf}" stroke-width="1.5" data-tt="${tt}"/>`
+        :`<path data-sw="${w.id}" d="M${sx(p[2]).toFixed(1)} ${(sy(p[3])-5.2).toFixed(1)}l5.2 5.2l-5.2 5.2l-5.2 -5.2z" fill="${col}" stroke="${surf}" stroke-width="1.5" data-tt="${tt}"/>`;
+    });
+  });
+  return s+'</g></svg>';
+}
+function chipRow(SW,type){
+  const L=SW.filter(w=>w.type===type);if(!L.length)return'';
+  return `<div class="sweeps"><span class="lbl">${type==='B'?'Brightness':'Hue'}</span>`+L.map(w=>{
+    const o=w.o,extra=type==='B'?`span ${fmt(o.span,0)}°`:`I−C ${fmt(o.d,0)}°`;
+    return `<button class="sw-chip" data-sw="${w.id}" data-id="${w.id}" aria-pressed="${!gst.hidden.has(w.id)}" title="${sessLabel(w.k)} · ${extra} · ${o.n} points · R² ${fmt(o.R2,2)}">${shapeIcon(type,css(w.c))}${sessLabel(w.k)} <span style="color:var(--fg-3)">R² ${fmt(o.R2,2)}</span></button>`}).join('')+'</div>';
+}
+function tile(k,v,sd,unit,dec,sub){return `<div class="tile"><span class="k">${k}</span><span class="v">${fmt(v,dec)}${unit?`<small>${unit}</small>`:''}</span><span class="s">${sd==null?sub:'± '+fmt(sd,dec)+' SD · '+sub}</span></div>`}
+function renderGruson(){
+  const d=DS[state.ds],key=GKEY(d),body=document.getElementById('grBody'),sel=document.getElementById('grSel');
+  const keys=Object.keys(GR).sort();
+  sel.innerHTML=(key?'':`<option value="" selected>${short(d.name)} (no Gruson fits)</option>`)+keys.map(k=>`<option value="${k}"${k===key?' selected':''}>Morpho ${gName(GR[k])}</option>`).join('');
+  sel.onchange=()=>{if(sel.value){const i=mainIdxFor(sel.value);if(i>=0)select(i)}};
+  const show=document.getElementById('grShow');
+  show.innerHTML=[['both','Both sweeps'],['B','Brightness'],['H','Hue']].map(([v,l])=>`<button data-v="${v}" aria-pressed="${gst.show===v}">${l}</button>`).join('');
+  show.querySelectorAll('button').forEach(b=>b.onclick=()=>{gst.show=b.dataset.v;renderGruson()});
+  const alg=document.getElementById('grAlign');
+  alg.innerHTML=[['measured','Measured angles'],['aligned','Aligned to specular']].map(([v,l])=>`<button data-v="${v}" aria-pressed="${gst.align===v}">${l}</button>`).join('');
+  alg.querySelectorAll('button').forEach(b=>b.onclick=()=>{gst.align=b.dataset.v;renderGruson()});
+  const bg=document.getElementById('grBg');
+  bg.innerHTML=[['exp','Perceived colour'],['bright','Brightness B2'],['peak','Hue H1']].map(([v,l])=>`<button data-v="${v}" aria-pressed="${gst.bg===v}">${l}</button>`).join('');
+  bg.querySelectorAll('button').forEach(b=>b.onclick=()=>{gst.bg=b.dataset.v;renderGruson()});
+  if(!key){
+    body.innerHTML=`<div class="gr-empty"><p><b>${d.name}</b> has no Gruson sweeps. Fits exist for these ${keys.length} species:</p><div class="chips">${keys.map(k=>`<button data-k="${k}">M. ${gName(GR[k])}</button>`).join('')}</div></div>`;
+    body.querySelectorAll('button[data-k]').forEach(b=>b.onclick=()=>{const i=mainIdxFor(b.dataset.k);if(i>=0)select(i)});
+    renderGrAll(null);return;
+  }
+  if(gst.key!==key){gst.hidden=new Set();gst.key=key}
+  const g=GR[key],SW=gSweeps(g),edge=g.method==='edge';
+  const warn=key==='helenor'?`<div class="gr-warn">The Gruson sessions label this specimen “M. helenor”; its fits are linked to helenor (UNAL).</div>`:'';
+  const ed=edge?`<div class="gr-warn">M. ${gName(g)} has no reflectance peak within 400–700 nm, so its hue is the position of the spectral edge. Only γH is comparable with the other species; its “Hmax” is the edge position at span 0.</div>`:'';
+  const prev=d.variant==='previous_sweep'?`<div class="gr-warn">You are viewing the previous sweep of this species. The Gruson fits come from separate sessions and are the same for both sweeps.</div>`:'';
+  body.style.position='relative';
+  body.innerHTML=`${warn}${ed}${prev}
+  <div class="tiles">
+    ${tile('Bmax',g.Bmax[0],g.Bmax[1],'',2,`relative · n = ${g.nB}`)}
+    ${tile('t · peak offset',g.t[0],g.t[1],'°',1,`bisector · n = ${g.nB}`)}
+    ${tile('γB · angular width',g.gB[0],g.gB[1],'°',2,`n = ${g.nB}`)}
+    ${tile(edge?'Edge position':'Hmax · hue at normal',edge?null:g.Hmax[0],edge?null:g.Hmax[1],edge?'':'nm',1,edge?'not comparable (edge method)':`n = ${g.nH}`)}
+    ${tile('γH · hue shift rate',g.gH[0],g.gH[1],'deg⁻¹',3,`n = ${g.nH}`)}
+  </div>
+  <div class="gr-grid">
+    <div class="plate">
+      <div class="mapbox" id="grMap">${grMap(d,g,SW)}</div>
+      <div class="legend" style="margin-top:8px"><span><span class="sw" style="background:none;border-top:1.5px dashed #fff;height:0;width:16px;vertical-align:3px"></span>ideal specular C = −I</span><span><span class="sw" style="background:none;border-top:2px dotted #ffd27a;height:0;width:16px;vertical-align:3px"></span>Gruson brightness peak (t = ${fmt(g.t[0],1)}°)</span></div><div class="mapnote">Gruson angles (I, C) sit at map position (−I, C). This orientation was chosen from the data: it matches the grid brightness with median r = 0.80 across species, against 0.37 for (I, −C). ${gst.align==='aligned'?`Aligned view: points shifted ${fmt((GAL[d.id]||{d:0}).d,2)}° along the bisector so the sweeps sit on this specimen's own specular band (r with grid B2 ${fmt((GAL[d.id]||{}).r0,2)} → ${fmt((GAL[d.id]||{}).r,2)}). The shift is the mounting difference between sessions.`:`Measured angles, no shift (r with grid B2 = ${fmt((GAL[d.id]||{}).r0,2)}).`} Background: ${d.label}, ${gst.bg==='exp'?'perceived colour':gst.bg==='bright'?'brightness B2':'hue H1'}.</div>
+    </div>
+    <div class="gr-charts">
+      <div class="chart-card"><h3>Brightness <span>B = Bmax · exp(−(x − t)² / 2γB²)</span></h3>${chipRow(SW,'B')}${fitChart('B',SW,g)}</div>
+      <div class="chart-card"><h3>Hue${edge?' (edge position)':''} <span>H = Hmax · cos(γH · span)</span></h3>${chipRow(SW,'H')}${fitChart('H',SW,g)}</div>
+    </div>
+  </div>
+  <div class="tablewrap"><table>
+    <thead><tr><th>Sweep</th><th>Session</th><th style="text-align:right">Constant</th><th style="text-align:right">Points</th><th style="text-align:right">R²</th><th style="text-align:right">Bmax / Hmax</th><th style="text-align:right">t (°)</th><th style="text-align:right">γB (°) / γH</th></tr></thead><tbody>
+    ${SW.map(w=>{const o=w.o;return `<tr data-sw="${w.id}" style="cursor:default"><td style="white-space:nowrap">${shapeIcon(w.type,css(w.c))} ${w.type==='B'?'Brightness':'Hue'}</td><td>${sessLabel(w.k)}${o.note?` <span style="color:var(--fg-3)">· ${o.note}</span>`:''}</td><td class="num">${w.type==='B'?'I + C = '+fmt(o.span,0):'I − C = '+fmt(o.d,0)}°</td><td class="num">${o.n}</td><td class="num">${fmt(o.R2,3)}</td><td class="num">${w.type==='B'?fmt(o.Bmax,3):fmt(o.Hmax,1)+' nm'}</td><td class="num">${w.type==='B'?fmt(o.t,2):'—'}</td><td class="num">${w.type==='B'?fmt(o.g,2):fmt(o.g,4)}</td></tr>`}).join('')}
+    </tbody></table></div>
+  <div class="tip" id="grtip" hidden></div>`;
+  body.querySelectorAll('[data-sw]').forEach(el=>{
+    el.addEventListener('mouseenter',()=>highlight(el.dataset.sw));
+    el.addEventListener('mouseleave',()=>{highlight(null);grTip(null,null)});
+  });
+  body.querySelectorAll('[data-tt]').forEach(el=>el.addEventListener('mousemove',e=>grTip(e,el.dataset.tt)));
+  body.querySelectorAll('.sw-chip').forEach(b=>b.onclick=()=>{const id=b.dataset.id;gst.hidden.has(id)?gst.hidden.delete(id):gst.hidden.add(id);highlight(null);renderGruson()});
+  highlight(null);
+  renderGrAll(key);
+}
+function renderGrAll(key){
+  const P=[['Bmax','Bmax','relative brightness at the peak',2],['t','t (°)','offset of the brightness peak from specular',1],['gB','γB (°)','angular width of the brightness lobe',2],['Hmax','Hmax (nm)','hue at normal incidence (peak species only)',1],['gH','γH (deg⁻¹)','rate of hue shift with span',3]];
+  const el=document.getElementById('grAll');
+  el.innerHTML=P.map(([f,title,sub,dec])=>{
+    const rows=Object.entries(GR).filter(([k,g])=>g[f][0]!=null&&!(f==='Hmax'&&g.method==='edge')).map(([k,g])=>({k,name:gName(g),m:g[f][0],sd:g[f][1]||0,n:f==='Bmax'||f==='t'||f==='gB'?g.nB:g.nH})).sort((a,b)=>b.m-a.m);
+    const lo=Math.min(...rows.map(r=>r.m-r.sd)),hi=Math.max(...rows.map(r=>r.m+r.sd)),pd=(hi-lo)*.06;
+    const W=420,rh=17,mt=8,ml=96,mr=58,H=mt+rows.length*rh+30;
+    const sx=v=>ml+(v-(lo-pd))/((hi+pd)-(lo-pd))*(W-ml-mr);
+    const fg=css('--fg'),fg3=css('--fg-3'),acc=css('--accent'),muted=css('--muted-mark'),line=css('--line');
+    const t=`font-size="10.5" font-family="IBM Plex Mono,monospace"`;
+    let s=`<svg viewBox="0 0 ${W} ${H}" role="img" aria-label="${title} by species">`;
+    const tk=niceTicks(lo-pd,hi+pd,4),stp=tk.length>1?tk[1]-tk[0]:1,td=Math.max(0,-Math.floor(Math.log10(stp)+1e-9));tk.forEach(v=>{if(sx(v)<ml-1||sx(v)>W-mr+1)return;s+=`<line x1="${sx(v)}" x2="${sx(v)}" y1="${mt}" y2="${H-24}" stroke="${line}" stroke-width=".6"/><text x="${sx(v)}" y="${H-10}" ${t} fill="${fg3}" text-anchor="middle">${fmt(v,td)}</text>`});
+    rows.forEach((r,i)=>{const y=mt+i*rh+rh/2,on=r.k===key,c=on?acc:muted;
+      s+=`<g class="xs-row" data-k="${r.k}"><rect class="hit" x="0" y="${y-rh/2}" width="${W}" height="${rh}" fill="transparent"/><title>M. ${r.name}: ${fmt(r.m,dec)} ± ${fmt(r.sd,dec)} (n = ${r.n})</title>
+      <text x="${ml-8}" y="${y+3.5}" ${t} text-anchor="end" fill="${on?fg:fg3}" font-weight="${on?600:400}" font-style="italic">${r.name}</text>
+      <line x1="${sx(r.m-r.sd)}" x2="${sx(r.m+r.sd)}" y1="${y}" y2="${y}" stroke="${c}" stroke-width="${on?2:1.4}"/>
+      <circle cx="${sx(r.m)}" cy="${y}" r="${on?5:3.8}" fill="${c}" stroke="${css('--surface')}" stroke-width="1.5"/>
+      ${on?`<text x="${Math.min(sx(r.m+r.sd)+6,W-mr+4)}" y="${y+3.5}" ${t} fill="${fg}" font-weight="600">${fmt(r.m,dec)}</text>`:''}</g>`});
+    return `<div class="chart-card"><h3>${title} <span>${sub}</span></h3>${s}</svg></div>`;
+  }).join('');
+  el.querySelectorAll('.xs-row').forEach(g=>g.onclick=()=>{const i=mainIdxFor(g.dataset.k);if(i>=0){select(i);document.getElementById('gruson').scrollIntoView({behavior:'smooth',block:'start'})}});
+}
+
+renderFacts();select(state.ds);
+</script>

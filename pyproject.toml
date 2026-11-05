@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "morpho-gruson"
+version = "1.0.0"
+description = "Gruson et al. (2019) iridescence quantification for Morpho butterflies"
+requires-python = ">=3.10"
+dependencies = ["numpy", "scipy", "pandas", "openpyxl", "pyyaml", "matplotlib", "adjustText", "scikit-learn"]
+
+[project.optional-dependencies]
+test = ["pytest>=8"]
+
+[tool.setuptools.packages.find]
+where = ["gruson/src"]

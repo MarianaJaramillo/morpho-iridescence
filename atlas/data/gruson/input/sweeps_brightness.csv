@@ -1,0 +1,88 @@
+﻿species,session,sweep,n_points,R2,method,Bmax,t_deg,gammaB_deg,constant_span_I_plus_C
+absoloni,31 ago-9 sep (S1),,7,0.97098,brightness_mean,1.44448,-3.06555,3.39798,40
+absoloni,7 oct,4,7,0.96751,brightness_mean,1.59354,-2.82602,3.34056,40
+absoloni,19 oct,7,7,0.98184,brightness_mean,1.61698,-5.02509,3.02432,40
+absoloni,19 oct,8,7,0.96949,brightness_mean,1.49465,-4.06879,3.06337,40
+achilles,31 ago-9 sep (S1),,7,0.88281,brightness_mean,0.805082,-10.4591,12.3241,40
+achilles,25 sep,2,7,0.94816,brightness_mean,0.722241,-11.6018,10.4941,40
+achilles,7 oct,4,8,0.89283,brightness_mean,0.646763,-9.37765,11.5042,40
+achilles,9 oct,5,8,0.91105,brightness_mean,0.636057,-9.53667,13.6505,40
+achilles,9 oct,6,7,0.96726,brightness_mean,0.640654,-9.71682,11.0211,40
+aega,7 oct,4,7,0.98903,brightness_mean,2.19916,-2.77115,3.47931,40
+aega,15 oct,5,7,0.986,brightness_mean,2.29077,-1.23791,2.92502,40
+aega,15 oct,6,7,0.98998,brightness_mean,3.33636,-3.09347,2.56005,40
+aega,19 oct,8,7,0.99311,brightness_mean,3.29719,-2.80945,2.37945,40
+aega,21 oct,8,7,0.99549,brightness_mean,3.27646,-3.51019,2.37465,40
+aega,21 oct,9,7,0.99183,brightness_mean,1.9485,-2.89609,3.57229,40
+amathonte,31 ago-9 sep (S1),,7,0.96754,brightness_mean,1.36697,-0.37001,3.91942,40
+amathonte,7 oct,4,7,0.94873,brightness_mean,1.20767,-2.90122,4.02583,40
+amathonte,19 oct,7,7,0.93823,brightness_mean,1.095,-2.2866,3.92523,40
+amathonte,19 oct,8,7,0.97478,brightness_mean,1.36069,-2.1166,4.23033,40
+anaxibia,25 sep,,6,0.78602,brightness_mean,0.435901,-15.4144,6.17368,40
+aurora,31 ago-9 sep (S1),,7,0.99095,brightness_mean,2.69846,-5.7285,3.09739,40
+aurora,7 oct,4,7,0.99316,brightness_mean,2.31757,-1.38397,3.16199,40
+aurora,19 oct,7,7,0.99025,brightness_mean,1.83816,-0.764402,3.25154,40
+aurora,19 oct,8,7,0.98536,brightness_mean,1.19247,-0.48145,3.13386,40
+cypris,31 ago-9 sep (S1),,7,0.98241,brightness_mean,2.48646,-1.98012,3.60998,40
+cypris,7 oct,4,7,0.9764,brightness_mean,1.61905,-3.22554,4.46756,40
+cypris,19 oct,7,7,0.98961,brightness_mean,2.15456,-1.56691,2.91232,40
+cypris,19 oct,8,7,0.91913,brightness_mean,0.909144,-2.87157,3.37855,40
+deidamia,31 ago-9 sep (S1),,7,0.8944,brightness_mean,0.985016,-6.0225,8.45059,40
+deidamia,7 oct,4,9,0.91685,brightness_mean,0.90236,-5.87863,9.58895,40
+deidamia,15 oct,5,8,0.91195,brightness_mean,0.885326,-7.42303,9.40516,40
+deidamia,15 oct,6,8,0.88724,brightness_mean,0.79065,-6.30532,10.4058,40
+deidamia,15 oct,7,7,0.92432,brightness_mean,0.638885,-4.82267,7.92544,40
+eugenia,31 ago-9 sep (S1),,14,0.87693,brightness_mean,1.92814,0.976457,5.95545,40
+eugenia,15 oct,5,7,0.9947,brightness_mean,1.82783,0.45361,4.53288,40
+eugenia,15 oct,6,7,0.98029,brightness_mean,1.98312,2.80671,3.89703,40
+eugenia,19 oct,7,7,0.99313,brightness_mean,2.20506,-2.69202,4.64668,40
+eugenia,19 oct,8,7,0.98965,brightness_mean,2.08867,-3.04803,4.05177,40
+godartii,31 ago-9 sep (S1),,7,0.98468,brightness_mean,1.36987,-3.31268,6.56576,40
+godartii,7 oct,4,7,0.98336,brightness_mean,1.1739,-4.09734,5.78,40
+godartii,9 oct,5,7,0.98637,brightness_mean,1.32677,-4.55975,5.65565,40
+godartii,9 oct,6,7,0.97256,brightness_mean,1.27634,-5.42176,5.85113,40
+granadensis,25 sep,2,6,0.82382,brightness_mean,1.15025,-9.86844,7.47642,40
+granadensis,7 oct,4,10,0.82893,brightness_mean,1.08183,-8.08382,7.20807,40
+granadensis,15 oct,5,8,0.82273,brightness_mean,0.967521,-9.28039,7.14961,40
+granadensis,15 oct,6,8,0.84206,brightness_mean,0.772624,-8.387,6.7417,40
+helenor,31 ago-9 sep (S1),,9,0.93187,brightness_mean,0.616673,-7.07104,8.97035,40
+helenor,7 oct,4,8,0.95445,brightness_mean,0.762229,-11.0142,8.34243,40
+helenor,19 oct,7,7,0.91302,brightness_mean,0.490544,-11.3064,7.67077,40
+helenor,19 oct,8,6,0.9231,brightness_mean,0.591761,-10.7892,8.87947,40
+lympharis,31 ago-9 sep (S1),,5,0.9983,brightness_mean,2.43089,-0.79494,3.22235,40
+lympharis,7 oct,4,7,0.98726,brightness_mean,1.87064,-3.63732,4.42858,40
+lympharis,9 oct,5,7,0.99521,brightness_mean,2.06932,-1.48682,3.75888,40
+lympharis,9 oct,6,7,0.99509,brightness_mean,2.08563,-0.623575,4.15843,40
+marcus,31 ago-9 sep (S1),,7,0.95804,brightness_mean,1.30593,-2.45283,4.30793,40
+marcus,19 oct,7,7,0.9912,brightness_mean,1.10254,0.158046,5.06144,40
+marcus,19 oct,8,7,0.98872,brightness_mean,1.31843,1.07452,5.41104,40
+marcus,19 oct,9,7,0.99036,brightness_mean,1.12653,0.310714,5.27199,40
+menelaus,31 ago-9 sep (S1),,7,0.97671,brightness_mean,1.89983,0.231211,3.63478,40
+menelaus,7 oct,4,7,0.9913,brightness_mean,2.25514,-2.40969,3.80167,40
+menelaus,19 oct,7,7,0.98326,brightness_mean,1.90162,-2.27898,3.73406,40
+menelaus,19 oct,8,7,0.98862,brightness_mean,1.92143,-1.40496,4.11546,40
+portis,31 ago-9 sep (S1),,7,0.99644,brightness_mean,1.48975,-0.932134,4.62586,40
+portis,7 oct,4,7,0.99303,brightness_mean,1.91925,-6.70423,4.31539,40
+portis,9 oct,5,7,0.99896,brightness_mean,1.95052,-3.5668,4.4666,40
+portis,9 oct,6,7,0.99406,brightness_mean,1.85986,-7.42692,4.76624,40
+rhetenor,31 ago-9 sep (S1),,7,0.94651,brightness_mean,1.68101,-1.90422,3.49101,40
+rhetenor,7 oct,4,7,0.96285,brightness_mean,2.50268,-1.87102,2.82406,40
+rhetenor,15 oct,5,7,0.94653,brightness_mean,1.37151,-1.41121,3.21331,40
+rhetenor,15 oct,6,7,0.95476,brightness_mean,1.27305,-3.47598,4.17907,40
+rhetenor,21 oct,8,7,0.9601,brightness_mean,1.9552,-2.5422,3.5535,40
+rhetenor,21 oct,9,7,0.98011,brightness_mean,2.57606,-2.62265,3.24783,40
+rhodopteron,7 oct,4,7,0.99586,brightness_mean,3.15803,-3.15297,2.72502,40
+rhodopteron,15 oct,5,7,0.98867,brightness_mean,2.26847,-4.1078,3.54579,40
+rhodopteron,15 oct,6,7,0.99009,brightness_mean,2.21218,-5.29969,3.74732,40
+rhodopteron,19 oct,7,7,0.98557,brightness_mean,2.75947,-4.4999,2.39914,40
+rhodopteron,19 oct,8,7,0.99193,brightness_mean,2.96345,-3.58955,2.8145,40
+rhodopteron,21 oct,8,7,0.99787,brightness_mean,3.69584,-5.42607,2.37319,40
+rhodopteron,21 oct,9,7,0.9966,brightness_mean,3.44828,-5.34974,2.42061,40
+sulkowskyi,31 ago-9 sep (S1),,11,0.98776,brightness_mean,1.38908,1.88368,4.82263,40
+sulkowskyi,2 sep,,19,0.93254,brightness_mean,1.69208,-0.285233,3.11897,10
+sulkowskyi,7 oct,4,7,0.99511,brightness_mean,2.09861,-3.11389,3.66104,40
+sulkowskyi,19 oct,7,7,0.99022,brightness_mean,1.84485,-4.16933,3.33047,40
+zephyritis,31 ago-9 sep (S1),,6,0.99831,brightness_mean,3.64275,-1.58549,3.51634,40
+zephyritis,2 sep,,7,0.99674,brightness_mean,2.22814,0.403827,2.93377,40
+zephyritis,7 oct,4,7,0.99257,brightness_mean,2.46439,-1.09925,3.38972,40
+zephyritis,19 oct,7,7,0.98902,brightness_mean,2.5073,-1.60428,3.08679,40

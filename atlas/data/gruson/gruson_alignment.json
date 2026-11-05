@@ -1,0 +1,127 @@
+{
+ "absoloni__single": {
+  "d": 3.25,
+  "r0": 0.73,
+  "r": 0.948
+ },
+ "achilles__single": {
+  "d": -0.25,
+  "r0": 0.94,
+  "r": 0.941
+ },
+ "aega__single": {
+  "d": 3.75,
+  "r0": 0.6,
+  "r": 0.858
+ },
+ "amathonte__single": {
+  "d": -0.25,
+  "r0": 0.973,
+  "r": 0.973
+ },
+ "anaxibia__single": {
+  "d": -3.0,
+  "r0": 0.93,
+  "r": 0.969
+ },
+ "aurora__single": {
+  "d": -1.25,
+  "r0": 0.79,
+  "r": 0.83
+ },
+ "cypris__single": {
+  "d": 2.75,
+  "r0": 0.733,
+  "r": 0.858
+ },
+ "deidamia__previous_sweep": {
+  "d": 4.0,
+  "r0": 0.742,
+  "r": 0.893
+ },
+ "deidamia__remeasurement": {
+  "d": -4.25,
+  "r0": 0.659,
+  "r": 0.888
+ },
+ "eugenia__previous_sweep": {
+  "d": 2.25,
+  "r0": 0.803,
+  "r": 0.87
+ },
+ "eugenia__remeasurement": {
+  "d": 1.75,
+  "r0": 0.822,
+  "r": 0.864
+ },
+ "godarti__single": {
+  "d": 0.75,
+  "r0": 0.962,
+  "r": 0.973
+ },
+ "granadensis__single": {
+  "d": 6.0,
+  "r0": 0.527,
+  "r": 0.903
+ },
+ "helenor_unal__single": {
+  "d": -4.5,
+  "r0": 0.701,
+  "r": 0.865
+ },
+ "lympharis__previous_sweep": {
+  "d": -1.5,
+  "r0": 0.895,
+  "r": 0.951
+ },
+ "lympharis__remeasurement": {
+  "d": -3.0,
+  "r0": 0.765,
+  "r": 0.949
+ },
+ "marcus__single": {
+  "d": -2.0,
+  "r0": 0.872,
+  "r": 0.94
+ },
+ "menelaus__previous_sweep": {
+  "d": -1.25,
+  "r0": 0.931,
+  "r": 0.963
+ },
+ "menelaus__remeasurement": {
+  "d": -0.75,
+  "r0": 0.951,
+  "r": 0.96
+ },
+ "portis__single": {
+  "d": -4.25,
+  "r0": 0.591,
+  "r": 0.864
+ },
+ "rhetenor__previous_sweep": {
+  "d": 3.0,
+  "r0": 0.738,
+  "r": 0.911
+ },
+ "rhetenor__remeasurement": {
+  "d": -1.0,
+  "r0": 0.886,
+  "r": 0.911
+ },
+ "rhodopteron__single": {
+  "d": -0.5,
+  "r0": 0.932,
+  "r": 0.937
+ },
+ "sulkowskyi__single": {
+  "d": 1.75,
+  "r0": 0.731,
+  "r": 0.752
+ },
+ "zephyritis__single": {
+  "d": 0.5,
+  "r0": 0.921,
+  "r": 0.928
+ }
+}

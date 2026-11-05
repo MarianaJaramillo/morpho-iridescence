@@ -1,0 +1,39 @@
+species_id,variant,file,column,kind,detail
+achilles,single,M. achilles negativo paralelo.xlsx,-,row_drift,I=-80: reflectance away from specular is shifted -4.3 pp from the neighbouring rows. Not corrected.
+amathonte,single,-,-,missing,1 geometries outside the blind zone were not measured. By I: {0: 1}
+anaxibia,single,-,-,missing,1 geometries outside the blind zone were not measured. By I: {20: 1}
+deidamia,remeasurement,-,-,missing,2 geometries outside the blind zone were not measured. By I: {-50: 2}
+deidamia,previous_sweep,-,-,missing,1 geometries outside the blind zone were not measured. By I: {10: 1}
+epistrophus,single,M. epistrophus negativo paralelo.xlsx,-,row_drift,I=-80: reflectance away from specular is shifted -4.4 pp from the neighbouring rows. Not corrected.
+eugenia,previous_sweep,-,-,missing,1 geometries outside the blind zone were not measured. By I: {20: 1}
+granadensis,single,-,-,missing,1 geometries outside the blind zone were not measured. By I: {80: 1}
+iphitus,single,M. iphitus negativo paralelo.xlsx,-,row_drift,I=-80: reflectance away from specular is shifted -3.0 pp from the neighbouring rows. Not corrected.
+iphitus,single,M. iphitus negativo paralelo.xlsx,-,row_drift,I=-40: reflectance away from specular is shifted +4.6 pp from the neighbouring rows. Not corrected.
+iphitus,single,M. iphitus positivo paralelo.xlsx,-,row_drift,I=80: reflectance away from specular is shifted -4.4 pp from the neighbouring rows. Not corrected.
+lympharis,remeasurement,d8944e54-M._lympharis_negativo_paralelo.xlsx,-,row_drift,I=-80: reflectance away from specular is shifted -3.8 pp from the neighbouring rows. Not corrected.
+lympharis,previous_sweep,M. lympharis negativo paralelo.xlsx,-,row_drift,I=-80: reflectance away from specular is shifted -5.5 pp from the neighbouring rows. Not corrected.
+lympharis,previous_sweep,-,-,missing,1 geometries outside the blind zone were not measured. By I: {-10: 1}
+menelaus,previous_sweep,M. menelaus paralelo negativo.xlsx,287,suspect_label,"""M. menelaus 0I -85C.RFL8"": B2 48 % against ~0 % in its neighbours; probably belongs to another geometry. Not moved."
+menelaus,previous_sweep,-,-,missing,1 geometries outside the blind zone were not measured. By I: {-70: 1}
+niepelti,single,M. niepelti positivo paralelo.xlsx,-,row_drift,I=50: reflectance away from specular is shifted +3.6 pp from the neighbouring rows. Not corrected.
+niepelti,single,M. niepelti positivo paralelo.xlsx,-,row_drift,I=80: reflectance away from specular is shifted -3.5 pp from the neighbouring rows. Not corrected.
+niepelti,single,-,-,missing,"14 geometries outside the blind zone were not measured. By I: {-70: 6, -60: 8}"
+polyphemus,single,M. polyphemus negativo paralelo.xlsx,-,row_drift,I=-80: reflectance away from specular is shifted -5.1 pp from the neighbouring rows. Not corrected.
+polyphemus,single,M. polyphemus negativo paralelo.xlsx,-,row_drift,I=-50: reflectance away from specular is shifted +5.8 pp from the neighbouring rows. Not corrected.
+polyphemus,single,M. polyphemus positivo paralelo.xlsx,-,row_drift,I=80: reflectance away from specular is shifted -4.2 pp from the neighbouring rows. Not corrected.
+sulkowskyi,single,M. sulkwoskyi negativo paralelo.xlsx,-,row_drift,I=-60: reflectance away from specular is shifted -4.2 pp from the neighbouring rows. Not corrected.
+sulkowskyi,single,M. sulkwoskyi negativo paralelo.xlsx,-,row_drift,I=-50: reflectance away from specular is shifted +8.9 pp from the neighbouring rows. Not corrected.
+sulkowskyi,single,M. sulkwoskyi negativo paralelo.xlsx,-,row_drift,I=-40: reflectance away from specular is shifted -5.3 pp from the neighbouring rows. Not corrected.
+sulkowskyi,single,M. sulkwoskyi negativo paralelo.xlsx,-,row_drift,I=-10: reflectance away from specular is shifted -16.5 pp from the neighbouring rows. Not corrected.
+sulkowskyi,single,M. sulkwoskyi positivo paralelo.xlsx,-,row_drift,I=0: reflectance away from specular is shifted +21.0 pp from the neighbouring rows. Not corrected.
+sulkowskyi,single,M. sulkwoskyi positivo paralelo.xlsx,-,row_drift,I=30: reflectance away from specular is shifted +4.0 pp from the neighbouring rows. Not corrected.
+sulkowskyi,single,M. sulkwoskyi positivo paralelo.xlsx,-,row_drift,I=40: reflectance away from specular is shifted -3.9 pp from the neighbouring rows. Not corrected.
+sulkowskyi,single,M. sulkwoskyi positivo paralelo.xlsx,-,row_drift,I=50: reflectance away from specular is shifted -4.8 pp from the neighbouring rows. Not corrected.
+sulkowskyi,single,M. sulkwoskyi positivo paralelo.xlsx,-,row_drift,I=60: reflectance away from specular is shifted +10.4 pp from the neighbouring rows. Not corrected.
+sulkowskyi,single,M. sulkwoskyi positivo paralelo.xlsx,-,row_drift,I=70: reflectance away from specular is shifted -6.4 pp from the neighbouring rows. Not corrected.
+theseus_w,single,M. theseus w negativo paralelo.xlsx,-,row_drift,I=-80: reflectance away from specular is shifted -3.3 pp from the neighbouring rows. Not corrected.
+theseus_w,single,M. theseus w positivo paralelo.xlsx,-,row_drift,I=50: reflectance away from specular is shifted +3.7 pp from the neighbouring rows. Not corrected.
+theseus_w,single,M. theseus w positivo paralelo.xlsx,-,row_drift,I=80: reflectance away from specular is shifted -3.2 pp from the neighbouring rows. Not corrected.
+zephyritis,single,M. zephyritis negativo paralelo.xlsx,-,row_drift,I=-40: reflectance away from specular is shifted +5.4 pp from the neighbouring rows. Not corrected.
+zephyritis,single,M. zephyritis positivo paralelo.xlsx,55,suspect_label,"""M. zephyritis 20I 30C.RFL8"": B2 184 % against ~11 % in its neighbours; probably belongs to another geometry. Not moved."
+zephyritis,single,-,-,missing,1 geometries outside the blind zone were not measured. By I: {20: 1}

@@ -1,0 +1,5 @@
+numpy>=2.0
+pandas>=2.2
+scipy>=1.13
+colour-science>=0.4.4
+openpyxl>=3.1

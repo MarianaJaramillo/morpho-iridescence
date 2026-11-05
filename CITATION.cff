@@ -1,0 +1,27 @@
+cff-version: 1.2.0
+message: "If you use this software or data, please cite it using these metadata."
+title: "Morpho iridescence: angular reflectance datasets"
+type: dataset
+authors:
+  - family-names: Jaramillo Acero
+    given-names: Mariana
+    affiliation: Universidad de Antioquia
+    orcid: "https://orcid.org/0000-0002-7877-1177"
+    email: mariana.jaramillo2@udea.edu.co
+version: 1.0.0
+date-released: "2026-11-05"
+repository-code: "https://github.com/MarianaJaramillo/morpho-iridescence"
+url: "https://github.com/MarianaJaramillo/morpho-iridescence"
+license:
+  - MIT
+  - CC-BY-4.0
+keywords:
+  - Morpho
+  - iridescence
+  - structural colour
+  - goniometry
+  - reflectance
+abstract: >-
+  Angle-resolved reflectance of Morpho butterfly wings measured with a goniometer and a
+  spectrometer: Gruson-protocol sweeps for 20 species and an angular atlas of 31 specimens.
+  Code is released under the MIT license; data under CC BY 4.0 (see DATA_LICENSE.md).

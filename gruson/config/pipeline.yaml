@@ -1,0 +1,77 @@
+# Configuration of the Gruson-protocol pipeline.
+# Every threshold and every manual decision lives here, not in the code.
+
+signal:
+  wavelength_range_nm: [400, 700]
+  savgol: {window: 151, polyorder: 3}
+  masked_band_nm: [523, 534]      # lamp/instrument artefact; linearly interpolated
+  hue_peak_fraction: 0.10         # hue = intensity-weighted centroid of the top 10 % of the peak
+
+# White references: all unique (I, C) references of these two files are pooled;
+# a geometry present in both is averaged. Each spectrum is divided by the
+# reference closest in (I, C) (L1 distance).
+reference_pool:
+  files: [2026-08-31_S1_main_dataset.xlsx, 2026-09-30_session.xlsx]
+
+# Raw files can contain the same column in several files (older exports).
+# Columns are de-duplicated in this order, by a checksum of 40 raw intensity values.
+dedup_order:
+  - 2026-08-31_S1_main_dataset.xlsx
+  - 2026-09-09_older_export.xlsx
+  - 2026-08-31_older_export.xlsx
+  - 2026-09-02_session.xlsx
+
+# Sessions, in chronological order. `id` is the label used in every output table.
+#   whole        : use every column of the file
+#   unique_only  : keep only the columns that are not duplicates (see dedup_order)
+#   base + add_unique : start from `base` file, add the unique columns of `add_unique`
+# `renames` fixes typos in raw column names (substring replace, or prefix replace).
+sessions:
+  - {id: S1,         date: "2026-08-31/09-09", base: 2026-08-31_S1_main_dataset.xlsx, add_unique: 2026-09-09_older_export.xlsx}
+  - {id: "2026-09-02", date: "2026-09-02", file: 2026-09-02_session.xlsx, unique_only: true}
+  - {id: "2026-09-25", date: "2026-09-25", file: 2026-09-25_session.xlsx}
+  - {id: "2026-09-30", date: "2026-09-30", file: 2026-09-30_session.xlsx}
+  - {id: "2026-10-07", date: "2026-10-07", file: 2026-10-07_session.xlsx}
+  - {id: "2026-10-09", date: "2026-10-09", file: 2026-10-09_session.xlsx}
+  - id: "2026-10-15"
+    date: "2026-10-15"
+    file: 2026-10-15_session.xlsx
+    renames:
+      - {find: aegenia5, replace: eugenia5, mode: substring}
+      - {find: rhodopteron_matiz, replace: rhodopteron5_matiz, mode: prefix}
+  - id: "2026-10-19"
+    date: "2026-10-19"
+    file: 2026-10-19_session.xlsx
+    renames:
+      - {find: sulkoeskyi, replace: sulkowskyi, mode: substring}
+  - id: "2026-10-21"
+    date: "2026-10-21"
+    file: 2026-10-21_session.xlsx
+    renames:
+      - {find: aega8_brillo_I12C328, replace: aega8_brillo_I12C28, mode: substring}
+
+# Species whose hue has no peak inside 400-700 nm: hue = spectral edge position
+edge_method:
+  species: [eugenia, marcus, anaxibia]
+  plateau_nm: [420, 470]
+  floor_nm: [620, 670]
+  min_r2: 0.75
+  min_points: 5
+
+acceptance:
+  min_points: 5
+  min_r2: 0.75
+  brightness: {gammaB_range_deg: [0.5, 59], Bmax_min_exclusive: 0, abs_t_max_deg: 44}
+  hue: {gammaH_min_exclusive: 0.05}
+
+manual_exclusions:
+  - {species: achilles,    kind: hue,        session: "2026-10-09", sweep: "4"}
+  - {species: aega,        kind: brightness, session: S1,           sweep: ""}
+  - {species: aega,        kind: hue,        session: S1,           sweep: ""}
+  - {species: aega,        kind: brightness, session: "2026-10-19", sweep: "7"}
+  - {species: deidamia,    kind: hue,        session: "2026-09-25", sweep: "2"}
+  - {species: granadensis, kind: brightness, session: S1,           sweep: ""}
+  - {species: sulkowskyi,  kind: hue,        session: S1,           sweep: ""}
+  - {species: rhodopteron, kind: brightness, session: S1,           sweep: ""}
+point_exclusions:
+  - {species: sulkowskyi, kind: brightness, session: "2026-09-02", sweep: "", bisector_deg: -21.0}
