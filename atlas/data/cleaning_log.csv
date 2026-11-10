@@ -27,6 +27,7 @@ eugenia,previous_sweep,all,-,hot_pixels,"Pixels with a systematic spike: [425.02
 godarti,single,M. godarti negativo paralelo.xlsx,175,header_fixed,"""M. godarti -60I -2+5C.RFL8"": ""+"" sign inside the number"
 godarti,single,all,-,hot_pixels,"Pixels with a systematic spike: [425.02, 548.12, 548.7, 549.27, 791.05, 816.68] nm (plus their immediate neighbours); interpolated."
 granadensis,single,all,-,hot_pixels,"Pixels with a systematic spike: [359.89, 424.43, 548.7, 816.12] nm (plus their immediate neighbours); interpolated."
+hecuba,single,all,-,hot_pixels,"Pixels with a systematic spike: [359.89, 424.43, 545.81, 548.7, 804.99, 816.12] nm (plus their immediate neighbours); interpolated."
 helenor_p,single,M. helenor p negativo paralelo.xlsx,111,header_fixed,"""M. helenor p -40I -60+C.RFL8"": ""+C"" read as ""C"""
 helenor_p,single,all,-,hot_pixels,"Pixels with a systematic spike: [359.89, 366.95, 424.43, 548.7, 663.19, 802.76, 816.12] nm (plus their immediate neighbours); interpolated."
 helenor_unal,single,all,-,hot_pixels,"Pixels with a systematic spike: [359.89, 424.43, 548.7, 816.12] nm (plus their immediate neighbours); interpolated."

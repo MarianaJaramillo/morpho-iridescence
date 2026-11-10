@@ -1,9 +1,12 @@
 """Cleaning of the raw angular reflectance spectra (steps 1-6).
 
 Usage:
-    python 01_clean_spectra.py <Spectra folder> <remeasurements folder> <corrections folder> <output data folder>
+    python 01_clean_spectra.py [--only <species_id>[,<species_id>...]] <Spectra folder> <remeasurements folder> <corrections folder> <output data folder>
 
-    <Spectra folder>          the 64 xlsx files of Spectra.zip (one positive and one negative file per species)
+    --only    process just those species and merge them into the tables already in <output data folder>
+              (cleaned_spectra/, raw_spectra/, spectra_index.csv, hot_pixels.csv, cleaning_log.csv)
+
+    <Spectra folder>          the 64 xlsx files of Spectra.zip plus the 2 of M. hecuba (one positive and one negative file per species)
     <remeasurements folder>   the 10 xlsx files remeasured for deidamia, eugenia, lympharis, menelaus and rhetenor
     <corrections folder>      the corrected negative files of cisseis and amphitryon (replace the ones in Spectra)
 
@@ -81,11 +84,21 @@ def clean_dataset(meta, spec, wl, species_id, variant):
     return meta, np.array(cleaned), hot_nm
 
 
-def main(spectra_dir, remeasure_dir, corrections_dir, out):
+def merge_table(path, new, only):
+    """Replace the rows of the species in `only` in an existing table, keeping the order of config.SPECIES."""
+    old = pd.read_csv(path)
+    pos = {sid: k for k, (sid, _, _) in enumerate(SPECIES)}
+    merged = pd.concat([old[~old.species_id.isin(only)], new], ignore_index=True)
+    return merged.iloc[merged.species_id.map(pos).argsort(kind='stable')]
+
+
+def main(spectra_dir, remeasure_dir, corrections_dir, out, only=None):
     os.makedirs(os.path.join(out, 'cleaned_spectra'), exist_ok=True)
     os.makedirs(os.path.join(out, 'raw_spectra'), exist_ok=True)
     jobs = []
     for sid, name, pat in SPECIES:
+        if only and sid not in only:
+            continue
         if sid in REMEASURED:
             jobs += [(sid, name, pat, remeasure_dir, REMEASUREMENT, None), (sid, name, pat, spectra_dir, PREVIOUS, corrections_dir)]
         else:
@@ -113,13 +126,24 @@ def main(spectra_dir, remeasure_dir, corrections_dir, out):
             'integration_time_ms', 'n_averages', 'n_spikes_removed', 'noise_sigma_pp']
     idx = pd.concat(index, ignore_index=True)[cols]
     idx['noise_sigma_pp'] = idx.noise_sigma_pp.round(4)
+    hot, log = pd.DataFrame(hot), changelog.to_frame()
+    if only:
+        idx = merge_table(os.path.join(out, 'spectra_index.csv'), idx, only)
+        hot = merge_table(os.path.join(out, 'hot_pixels.csv'), hot, only)
+        log = merge_table(os.path.join(out, 'cleaning_log.csv'), log, only)
     idx.to_csv(os.path.join(out, 'spectra_index.csv'), index=False)
-    pd.DataFrame(hot).to_csv(os.path.join(out, 'hot_pixels.csv'), index=False)
-    changelog.to_frame().to_csv(os.path.join(out, 'cleaning_log.csv'), index=False)
+    hot.to_csv(os.path.join(out, 'hot_pixels.csv'), index=False)
+    log.to_csv(os.path.join(out, 'cleaning_log.csv'), index=False)
     print('spectra:', len(idx), '| datasets:', len(jobs))
 
 
 if __name__ == '__main__':
-    if len(sys.argv) != 5:
+    args = sys.argv[1:]
+    only = None
+    if args[:1] == ['--only']:
+        if len(args) < 2:
+            sys.exit(__doc__)
+        only, args = set(args[1].split(',')), args[2:]
+    if len(args) != 4:
         sys.exit(__doc__)
-    main(*sys.argv[1:])
+    main(*args, only=only)

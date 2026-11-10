@@ -25,8 +25,8 @@ def tables():
 
 def test_documented_dataset_sizes(tables):
     main, previous = tables["main"], tables["previous"]
-    assert main.species_id.nunique() == 31
-    assert len(main) == 17905
+    assert main.species_id.nunique() == 32
+    assert len(main) == 18483
     assert previous.species_id.nunique() == 5
     assert len(previous) == 2888
     assert set(main.variant) == {"single", "remeasurement"}
@@ -52,7 +52,7 @@ def test_spectra_index_matches_metrics(tables):
 def test_dataset_summary_agrees_with_metrics_and_coverage(tables):
     counts = pd.concat([tables["main"], tables["previous"]]).groupby(["species_id", "variant"]).size()
     summary = tables["summary"].set_index(["species_id", "variant"])
-    assert len(summary) == len(counts) == 36
+    assert len(summary) == len(counts) == 37
     assert (summary.n_spectra == counts.reindex(summary.index)).all()
     coverage = tables["coverage"]
     missing = coverage[coverage.status == "missing"].groupby(["species_id", "variant"]).size()

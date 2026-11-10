@@ -1,6 +1,6 @@
 # Morpho Angular Atlas: data, scripts and viewer
 
-Angular reflectance of 31 *Morpho* specimens measured with a goniometer and an Avantes spectrometer. This directory contains the data shown in the Morpho Angular Atlas, the processing scripts, and the viewer. The original acquisition workbooks used for the initial cleaning step are not included; the included `raw_spectra/` files are angle-label-corrected data products, not untouched instrument exports.
+Angular reflectance of 32 *Morpho* specimens measured with a goniometer and an Avantes spectrometer. This directory contains the data shown in the Morpho Angular Atlas, the processing scripts, and the viewer. The original acquisition workbooks used for the initial cleaning step are not included; the included `raw_spectra/` files are angle-label-corrected data products, not untouched instrument exports.
 
 ```
 data/        cleaned data and derived tables (generated column names are English; original headers are retained for provenance)
@@ -32,7 +32,7 @@ Species ids use the accepted names (*amphitryon*, *cisseis*, *godarti*, *sulkows
 | `cleaned_spectra/<species_id>.csv` | One row per geometry: `I_deg`, `C_deg`, then `380` … `780` (R in %, 1 nm). Previous sweeps: `<species_id>__previous_sweep.csv` |
 | `raw_spectra/<species_id>.csv` | Same layout with the raw detector wavelengths (`380.47`, `381.06`, …). Angles repaired, values untouched |
 | `spectra_index.csv` | One row per spectrum: geometry, source file, source column, original header, integration time, averages, spikes removed, noise |
-| `metrics_by_geometry.csv` | **Main table.** One row per (species, I, C), 31 species: descriptors, map colours, measurement checks |
+| `metrics_by_geometry.csv` | **Main table.** One row per (species, I, C), 32 species: descriptors, map colours, measurement checks |
 | `metrics_previous_sweeps.csv` | Same for the 5 previous sweeps |
 | `pavo_descriptors.csv` | B1, B2, B3, H1, S6, S8 computed with the R package pavo |
 | `pavo_check.csv` | Largest difference between the Python and pavo descriptors |
@@ -117,7 +117,7 @@ python 07_build_viewer.py   ../data ../viewer
 
 Step 1 requires the original spectrometer XLSX files, which are not included in this repository. Therefore, a clean-room rerun of step 1 is not possible from this distribution. `data/raw_spectra/` holds the spectral values with angle labels repaired; the values are otherwise unprocessed at that stage. Steps 2–7 can run from the included data products. The exact upstream files expected by step 1 are:
 
-* `<Spectra folder>`: the 64 XLSX files from `Spectra.zip`.
+* `<Spectra folder>`: the 64 XLSX files from `Spectra.zip`, plus the two *M. hecuba* files (`M. hecuba negativo paralelo.xlsx`, `M. hecuba positivo paralelo.xlsx`), which were added later and processed with `python 01_clean_spectra.py --only hecuba <Spectra folder> <remeasurements folder> <corrections folder> ../data`.
 * `<remeasurements folder>`: the 10 remeasured XLSX files for deidamia, eugenia, lympharis, menelaus, and rhetenor, described in the source materials as `Datos_angulares_UdeaA`.
 * `<corrections folder>`: `M. cisseus negativo paralelo (archivo corregido).xlsx` and `M. amphitrion negativo paralelo (archivo corregido).xlsx`.
 

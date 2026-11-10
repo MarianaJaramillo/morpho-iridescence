@@ -53,6 +53,7 @@ SPECIES = [
     ('eugenia', 'Morpho eugenia', 'M. eugenia'),
     ('godarti', 'Morpho godarti', 'M. godarti'),
     ('granadensis', 'Morpho granadensis', 'M. granadensis'),
+    ('hecuba', 'Morpho hecuba', 'M. hecuba'),
     ('helenor_p', 'Morpho helenor (p)', 'M. helenor p'),
     ('helenor_unal', 'Morpho helenor (UNAL)', 'M. helenor unal'),
     ('hercules', 'Morpho hercules', 'M. hercules'),

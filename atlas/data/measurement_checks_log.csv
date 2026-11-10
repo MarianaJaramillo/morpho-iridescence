@@ -7,6 +7,9 @@ deidamia,previous_sweep,-,-,missing,1 geometries outside the blind zone were not
 epistrophus,single,M. epistrophus negativo paralelo.xlsx,-,row_drift,I=-80: reflectance away from specular is shifted -4.4 pp from the neighbouring rows. Not corrected.
 eugenia,previous_sweep,-,-,missing,1 geometries outside the blind zone were not measured. By I: {20: 1}
 granadensis,single,-,-,missing,1 geometries outside the blind zone were not measured. By I: {80: 1}
+hecuba,single,M. hecuba positivo paralelo.xlsx,-,row_drift,I=40: reflectance away from specular is shifted -4.2 pp from the neighbouring rows. Not corrected.
+hecuba,single,M. hecuba positivo paralelo.xlsx,-,row_drift,I=50: reflectance away from specular is shifted +4.7 pp from the neighbouring rows. Not corrected.
+hecuba,single,M. hecuba positivo paralelo.xlsx,-,row_drift,I=80: reflectance away from specular is shifted -3.9 pp from the neighbouring rows. Not corrected.
 iphitus,single,M. iphitus negativo paralelo.xlsx,-,row_drift,I=-80: reflectance away from specular is shifted -3.0 pp from the neighbouring rows. Not corrected.
 iphitus,single,M. iphitus negativo paralelo.xlsx,-,row_drift,I=-40: reflectance away from specular is shifted +4.6 pp from the neighbouring rows. Not corrected.
 iphitus,single,M. iphitus positivo paralelo.xlsx,-,row_drift,I=80: reflectance away from specular is shifted -4.4 pp from the neighbouring rows. Not corrected.

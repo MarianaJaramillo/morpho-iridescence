@@ -10,7 +10,7 @@ Reads cleaned_spectra/*.csv and spectra_index.csv (written by 01_clean_spectra.p
     * measurement checks (row drift, negative baseline, suspect labels)    morpho/qa.py
 
 Outputs in <data folder>:
-    metrics_by_geometry.csv           main datasets (31 species), one row per (species, I, C)
+    metrics_by_geometry.csv           main datasets (32 species), one row per (species, I, C)
     metrics_previous_sweeps.csv       the earlier sweeps of the 5 remeasured species
     dataset_summary.csv               one row per dataset: coverage, noise, row drift, specular peak, tilt
     coverage_grid.csv                 every I x C position: measured, blind_zone or missing

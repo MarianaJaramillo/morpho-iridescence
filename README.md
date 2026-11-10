@@ -5,7 +5,7 @@ This repository contains two related but distinct datasets and analysis pipeline
 | | Gruson protocol ([gruson/](gruson/)) | Morpho Angular Atlas ([atlas/](atlas/)) |
 |---|---|---|
 | Analysis | Two one-dimensional angular sweeps per specimen, following Gruson et al. (2019) | Two-dimensional angular grids rendered as colour maps |
-| Coverage | 20 species; 184 accepted sweeps | 31 specimens; 17,905 cleaned spectra and 2,888 spectra from earlier sweeps of five species |
+| Coverage | 20 species; 184 accepted sweeps | 32 specimens; 18,483 cleaned spectra and 2,888 spectra from earlier sweeps of five species |
 | Geometry | Constant-span and constant-bisector sweeps | Incidence angle −80° to 80° (10° steps); collection angle −90° to 90° (5° steps) |
 | Main outputs | Bmax, t, γB (brightness); Hmax, γH (hue) | Perceived colour, CIE hue, B2, H1, S8 (D65, 2° observer; Montgomerie 2006 / *pavo*) |
 
